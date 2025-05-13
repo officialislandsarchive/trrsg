@@ -1,0 +1,3566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roblox Islands Update</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        #updates-container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #16a085;
+            border-bottom: 2px solid #1abc9c;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+        .update-entry {
+            background: #ecf0f1;
+            margin-bottom: 20px;
+            padding: 15px 20px;
+            border-left: 5px solid #1abc9c;
+            border-radius: 4px;
+        }
+         .update-entry.final-announcement {
+            border-left-color: #e74c3c;
+            background-color: #fbeae5;
+        }
+         .update-entry.announcement {
+            border-left-color: #8e44ad;
+            background-color: #f4ecf7;
+         }
+        .update-entry.hotfix {
+            border-left-color: #f39c12;
+            background-color: #fef9e7;
+            padding: 10px 15px;
+            margin-top: -10px;
+            margin-bottom: 15px;
+            font-size: 0.9em;
+        }
+        h3 {
+            color: #2980b9;
+            margin-bottom: 5px;
+        }
+        h4 {
+            color: #34495e;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+            list-style: disc;
+        }
+         ul ul {
+             list-style: circle;
+             margin-top: 5px;
+         }
+        li {
+            margin-bottom: 5px;
+        }
+        code {
+            background-color: #e8e8e8;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        .crop-news {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-top: 10px;
+            border-top: 1px dashed #bdc3c7;
+            padding-top: 10px;
+        }
+         .trade-lock-info {
+            font-weight: bold;
+            color: #c0392b;
+            margin-top: 5px;
+        }
+         .misc-changes, .qol-changes, .bug-fixes {
+             margin-top: 10px;
+         }
+         .misc-changes strong, .qol-changes strong, .bug-fixes strong {
+             color: #2c3e50;
+         }
+         .note {
+            font-style: italic;
+            color: #8e44ad;
+            margin-top: 10px;
+            font-size: 0.95em;
+         }
+    </style>
+</head>
+<body>
+    <div id="updates-container">
+        <h1>Roblox Islands Update History</h1>
+        <h2>2020</h2>
+        <div class="update-entry">
+            <h3>April 10, 2020</h3>
+            <h4>First Version</h4>
+            <p>Initial release of Roblox Islands.</p>
+        </div>
+        <div class="update-entry">
+            <h3>April 24, 2020</h3>
+            <h4>First Update</h4>
+            <p>🌎 New starter island design</p>
+            <p>📈 Increased player limit to 30</p>
+            <p>📱 Added mobile support</p>
+            <p>🧱 Smelt clay into bricks</p>
+            <p>📡 Teleporting to another island sends you to the spawn location instead of portal location.</p>
+            <p>🌲 You can buy default tree saplings from spawn</p>
+            <p>🌱 Removed natural growth of default tree saplings</p>
+            <p>👑 Added VIP servers</p>
+        </div>
+        <div class="update-entry">
+            <h3>April 27, 2020</h3>
+            <h4>Tomato Update</h4>
+            <p>💖 VIP Rank</p>
+            <p>🏛️ Stonecutter + Stone Bricks</p>
+            <p>🍅 Tomatoes</p>
+            <p>⤴️ Stairs</p>
+            <p>🌲 Pine fences</p>
+            <p>🔒 Autosaving</p>
+            <p>💻 UI enhancements</p>
+            <p>💸 Economy balancing</p>
+            <p>🛠️ Bug fixes</p>
+            <p>Rolled out a quick update to patch some exploits.</p>
+        </div>
+        <div class="update-entry">
+            <h3>May 2, 2020</h3>
+            <h4>Automation Update</h4>
+            <p>🏭 Factory blocks! Conveyors, Auto smelters, ovens and more!</p>
+            <p>💥 Combat (Swords!)</p>
+            <p>📦 Chests</p>
+            <p>🟩 Slime Island</p>
+            <p>🍞 Eat food to regain health</p>
+            <p>💰 Coin bags for trading with players</p>
+            <p>⤵️ Drop items on mobile</p>
+            <p>✨ Bug fixes for days</p>
+            <p>Just rolled out a quick patch that fixes exploits and saving issues.</p>
+            <p>Deployed some more fixes. This should help out players stuck on loading screen along with slimes not spawning on some servers.</p>
+        </div>
+        <div class="update-entry">
+            <h3>May 4, 2020</h3>
+            <h4>Floral Update</h4>
+            <p>🌻 Floral bench! Craft hedges and bushes to decorate your island</p>
+            <p>👨‍🌾 Crop totems now output to conveyor belts</p>
+            <p>💸 Sell slime balls to the Adventurer Merchant</p>
+            <p>🟩 Increased the size of slimes</p>
+            <p>🍃 Ambient tree leaves</p>
+            <p>🤺 Wooden sword no longer falls into void after being dropped</p>
+            <p>🧰 Starter Pack</p>
+            <p>🛡️ Exploit and bug fixes</p>
+            <p>Note: If you can't craft after purchasing the Floral Bench, relog 🙂</p>
+        </div>
+        <div class="update-entry">
+            <h3>May 6, 2020</h3>
+            <h4>Update</h4>
+            <p>🖌️ New block textures</p>
+            <p>✨ New rock models</p>
+            <p>👩‍🌾 Click and hold to speed place seeds</p>
+            <p>🌠Fixed Starter Pack not applying to accounts. Everyone who owns the Starter Pack gets another free redeem!</p>
+            <p>⤴️ New stairs (brick and stone brick)</p>
+            <p>📝 Improved island and inventory saving</p>
+            <p>🛡️ Patched several exploits</p>
+            <p>🛠️ Bug fixes</p>
+            <p>The focus of this update was making sure islands and inventories will no longer reset. New content coming soon ❤️</p>
+        </div>
+        <div class="update-entry">
+            <h3>May 8, 2020</h3>
+            <h4>Update</h4>
+            <p>Small update, patched some duplication bugs.🛡️</p>
+            <p>We made a twitter! We'll be posting some cool teasers about future updates.</p>
+            <p>https://twitter.com/skyblockroblox</p>
+            <p>Small patch is rolling out that fixes some exploits ⛑️</p>
+        </div>
+        <div class="update-entry">
+            <h3>May 9, 2020</h3>
+            <h4>Update</h4>
+            <p>Deploying another small patch to fix more exploits 🎗️</p>
+        </div>
+        <div class="update-entry">
+            <h3>May 10, 2020</h3>
+            <h4>Grape Update</h4>
+            <p>🍇 Grapes (used with Trellis)</p>
+            <p>🌲 Birch and Maple trees</p>
+            <p>🚪 Doors</p>
+            <p>👨‍🍳 Sell crafted food to the Baker for bonus coins</p>
+            <p>🍕 Pizza, Tomato Soup, Jelly and more</p>
+            <p>🏗️ Increased max block limit to 50,000 (was 27,000)</p>
+            <p>🚊 Conveyor Ramp</p>
+            <p>🌳 Wait 20 minutes before dropping berry bushes</p>
+            <p>🏕️ Added new bushes to the Floral Bench</p>
+            <p>⚡ Performance optimizations and bug fixes</p>
+        </div>
+        <div class="update-entry">
+            <h3>May 12, 2020</h3>
+            <h4>Patch Update</h4>
+            <p>Rolled out some bug fixes, exploit patches and mobile optimizations. </p>
+        </div>
+        <div class="update-entry">
+            <h3>May 14, 2020</h3>
+            <h4>Update</h4>
+            <p>😌 Bulk crafting</p>
+            <p>📝 Fix an issue that caused inventories to reset</p>
+            <p>🧅 Fix an issue that caused crop totems to not save seeds</p>
+            <p>🏃‍♀️ Sprinting on mobile</p>
+            <p>🚪 Open doors on mobile</p>
+            <p>📵 Fix chest opening on mobile</p>
+            <p>⬅️ Conveyor belts should behave more consistently</p>
+            <p>👨‍🏫 Patch several duping exploits</p>
+            <p>🧗‍♂️ Improve ladder climbing</p>
+            <p>🛰️ Reduced network traffic</p>
+            <p>🎫 Save chest output direction on rejoin</p>
+        </div>
+        <div class="update-entry">
+            <h3>May 16, 2020</h3>
+            <h4>Update</h4>
+            <p>Rolling out a small bug fix patch.</p>
+            <p>🗒️ Improve saving for large islands</p>
+            <p>☂️ Reduce max factory-dropped items to 40 (still 80 on VIP servers. More info below)</p>
+            <p>⛰️ You can now build on the bedrock block</p>
+            <p>We've been experiencing major server lag when multiple islands with large factories are in the same server. When too many dropped items exist in the server, the physics will slow to a crawl. This unfortunately ruins the experience for everyone on the server. We're experimenting several ways to solve this problem; for now, we need to lower the item limit to keep servers in a healthy state. VIP servers still have the 80 item limit -- this change only applies to public servers.</p>
+        </div>
+        <div class="update-entry">
+            <h3>May 17, 2020</h3>
+            <h4>Buffalkor Update</h4>
+            <p>🗿 Buffalkor Mob & Island</p>
+            <p>✨ Gold Ore</p>
+            <p>⚔️ Iron War Axe</p>
+            <p>🔨 Gilded Steel Hammer</p>
+            <p>🥇 Gilded Steel Tools</p>
+            <p>🕯️ Lighting Station Gamepass</p>
+            <p>🔷 Coal, Iron and Gold Blocks</p>
+            <p>👓 Glass Blocks</p>
+            <p>🏭 Industrial Stonecutter</p>
+            <p>🥕 Carrot Cake</p>
+            <p>🌻 Flower Pots</p>
+            <p>🎵 Fix background music</p>
+            <p>🔊 Mobs play a sound when taking damage</p>
+            <p>🥫 Fix some foods not being edible</p>
+            <p>⚡ Bug fixes and performance optimizations</p>
+            <p>Note: You need a "Buffalkor Island Key" to travel to the new island. This is a new rare drop from killing slimes.</p>
+            <p>Note 2: Crystalized Iron is a rare drop from manually breaking iron rocks.<br>
+            We'll make both of these things more clear in a follow up patch tomorrow 🙂</p>
+            <p>EDIT: We made gilded tools cost too much on accident. We’ll lower the amount tonight.</p>
+        </div>
+        <div class="update-entry">
+            <h3>May 18, 2020</h3>
+            <h4>Small Bug Fix Patch Update</h4>
+            <p>🗒️ Fix an issue that could cause island data to corrupt</p>
+            <p>💸 Lower cost of gilded steel tools</p>
+            <p>🛠️ Fix an issue that could cause two islands to overlap</p>
+            <p>✍️ Fix some item descriptions</p>
+            <p>Deployed another set of bug fixes aimed to fix island corruption.</p>
+        </div>
+        <div clase="update-entry">
+            <h3>May 19, 2020</h3>
+            <h4>Bug Fixes</h4>
+            <p>Rolling out some more bug fixes.</p>
+        </div>
+        <div class="update-entry">
+            <h3>May 20, 2020</h3>
+            <h4>Bug Fixs</h4>
+            <p>More bug fixes are going live!</p>
+            <p>We've identified an issue where joining a server with a large island (40,000+ blocks) could crash the server if not enough memory is available. This results in the large island's data being corrupted (lots of missing blocks). As a temporary fix, we now deny large islands from joining a server if it will cause a crash. This means players with large islands may need to join several different servers until they are able to load-in.</p>
+            <p>We're working on ways we can avoid this type of restriction for large islands. For the time being, players with large islands are recommended to either join non-full servers or reserve a VIP server. We've also lowered the max player count to 22. We're hoping this lowered limit is only temporary.</p>
+        </div>
+        <div class="update-entry">
+            <h3>May 22, 2020</h3>
+            <h4>Patch</h4>
+            <p>Quick patch to help with servers becoming unbearably laggy over time.</p>
+        </div>
+        <div class="update-entry">
+            <h3>May 26, 2020</h3>
+            <h4>Xbox Update</h4>
+            <p>New patch is rolling out!</p>
+            <p>🎮 Xbox Support</p>
+            <p>🥔 Potatoes</p>
+            <p>📕 Carpet</p>
+            <p>🧱 Wood, Stonebrick & Brick Slabs</p>
+            <p>🍃 Mossy Stonebrick</p>
+            <p>📦 Breaking a chest gives you the contents</p>
+            <p>⚔️ Crit chance & improved combat</p>
+            <p>👨‍🍳 Merchant clothing</p>
+            <p>A huge part of this week's time was spent on Xbox support & college midterms. Next patch is primarily focused on new content ✨</p>
+            <p>EDIT: Looks like there are some issues with the UI and mobs. Working on some fixes..</p>
+            <p>Pushed out a patch that fixes FPS lag and mob speed issues. It's live on new servers but we aren't doing a global restart for it. Going to bundle some more UI improvements + bug fixes and global restart in a few hours 🙂</p>
+            <p>⚡ Fixed client FPS lag when fighting mobs</p>
+            <p>💻 Reverted the desktop GUI size changes (plus some improvements)</p>
+        </div>
+        <div class="update-entry">
+            <h3>May 31, 2020</h3>
+            <h4>Crafting & Trading Update</h4>
+            <p>🎪 Vending Machine - Safely trade items by setting up a shop</p>
+            <p>📜 Merchant Quests - Unlock blueprints and rewards by completing tasks (100+ quests!)</p>
+            <p>📘 Blueprints - Permanently learn crafting recipes</p>
+            <p>🧰 Carpentry Workbench - Craft all the furniture you unlock</p>
+            <p>🪑 25+ pieces of furniture</p>
+            <p>⚡ Minor bug fixes</p>
+        </div>
+        <div class="update-entry">
+            <h3>June 1, 2020</h3>
+            <h4>Update</h4>
+            <p>🎮 Eating food now works on Xbox</p>
+            <p>📘 Removed the "test blueprint" that unlocks nothing</p>
+            <p>🏪 Breaking a vending machine gives you the contents</p>
+            <p>⛱️ Fix umbrella crafting recipe</p>
+        </div>
+        <div class="update-entry">
+            <h3>June 8, 2020</h3>
+            <h4>Discord</h4>
+            <p>We've moved ⁠No Access over to a web app. Post and upvote your favorite ideas!</p>
+            <p>https://skyblock.nolt.io/</p>
+        </div>
+        <div class="update-entry">
+            <h3>June 15, 2020</h3>
+            <h4>Fish & Farming Update</h4>
+            <p>🐟 Fishing (10+ fish types)</p>
+            <p>💧 Water crops</p>
+            <p>💦 Sprinklers</p>
+            <p>🎋 Fertilizer</p>
+            <p>👑 Pro Rank</p>
+            <p>🛢️ Conveyor belts make crops oily</p>
+            <p>🚰 Clean oily crops with the new Washing Station</p>
+            <p>🏭 Industrial Washing Station</p>
+            <p>🌧️ Water Catcher</p>
+            <p>🌊 Water Storage Barrel</p>
+            <p>♻️ Composter</p>
+            <p>🎣 Fish Bait</p>
+            <p>☀️ New lighting settings</p>
+            <p>⚡ Bug fixes and performance improvements</p>
+            <p>This patch also introduces a refactored block storage system. This new system will make it easier for players with large islands to join public servers. We'll be monitoring the performance of the update and enable this feature sometime tomorrow.</p>
+            <p>Note: You can still sell oily crops for a reduced rate. Visit the "Oily Crops" merchant.</p>       
+        </div>
+        <div class="update-entry">
+            <h3>June 16, 2020</h3>
+            <h4>Small Bug Fix Update</h4>
+            <p>💦 Sprinklers are actually craftable now (whoops)</p>
+            <p>💧 Water storage blocks have more storage & refill faster</p>
+            <p>🎣 Fixed an issue that caused the fishing idle animation to get stuck</p>
+            <p>🐟 Increased fish "vision" of bobber (they're easier to catch now)</p>
+            <p>☀️ Removed shadows. We'll add a settings menu where you can re-enable them later.</p>
+            <p>🏭 Industrial Washing Station cleans crops 3x faster</p>
+            <p>🗒️ Water storage blocks save their water level after rejoining</p>        
+        </div>
+        <div class="update-entry">
+            <h3>June 24, 2020</h3>
+            <h4>Update</h4>
+            <p>🏖️Added beach furniture and sand</p>
+            <p>🐠Improved pro luck when fishing (will add pro portal in an update soon)</p>
+            <p>🐡Added grouper and trout fish</p>
+            <p>⏫Increased vending machine storage</p>
+            <p>🔧Made it slightly easier for players with large islands to join public servers (will improve further if this is successful)</p>
+            <p>Larger update coming this weekend 🥳</p>
+        </div>
+        <div class="update-entry">
+            <h3>June 26, 2020</h3>
+            <h4>Fruits & Food Update</h4>
+<p>🍎 Fruit trees</p>
+<p>🍋 Each player has a native fruit unique to their island. Trade to get them all!</p>
+<p>🏭 Auto-craft food with the new Food Processor</p>
+<p>✨ Crystalized Gold</p>
+<p>💸 Selling food to the baker is now much more profitable</p>
+<p>🛠️ Items no longer collide with each other on conveyors (more info below)</p>
+<p>👑 New pro portal</p>
+<p>⚡ Lots of bug fixes and server performance improvements</p>
+<p>Item Collisions</p>
+<p>Items will no longer collide with each other. This was a huge source of lag that would eventually cause all items to freeze in place. This change may alter the functionality of your factories. We'll be keeping a close eye on how this changes factory designs and will adjust accordingly.</p>
+<p>EDIT: We're looking into issues with vending machines and other UI.</p>
+        </div>
+        <div class="update-entry">
+            <h3>June 28, 2020</h3>
+            <h4>Minor Bug Fix Update</h4>
+<p>🌻 Fixed natural spawns (flowers, rocks and tall grass)</p>
+<p>⚔️ Fixed sword animation bugs</p>
+<p>⌛ Slightly improved server performance in a few areas</p>
+<p>We're aware of more serious issues players are experiencing with industrial setups. We've been looking into these and hopefully will update soon with fixes.</p>
+        </div>
+        <div class="update-entry">
+            <h3>June 29, 2020</h3>
+            <h4>Small Improvements</h4>
+<p>🍞 Fixed baker item rotation (now properly rotates and gives everyone unique offers)</p>
+<p>🏭 Items in industrial machines will no longer despawn</p>
+<p>⚠️ Rolling out a duplication exploit patch.</p>
+<p>EDIT: Deployed some additional patches. All servers have been restarted.</p>
+        </div>
+        <div class="update-entry">
+            <h3>June 30, 2020</h3>
+            <h4>Update</h4>
+            <p>More exploit patches are going live ⛑️</p>
+            <p>EDIT: Restarting again to fix issues with placing blocks</p>
+        </div>
+         <div class="update-entry">
+            <h3>July 4, 2020</h3>
+            <h4>Lighting Update</h4>
+<p>Free VIP Servers</p>
+<p>We've made VIP servers free for all players. Your continued support of Skyblox has been incredible. As a thank you, we'll no longer be charging for VIP servers.</p>
+
+<p>🌑 Day/night cycle</p>
+<p>🔥 Torches</p>
+<p>🌲 Trees now drop wood blocks (4 variants)</p>
+<p>🎆 Firework gamepass</p>
+<p>🗨️ Bubble chat</p>
+<p>ℹ️ Sound effects when you chat</p>
+<p>✨ Block hit particles</p>
+<p>🔊 Improved block hit sounds</p>
+<p>🔦 Lighting overhaul</p>
+<p>🌳 Updated tree models</p>
+<p>🖌️ Small tweaks to a few block textures</p>
+<p>🔄 Fix tree rotation not saving</p>
+<p>⚡ Bug fixes and performance improvements</p>        
+        </div>
+        <div class="update-entry">
+            <h3>July 11, 2020</h3>
+            <h4>Aquamarine Update</h4>
+<p>🎍 Bamboo! Collect it on the slime island</p>
+<p>🎍 Bamboo blocks & dried bamboo</p>
+<p>🌟 Starfruit Crop. The only way to get seeds is on the buffalkor island</p>
+<p>🍰 Starfruit Cake</p>
+<p>🏭 Starfruit Totem</p>
+<p>⚔️ Aquamarine Sword</p>
+<p>🌊 Aquamarine Rocks (found underwater)</p>
+<p>🌊 Aquamarine block & bricks</p>
+<p>🌊 Sea Lantern</p>
+<p>🌺 Coral & Sea Grass blocks</p>
+<p>🏭 Input/Output Automated Chest</p>
+<p>🚪 Iron door that only build-access players can use</p>
+<p>⏩ Hold F to harvest crops</p>
+<p>🖌️ Improved wood plank textures</p>
+<p>⚒️ Fixed an issue that caused players to lose their item-in-hand when falling into void</p>
+<p>🎆 Fireworks don't shoot up as high</p>
+<p>🟩 Slime island no longer requires a key to enter</p>
+<p>🐟 Added a fishing lake on slime island</p>
+<p>🧠 Improved mob AI</p>
+<p>⚡ Server performance improvements</p>
+<p>Here's a set of transparent images for the new items!</p>
+<p><a href="https://imgur.com/gallery/oTIMhqt">https://imgur.com/gallery/oTIMhqt</a></p>
+<p>EDIT: Fixing the stone bricks 😅</p>
+<p>EDIT 2: Rolling out a hotfix for totems and fishing.</p>
+        </div>
+        <div class="update-entry">
+            <h3>July 13, 2020</h3>
+            <h4>Dmca</h4>
+            <p>Unfortunately, after a discussion with @Roblox regarding a DMCA request, we've been forced to change our name to Islands. Keeping our old name could lead to our game being shutdown for a few weeks. Our top priority is staying online. Thanks for your continued support! 😅</p>
+        </div>
+        <div class="update-entry">
+            <h3>July 14, 2020</h3>
+            <h4>Shutdown</h4>
+            <p>Roblox just shutdown the game. We're working our hardest to get everything back online. Your progress will not be lost. https://t.co/HZqMK9OpWx</p>
+        </div>
+        <div class="update-entry">
+            <h3>July 15, 2020</h3>
+            <h4>Issue</h4>
+            <p>Your overwhelming support has been incredible. Sadly, we've seen lots of speculation towards people we admire, and while we can't share too much info, we want to make it clear that @Hypixel and @Microsoft have nothing to do with this. Please avoid any speculation.</p>
+        </div>
+        <div class="update-entry">
+            <h3>July 16, 2020</h3>
+            <h4>The Return!!!</h4>
+            <p>We'll be returning to Roblox tomorrow! Goal is to go live at 11:00am PST.</p>
+            <p>Thank you so so much! 💖💖</p>
+        </div>
+        <div class="update-entry">
+            <h3>July 17, 2020</h3>
+            <h4>Wizard Update</h4>
+<p>🧙‍♂️ Wizard Island</p>
+<p>🦎 Wizard Lizard Mob</p>
+<p>🔥 Spellbook</p>
+<p>🍄 Mushroom & Mushroom Block</p>
+<p>🌿 Foraging Items (acorn & horseradish)</p>
+<p>🌻 New flowers (daffodil & crocus)</p>
+<p>🗒️ Added a tutorial for new players</p>
+<p>⚡ Bug fixes</p>
+        </div>
+        <div class="update-entry">
+            <h3>July 20, 2020</h3>
+            <h4>Update</h4>
+<p>🏷️ Damage Indicators</p>
+<p>⚔️ Red highlight when attacking enemies</p>
+<p>📖 Buffed spellbook damage</p>
+<p>📖 Fix an issue that caused spellbook to not kill enemies</p>
+<p>🍄 Fix infinite foliage items</p>
+<p>⭐ Starfruits are now edible</p>
+        </div>
+        <div class="update-entry">
+            <h3>July 25, 2020</h3>
+            <h4>Small Update</h4>
+<p>❓ New SECRET weapon blueprint! Extremely rare drop chance from killing wizards</p>
+<p>💠 Crystalized Aquamarine</p>
+<p>🍂 Dried grass block</p>
+<p>🌫️ Gravel block</p>
+<p>🎵 Added two night time music tracks</p>
+<p>📉 You can now place blocks further below your island</p>
+<p>⚒️ Fixed an issue that caused fireballs to not despawn</p>
+<p>⚒️ Fixed an issue with the rock step of the tutorial</p>
+<p>The majority of this week was spent working on larger features that will release in the upcoming week.</p>
+<p>We've got some awesome additions in the works that we can't wait to show you all 🙂</p>
+        </div>
+        <div class="update-entry">
+            <h3>August 2, 2020</h3>
+            <h4>Popular Islands Update</h4>
+<p>🏝️ Browse popular islands!</p>
+<p>We've built a new system that lets you publish to everyone playing Islands. Use the new island browse menu to visit popular islands. Published islands can hold up to 50 players (which we plan on increasing later).</p>
+<p>🎵 Jukebox</p>
+<p>We've introduced the new Jukebox gamepass. This block lets you play music on your island. We'll be adding new music disks found in the wilderness in future updates.</p>
+<p>🌴 Hickory Tree</p>
+<p>A new tree sapling is available from the seed merchant. This includes new wood, planks, stairs, slabs and fences.</p>
+<p>👢 Added a /kick command for private server owners</p>
+<p>🔊 New crop planting sounds</p>
+<p>⚡ Bug fixes and performance improvements</p>
+<p>Stopping server temporarily to fix a major bug. Will go back up as soon as possible.</p>
+<p>We're back online!</p>
+        </div>
+        <div class="update-entry">
+            <h3>August 5, 2020</h3>
+            <h4>Update</h4>
+<p>We're looking for translators!</p>
+<p><a href="https://twitter.com/RobloxIslands/status/1291067001117372417?s=20">https://twitter.com/RobloxIslands/status/1291067001117372417?s=20</a></p>
+        </div>
+        <div class="update-entry">
+            <h3>August 9, 2020</h3>
+            <h4>Skorp Update</h4>
+<p>🧪 Potion Brewing</p>
+<p>🏜️ Desert Island</p>
+<p>🦂 Skorp Mob</p>
+<p>🏹 Basic Bow</p>
+<p>🏹 Artifact Bow</p>
+<p>🏹 Vamp Bow</p>
+<p>🧱 Red Sandstone Block (with brick, slab and stair)</p>
+<p>🎵 Added 3 new music disks found from killing mobs</p>
+<p>🌳 Dead Bush</p>
+<p>🗨️ Improved Inventory Tooltips</p>
+<p>🗒️ Selected Item Title</p>
+<p>🏷️ Taking damage shows damage indicators</p>
+<p>🇫🇷 Added French Translations</p>
+        </div>
+        <div class="update-entry">
+            <h3>August 10, 2020</h3>
+            <h4>Update</h4>
+<p>🏹 Made bows easier to hit (and artifact bows do more damage)</p>
+<p>🏃‍♀️ Fixed issue causing some users to not load into the game (or the loading screen to close out early)</p>
+<p>💵 Added Skorp scales to the adventurer</p>
+<p>❤️ Regeneration now potion works properly</p>
+        </div>
+        <div class="update-entry">
+            <h3>August 16, 2020</h3>
+            <h4>Obby Update</h4>
+<p>📰 Signs</p>
+<p>🏃‍♀️ Obby Kit</p>
+<p>🎵 3 new music disks (orange, green and purple)</p>
+<p>🐘 Fixed a cause for buffalkors falling through the ground</p>
+<p>🎥 Fixed shift lock</p>
+<p>⚡ Small bug fixes and exploit patches</p>
+<p>This was a light week for us. We're working on a much larger update aimed for next week. Keep an eye on twitter for details and leaks ✨</p>
+<p>We've also added ⁠fan-art!</p>
+<p>Rolled out a fix for mobs being untargetable.</p>
+        </div>
+        <div class="update-entry">
+            <h3>August 20, 2020</h3>
+            <h4>Small Update</h4>
+<p>Rolling out a small update! Everyone has been asking for us to focus on bugs for a while so we devoted the past few days to it.</p>
+<p>🔧 Island Corruption Fixes</p>
+<p>We finally reproduced a common bug that caused island corruption. This patch includes a fix for the issue -- we're hoping this drastically cuts down on the amount of island corruptions.</p>
+<p>🛡️ Duping Exploit Patches</p>
+<p>We were also able to reproduce several dupes and include patches for them. This should help stabilize the economy to make trading better for everyone.</p>
+<p>📰 Island Names</p>
+<p>You can now set a display name for your published island. This will show up in the online server list. We're excited to see what type of islands start appearing in the popular list!</p>
+<p>🔭 Coming Soon</p>
+<p>The team is busy working on a new AI framework that will let us finally add animals to the game! We're also working on an overhaul to the inventory UI -- it includes categories and item searching!</p>
+<p>We're also looking for more ways to balance the economy. If you have ideas, please share them on <a href="https://skyblock.nolt.io/">https://skyblock.nolt.io/</a></p>
+        </div>
+        <div class="update-entry">
+            <h3>August 22, 2020</h3>
+            <h4>Update</h4>
+<p>Rolling out a small bugfix patch!</p>
+<p>📱 Fixed several mobile issues that caused interaction prompts to stop working</p>
+<p>🔧 Fixed an issue that caused block placement to stop working on low end devices</p>
+<p>🔧 Improved server performance on servers with lots of islands loaded</p>
+<p>🔧 You can now break blocks underneath bedrock</p>
+<p>Animal AI development is still on-going. We've spent a lot of time bug-fixing which slowed down the progress. It won't be ready for this weekend's update but we'll still have some new items and blocks for everyone 🙂</p>
+        </div>
+        <div class="update-entry">
+            <h3>August 23, 2020</h3>
+            <h4>Update</h4>
+<p>Holding off on tomorrow's update.</p>
+<p>We originally planned to update with a few minor blocks and items. I think it'd be better to make sure any new items are well planned out ahead of time to keep everything balanced.</p>
+<p>Smaller updates will still drop throughout the week.</p> 
+</div>
+        <div class="update-entry">
+            <h3>August 28, 2020</h3>
+            <h4>Performance Patch</h4>
+            <p>⚡ Restarting servers to deploy a performance patch</p>
+        </div>
+        <div class="update-entry">
+            <h3>August 30, 2020</h3>
+            <h4>Bee Update</h4>
+<p>🐝 Bees!</p>
+<p>Bees will now appear on islands with an abundance of flowers. If bees like your island enough they'll create a hive to make it their new home.</p>
+<p>Collect honeycombs from bee hives. Use the new Honey Press block to turn honeycombs into jars of honey. Several new food recipes require honey and are highly priced!</p>
+<p>💼 New Inventory UI</p>
+<p>The inventory has been revamped to include the top requested features. All items are sorted into categories and you can directly search for certain items. Performance was also massively improved.</p>
+<p>Here's the rest of the update:</p>
+<p>🔃 Added a /reset command to reset your island</p>
+<p>🍯 Honeycomb Block</p>
+<p>🍯 Honey Block</p>
+<p>🥫 Added 4 new food recipes</p>
+<p>📥 Chests now have additional storage slots (and increased max stack sizes on upper tier chests)</p>
+<p>✨ Totems now have an additional 2 storage slots</p>
+<p>🔧 Fix a bug that caused a vending machine gray screen after resetting character</p>
+<p>🔧 Crafting button is always visible in mobile workbench UI</p>
+<p>🐘 Animal AI</p>
+<p>We've spent the past few weeks building our Animal AI framework that powers bees. Now that the framework is complete, we're able to start producing more animals that can live on your island. This opens up a lot of new possibilities for future content updates.</p>
+        </div>
+        <div class="update-entry">
+            <h3>September 6, 2020</h3>
+            <h4>Firefly Update</h4>
+<p>⚡ Fireflies now appear during night time</p>
+<p>⚡ Rare chance for a rainbow firefly night event</p>
+<p>🪲 Net tool to catch bees and fireflies</p>
+<p>🥅 Display Case block to show off the insects you've caught (small and large variant)</p>
+<p>🏕️ Worker blocks (campfire, furnace, etc) now have progress bars</p>
+<p>🏕️ Added a quick collect shortcut to worker blocks</p>
+<p>🏭 Industrial Smelter and Sawmill effects overhaul</p>
+<p>📦 Redesigned the chest model and added animations</p>
+<p>🔦 Added new light source blocks to the Lighting Station Gamepass (along with some new free ones)</p>
+<p>🔦 Added light source blocks that can be colored using caught fireflies</p>
+<p>🎵 Added special music while you are in combat (more atmospheric music coming soon)</p>
+<p>🔵 Added a blueprint learn effect</p>
+<p>📵 Fixed an issue that caused interaction to break on mobile</p>
+<p>🎮 Fixed several inventory issues on xbox</p>
+<p>⏲️ Fixed a bug that caused worker block production to only take 5 seconds. We'll keep an eye on this to make sure the new timers aren't too long.</p>
+<p>🧐 Rewrote our entire interact system. Let us know if you have issues with it.</p>
+<p>🏭 Changed the way factories handle physics to improve server performance.</p>
+<p>EDIT: Restarting again to fix a few issues.</p>
+        </div>
+<div class="update-entry">
+    <h3>September 6, 2020</h3>
+    <h4>Factory Changes</h4>
+    <p>Deployed some changes to factories:</p>
+    <ul>
+        <li>Lowered work timers for industrial blocks</li>
+        <li>Items will no longer despawn while in a factory block inventory</li>
+    </ul>
+    <p>The change is only live on new servers!</p>
+</div>
+<div class="update-entry">
+    <h3>September 8, 2020</h3>
+    <h4>Improvements and Bug Fixes</h4>
+    <p>➡️ Visitor island build access is now revoked after they leave the server</p>
+    <p>➡️ Totems now spawn items at independent times to reduce server and client lag</p>
+    <p>🔧 Fixed holding F to auto harvest crops</p>
+    <p>🔧 Fixed mobile harvest icons appearing on harvested berry bushes</p>
+    <p>🔧 Items will no longer despawn inside food processors and worker blocks</p>
+    <p>🔧 Fixed a source of server lag caused by too many soil blocks</p>
+    <p>🔧 Removed animations from worker blocks and chests to reduce lag</p>
+    <p>🔧 Fixed an issue that caused music tracks to cancel each other</p>
+</div>
+<div class="update-entry">
+    <h3>September 10, 2020</h3>
+    <h4>UI and Performance Improvements</h4>
+    <p>🪓 Reworked the workbench crafting UI</p>
+    <p>⚡ Rewrote the animation system to reduce server lag</p>
+    <p>🎞️ Re-enabled worker block animations (smelter, sawmill & honey press)</p>
+    <p>💰 We're now tracking all economy transactions to help us balance the game (will share some stats on twitter)</p>
+</div>
+<div class="update-entry">
+    <h3>September 16, 2020</h3>
+    <h4>Micro Patch</h4>
+    <p>⏲️ Fixed an issue that was causing long load-in times</p>
+    <p>🔨 Added a "craftable" icon on recipes that you have resources to craft</p>
+</div>
+<div class="update-entry">
+    <h3>September 18, 2020</h3>
+    <h4>Light Bug Fixes</h4>
+    <p>🔧 Light bug fixes going live in preparation for the update later today</p>
+</div>
+<div class="update-entry">
+    <h3>September 18, 2020</h3>
+    <h4>The Factory Update (1/2) is live! @everyone</h4>
+    <p>Resource Deposit Islands</p>
+    <p>Small resource islands now spawn near your island. Each resource island has a deposit block that can be mined using a drill. Resource islands only spawn every 24 IRL hours.</p>
+    <p>The current resource islands are for copper (and you can have a max of two copper islands). We'll be adding more resource island types over time!</p>
+
+    <p>Full Changelog</p>
+    <ul>
+        <li>🟠 Copper ore</li>
+        <li>🏗️ Steel</li>
+        <li>🏭 Drill</li>
+        <li>🏭 Steel Mill</li>
+        <li>🏭 Steel Press</li>
+        <li>🏭 Copper Press</li>
+        <li>🔩 Added "molds" that are used with factory presses</li>
+        <li>🔩 Steel + Copper bolts, plates and rods</li>
+        <li>⚙️ Gearbox</li>
+        <li>⚔️ Steel rods now require actual steel (instead of iron + coal)</li>
+        <li>👨‍🔧 Mechanic merchant that buys factory products</li>
+        <li>🏆 Gold rock spawn rate increased & now drops more gold</li>
+        <li>🪓 Wooden Sword: Weapon Stand (Carpentry Bench)</li>
+        <li>🐟 Fish Tanks (Carpentry Bench)</li>
+        <li>🐟 Added 4 fish tank decoration blueprints found from fishing & collecting coral</li>
+        <li>🍓 Nerfed berry price</li>
+        <li>🖼️ Moved display case recipes to the carpentry bench</li>
+        <li>🔧 Fixed worker blocks consuming all fuel items instead of just one</li>
+        <li>⚡ Bug fixes and performance improvements</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>September 18, 2020</h3>
+    <h4>Food Processor Issue Fix</h4>
+    <p>An issue caused some food processors to disappear. We've temporarily reduced the cost of food processors to compensate. Restarting servers with the patch now.</p>
+</div>
+<div class="update-entry">
+    <h3>September 18, 2020</h3>
+    <h4>Workbench Tier 3 Recipe Fix</h4>
+    <p>Released an update that fixes the Workbench Tier 3 recipe. The update is only live on new servers. Reserve a free VIP server if you need the update!</p>
+</div>
+<div class="update-entry">
+    <h3>September 19, 2020</h3>
+    <h4>Data Rollback Fix</h4>
+    <p>Restarting all servers to fix an issue with data rollbacks.</p>
+</div>
+<div class="update-entry">
+    <h3>September 20, 2020</h3>
+    <h4>Item Despawn Fix</h4>
+    <p>Deployed an update that stops items from despawning inside the steel press, copper press and food processor. It's only live on new servers (not going to restart everything for this one).</p>
+</div>
+<div class="update-entry">
+    <h3>September 24, 2020</h3>
+    <h4>Update Delay Announcement</h4>
+    <p><a href="https://twitter.com/RobloxIslands/status/1309342369469267968?s=20">Roblox Islands (@RobloxIslands)</a></p>
+    <p>Moving the update to next Friday (10/2). Taking our time to fit in a lot of content for everyone 😊🐮</p>
+</div>
+<div class="update-entry">
+    <h3>October 3, 2020</h3>
+    <h4>Cows Have Arrived!</h4>
+    <p>🐮 Cows have arrived! @everyone</p>
+    <p>Cows have migrated to everyone's island. Taliyah finished building her barn in the Town. Talk to her to learn more about animals!</p>
+
+    <p>Full Changelog</p>
+    <ul>
+        <li>🏆 Gold Deposit</li>
+        <li>⚔️ Rageblade (weapon blueprint found from Buffalkors)</li>
+        <li>🧀 Cheesemaker</li>
+        <li>🟥 Red Bronze Ingot</li>
+        <li>🏭 Red Bronze Refinery</li>
+        <li>🏥 Animal Well-being Kit</li>
+        <li>🛏️ Animal Haybed</li>
+        <li>🌾 Wheat Trough</li>
+        <li>🛠️ Deposit islands now spawn closer to your main island</li>
+        <li>🛠️ Fixed an issue that causes island corruption</li>
+        <li>⚡ Client performance improvements</li>
+    </ul>
+
+    <p>Note: There's an issue with the Red Bronze Refinery that causes it to not accept items as input. To fix this, click on the Red Bronze Ingot to re-select the recipe.</p>
+</div>
+<div class="update-entry">
+    <h3>October 3, 2020</h3>
+    <h4>Server Restart for Fixes</h4>
+    <p>Restarting servers to fix an issue with milking cows 🐮</p>
+    <p>Edit: Restarting again to fix an issue with Taliyah quests getting stuck.</p>
+</div>
+<div class="update-entry">
+    <h3>October 5, 2020</h3>
+    <h4>Bug Fixes and Server Restart</h4>
+    <p>Restarting servers to fix a few bugs!</p>
+    <ul>
+        <li>🐮 Players who don't have a cow will now receive one when they join</li>
+        <li>🐮 Cows no longer try to eat while asleep</li>
+        <li>🏭 Fixed an issue that caused the Food Processor and Copper/Steel Press to not accept input</li>
+        <li>⚔️ The Rageblade can now be placed on the Weapon Stand</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>October 16, 2020</h3>
+    <h4>The Witches Event</h4>
+    <p>New update is going live! @everyone</p>
+    <p>🧙‍♀️ The Witches</p>
+    <p>Witches Are Real! And they are taking over Islands on Roblox from 10/16-11/1! Defeat the Grand High Witch this Halloween season, and check out <a href="https://www.hbomax.com/">#TheWitchesMovie</a> coming exclusively to HBOMax in the US on October 22! Internationally, <a href="https://www.hbomax.com/">#TheWitchesMovie</a> will be in cinemas soon.</p>
+
+    <p>Changelog</p>
+    <ul>
+        <li>🧙‍♀️ The Grand High Witch can be found on a new mob island</li>
+        <li>🐭 Formula 86 splash potion that turns players (and witches) into mice</li>
+        <li>🐭 Formula 86 is required to defeat the Grand High Witch</li>
+        <li>🏆 Unlock a limited edition trophy by defeating the Grand High Witch (once per player)</li>
+        <li>⚔️ Added 4 new hostile mobs (skeleton, armored skeleton, pumpkin, pumpking)</li>
+        <li>🏨 The Town has been overtaken by Halloween creatures</li>
+        <li>🎃 Pumpkin seeds can be found by slaying the pumpkin mob</li>
+        <li>🎃 Pumpkin seeds will only be obtainable during the Halloween event</li>
+        <li>🎃 Jack O' Lanterns</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>October 24, 2020</h3>
+    <h4>New Loading Screen</h4>
+    <p>We rolled out a new loading screen last night. It's only active on new servers. Please let us know if it has any issues!</p>
+</div>
+<div class="update-entry">
+    <h3>October 30, 2020</h3>
+    <h4>Update Announcement</h4>
+    <p><a href="https://twitter.com/RobloxIslands/status/1322330712452689920?s=20">Roblox Islands (@RobloxIslands)</a></p>
+    <p>New update releasing this Sunday! 🏰🔨🌹🌼</p>
+</div>
+<div class="update-entry">
+    <h3>October 30, 2020</h3>
+    <h4>Game Server Changes</h4>
+    <p>Just deployed changes to how our game servers operate. We're still monitoring the changes and are tweaking as needed. A full changelog will be included in Sunday's update.</p>
+</div>
+<div class="update-entry">
+    <h3>November 1, 2020</h3>
+    <h4>Join Codes Feature</h4>
+    <p>All players now have join codes! You can share join codes to allow players who aren't your friends to teleport to your server.</p>
+    <p>We heard your concerns and are still working on a new invite system... But this should help in the meantime 😊</p>
+    <p>Rejoin the game to get access to this new feature. Note: We're still releasing a content update tomorrow morning!</p>
+</div>
+<div class="update-entry">
+    <h3>November 1, 2020</h3>
+    <h4>New Content Update</h4>
+    <p>A new content update has been released! @everyone</p>
+
+    <p>🌈 Colors</p>
+    <p>New clay block colors have been added! Color your clay blocks using the new flowers! There are now 11 colors in total.</p>
+
+    <p>🌻 Flowers</p>
+    <p>We've introduced 5 different flower types with lots of color variants (35+ flowers in total). Flowers can now be crossbred to produce new colors. Only fertile flowers can be crossbred (flowers with particles). Crossbreed flowers by placing fertile flowers near each other and watering them. Collecting all flower and color types will take time and strategy! Watering cans also now have infinite water storage.</p>
+
+    <p>🏰 New Hub</p>
+    <p>A new castle hub has been added! The Hub now has up to 50 players per-server too! Because there are more players in the Hub, we've made it so anyone who attacks a mob gets a reward (no more kill steals).</p>
+
+    <p>📡 Server Changes</p>
+    <p>Each island now has their own server. This was an important overhaul of our system in order to finally increase the build limit. We're still monitoring the performance for a few days -- if successful, we'll increase the build limit to 150,000 blocks (currently 50,000). You should notice that your island loads much quicker now and has less lag in general.</p>
+
+    <p>🗨️ Cross Server Chat</p>
+    <p>We've introduced a new cross-server chat system. This means you can chat with players who aren't on your server. This only applies to public Island servers -- hubs and private servers are still local chat.</p>
+
+    <p>More changes:</p>
+    <ul>
+        <li>🔨 Double doors</li>
+        <li>🔨 Upside down stairs</li>
+        <li>🔨 Top and bottom slabs</li>
+        <li>🔨 R to rotate while placing</li>
+        <li>💾 Hotbar layout saves on rejoin</li>
+        <li>💾 Music toggle saves on rejoin</li>
+        <li>🛰️ All players now have access to join codes for free</li>
+        <li>🏭 Doubled the lifetime and amount limit of factory-dropped items</li>
+        <li>👐 All items render properly in your hand (no more weird cubes)</li>
+        <li>🎃 Removed Halloween content</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>November 1, 2020</h3>
+    <h4>Flower Crafting Fix</h4>
+    <p>Fixed crafting for recipes that include flowers. Rejoin if this was an issue for you!</p>
+</div>
+<div class="update-entry">
+    <h3>November 6, 2020</h3>
+    <h4>Invite System Update</h4>
+    <p>We just shipped a new update that lets you invite players to your island. You're able to invite friends and players connected to your chat room.</p>
+    <p>We wanted to release a working version ASAP since many of you have been requesting it. We'll be incrementing on the entire system throughout the following week to make playing with others as easy as possible.</p>
+    <p>Also, we're releasing a new content update tomorrow 🎉</p>
+    <p>EDIT: Looks like there are a few issues with the new system. We're working on some fixes.</p>
+</div>
+<div class="update-entry">
+    <h3>November 6, 2020</h3>
+    <h4>New Content Update</h4>
+    <p>Rolling out a new content update! @everyone</p>
+
+    <p>🏗️ Increased build limit to 70k (was 50k)</p>
+    <p>🏭 Randomizer Conveyor Block</p>
+    <p>❤️ Health bar</p>
+    <p>🏜️ A nomad has wandered onto desert island</p>
+    <p>🌻 Watering flowers no longer resets growth time</p>
+    <p>🌻 Rejoining no longer resets flower growth time</p>
+    <p>🌻 Pickup up a flower plays an animation</p>
+    <p>🌻 Fixed pickup up crocus & daffodil</p>
+    <p>🚰 Improved flower watering effect</p>
+    <p>🐟 Improved fishing mechanics</p>
+    <p>🐟 Added fish animations</p>
+    <p>🥫 Hold click on food to keep eating</p>
+    <p>💰 Removed 50B coin limit</p>
+</div>
+<div class="update-entry">
+    <h3>November 20, 2020</h3>
+    <h4>Update Rollout</h4>
+    <p>Game going private for a few minutes while we roll out the new update!</p>
+</div>
+
+<div class="update-entry">
+    <h3>November 20, 2020</h3>
+    <h4>New Update is Live!</h4>
+    <p>New update is live! @everyone <a href="https://www.roblox.com/games/4872321990/Islands-PVP">Islands PvP</a></p>
+
+    <p>Full Changelog</p>
+    <ul>
+        <li>⚔️ PvP Island</li>
+        <li>🏰 Mercenary Villager + Quests</li>
+        <li>🏆 PvP Alpha Trophy (limited edition, obtained by completing mercenary quests)</li>
+        <li>🏜️ Nomads have settled the city of Azarath on Desert Island</li>
+        <li>🌵 Cactus Crop</li>
+        <li>🌵 Cactus Spike Sword</li>
+        <li>📜 Revamped quest system</li>
+        <li>🥀 Florist Villager + Quests</li>
+        <li>🥀 Added Daffodil flower (unlocked through Florist)</li>
+        <li>🥀 Added Pottery Bench which crafts flower pots (unlocked through Florist)</li>
+        <li>🏪 Vending machines now have a 10% tax</li>
+        <li>🏪 Increased vending machine max stack size to 300</li>
+        <li>🏪 Increased vending machine max transaction price to $1B</li>
+        <li>🏪 Added commas to vending machine display prices</li>
+        <li>🏪 Added direct input for vending machine price</li>
+        <li>🏪 Added "2x" deposit button to help with large prices</li>
+        <li>🎋 Crops now grow while you are offline</li>
+        <li>🌵 Desert Chest + Desert Furnace skins (Found from Azarath nomad quests)</li>
+        <li>🌞 Fixed an issue that caused the hub to be too bright during certain times of day</li>
+        <li>🦂 Fixed & improved skorp animations</li>
+        <li>📱 Removed "Go Home" button in the hub on phones</li>
+        <li>⚡ Improved island load time (especially for slow computers + mobile)</li>
+    </ul>
+
+    <h4>PvP Island (ALPHA)</h4>
+    <p>We're testing out PvP throughout the weekend on the new PvP Island. You won't lose items by dying. The portal can be found in the Hub!<br>
+    The portal to PvP Island will be disabled on Monday. Make sure to complete the mercenary quests before then to unlock the PvP Alpha Trophy!</p>
+
+    <h4>Vending Machine Balancing</h4>
+    <p>Vending Machines have become a dangerously effective way to spread duped items and money throughout the game. In an effort to combat this, we're introducing a 10% tax on all Vending Machine transactions. We also took the time to add some QoL features to vending machines.</p>
+</div>
+<div class="update-entry">
+    <h3>November 23, 2020</h3>
+    <h4>Minor Update</h4>
+    <p>Restarting all servers for a minor update.</p>
+    <ul>
+        <li>🏆 PvP Alpha has concluded. Thank you for participating!</li>
+        <li>🛡️ Patched several dupes/exploits</li>
+        <li>🌞 Fixed an issue with hub being super bright for a few minutes</li>
+        <li>🗿 Fixed an issue that caused hub villagers to be pushed around</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>November 24, 2020</h3>
+    <h4>Bug Fixes</h4>
+    <ul>
+        <li>🔍 We’re investigating reports of disconnect and data rollbacks.</li>
+        <li>🔄 Restarted hubs to fix a bug that was crashing servers.</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>November 25, 2020</h3>
+    <h4>Private Server Update</h4>
+    <ul>
+        <li>🌐 Private servers now have a private Hub and mob islands.</li>
+        <li>🚪 Teleporting to the Hub will no longer unload your island on private servers.</li>
+        <li>🏝️ Multiple islands can now be loaded on private servers (as long as they are within a server block limit).</li>
+        <li>👥 Re-enabled the default player list on private servers, hubs, and published islands.</li>
+        <li>🛠️ Fixed an issue with quests not refreshing.</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>November 26, 2020</h3>
+    <h4>Hub Restart</h4>
+    <ul>
+        <li>🔄 Restarted hubs to fix a problem that could crash servers.</li>
+        <li>📜 Fixed scrolling in the island visit menu.</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>November 26, 2020</h3>
+    <h4>Roblox Battles Hunt</h4>
+    <ul>
+        <li>🏆 Restarting servers for Roblox Battles hunt, talk to the villager at your portal to complete the event.</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>November 28, 2020</h3>
+    <h4>New Reset Command</h4>
+    <ul>
+        <li>⚠️ You can now open chat and use the /reset command in the loading screen. This is useful for players stuck on the loading screen. This command will completely reset your island and inventory -- use with caution!</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>December 4, 2020</h3>
+    <h4>Exploitation Patch Focus</h4>
+    <ul>
+        <li>⚡ We paused the majority of development this week to focus on patching exploits related to item and coin duping. We managed to patch the biggest duping methods and are still working on patching a few smaller exploits. We'll get back to working on new content next week!</li>
+    </ul>
+    <p><a href="https://twitter.com/RobloxIslands/status/1334985611187404800?s=20">View on Twitter</a></p>
+</div>
+
+<div class="update-entry">
+    <h3>December 11, 2020</h3>
+    <h4>Electricity Update</h4>
+    <ul>
+        <li>⚡ You can now add logic to your islands using Electricity! Craft an Electrical Workbench to start making your contraptions. Energy sources are limited -- use items like Coal Generators and (once unlocked) Solar Panels to produce power. More items and upgrades are planned!</li>
+        <li>⚡ Electrical Workbench (including a new workbench upgrade system)</li>
+        <li>⚡ Wire Tool</li>
+        <li>⚡ Coal Generator</li>
+        <li>⚡ Solar Panel</li>
+        <li>⚡ Switch</li>
+        <li>⚡ Button</li>
+        <li>⚡ And Gate</li>
+        <li>⚡ Or Gate</li>
+        <li>⚡ Xor Gate</li>
+        <li>⚡ Splitter</li>
+        <li>⚡ Combiner</li>
+        <li>⚡ Totem Disabler</li>
+        <li>⚡ LED Light Block</li>
+        <li>⚡ Timer</li>
+        <li>⚡ Firework Launcher</li>
+        <li>⚡ Split Conveyor</li>
+    </ul>
+    <h4>Other Changes</h4>
+    <ul>
+        <li>Electrite nodes spawn in the hub mountains</li>
+        <li>Clay rocks spawn underwater in the hub</li>
+        <li>Conveyor Randomizer Recipe: Buffalkor Crystal => Crystallized Iron</li>
+    </ul>
+    <p><a href="https://twitter.com/RobloxIslands/status/1337476034514042881?s=20">View on Twitter</a></p>
+</div>
+<div class="update-entry">
+    <h3>December 14, 2020</h3>
+    <h4>Bug Fixes & Exploit Patches</h4>
+    <ul>
+        <li>Fixed lag while holding the wire tool</li>
+        <li>Fixed wire tool "place/remove" buttons not removing on touch screens</li>
+        <li>Fixed items auto going into chests on touch screens</li>
+        <li>Temporarily removed the "go home" button on touch screens (a better version will be added soon)</li>
+        <li>Patched several dupe exploits</li>
+    </ul>
+    <p><a href="https://twitter.com/RobloxIslands/status/1338382151420518400?s=20">View on Twitter</a></p>
+</div>
+<div class="update-entry">
+    <h3>December 18, 2020</h3>
+    <h4>Christmas Update</h4>
+    <ul>
+        <li>🌨️ The Hub Villagers are celebrating the Holidays with festive decorations</li>
+        <li>🎅 Santa has arrived in the Hub and is giving out special quests</li>
+        <li>🏂 Snowball Machine Gamepass: Purchase to start crafting throwable snowballs</li>
+        <li>🎁 Presents appear on your island every in-game day at 9:00am. Collect and open them for rewards</li>
+        <li>❄️ Snow Blocks</li>
+        <li>⛄ Added a Stone Shovel tool (Workbench Level 1)</li>
+        <li>⛄ Collect snow in the Hub with shovels</li>
+        <li>🧊 Ice Blocks</li>
+        <li>🧊 Collect Ice in the Hub with pickaxes</li>
+        <li>🧊 Frost Slime</li>
+        <li>🏭 Conveyor Sensor (Electrical Workbench Level 3)</li>
+        <li>🌨️ Winter portal decoration</li>
+        <li>⛄ Added 2 snowmen blocks (quest)</li>
+        <li>🌨️ Snowglobe block (quest)</li>
+        <li>🎄 Wreath block (quest)</li>
+        <li>🛠️ Christmas stone shovel skin (quest)</li>
+        <li>📷 Added an experimental mouse-lock camera mode (PC: press "M")</li>
+        <li>📷 New camera mode is forced when holding weapons</li>
+        <li>📷 Sidebar is now clickable in First Person when the Inventory is open</li>
+    </ul>
+    <p><a href="https://twitter.com/RobloxIslands/status/1339988826923913216?s=20">View on Twitter</a></p>
+</div>
+<div class="update-entry">
+    <h3>December 22, 2020</h3>
+    <h4>Quality of Life Update</h4>
+    <ul>
+        <li>🛡️ You now have to hold <strong>Q</strong> to drop tools and weapons. No more accidentally dropping them into the void 😌</li>
+    </ul>
+    <p><a href="https://twitter.com/robloxislands/status/1341431009204572160?s=21">View on Twitter</a></p>
+</div>
+<div class="update-entry">
+    <h3>December 30, 2020</h3>
+    <h4>Minor Fixes & Tweaks</h4>
+    <ul>
+        <li>🍞 Fixed dropped items despawning</li>
+        <li>🛡️ Patched a dupe</li>
+        <li>⚔️ Weapons no longer default to the new camera mode — press <strong>M</strong> to toggle manually</li>
+    </ul>
+</div>
+    <h2>2021</h2>
+<div class="update-entry">
+    <h3>January 4, 2021</h3>
+    <h4>Furniture & PvP Island Update</h4>
+    <ul>
+        <li>🛏️ 35+ new furniture items (available in the furniture bench)</li>
+        <li>⚔️ Re-enabled PvP Island (will stay enabled for about a week)</li>
+        <li>⚔️ Fighting prevents re-entering safezone for 10 seconds</li>
+        <li>⚔️ A new rare sword is obtainable through PvP Island quests</li>
+        <li>🥫 Food has reduced healing on PvP Island</li>
+        <li>🔦 Tweaked brightness of all light blocks</li>
+        <li>🧭 Added categories to the main workbenches</li>
+        <li>📰 Notification alert when your friends join the game</li>
+        <li>🗨️ Game now attempts to place you in the same chat room as your friends</li>
+        <li>🏰 Removed winter decorations from the hub</li>
+        <li>🔌 Moved electrite nodes to Buffalkor Island</li>
+        <li>☁️ Improved particles on several blocks</li>
+        <li>☃️ Removed snowball machine from the store (players who bought it can still craft it)</li>
+        <li>⚡ Reduced memory usage to improve performance on large islands (especially on mobile)</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>January 16, 2021</h3>
+    <h4>Texture Loading Issue</h4>
+    <ul>
+        <li>Some game textures are failing to load due to an issue on Roblox’s end. The team is looking into solutions.</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>January 22, 2021</h3>
+    <h4>Upcoming Content Teaser</h4>
+    <ul>
+        <li>Huge update dropping in a couple hours! ✨🐮🐑</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>January 22, 2021</h3>
+    <h4>Update Preparation</h4>
+    <ul>
+        <li>Shutting down servers in preparation for the update...</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>January 22, 2021</h3>
+    <h4>Massive Update: Economy Wipe, Skills, Animals, and More</h4>
+    <ul>
+        <li><strong>💰 Economy Wipe:</strong> Removed excess duped items and coins to reset market balance. Players with over 1 billion coins pre-wipe received a golden portal color.</li>
+        <li><strong>📊 Skill Levels Introduced:</strong>
+            <ul>
+                <li>🧑‍🌾 Farming</li>
+                <li>🪓 Woodcutting</li>
+                <li>⛏️ Mining</li>
+                <li>💸 Economy</li>
+                <li>⚔️ Combat</li>
+                <li>⚔️ Light Melee</li>
+                <li>🛡️ Heavy Melee</li>
+                <li>🏹 Archery</li>
+                <li>🪄 Magic</li>
+                <li>🧑‍🍳 Cooking</li>
+                <li>🐮 Animal Husbandry</li>
+                <li>🎣 Fishing</li>
+                <li>🏭 Forging</li>
+            </ul>
+        </li>
+        <li><strong>🐑 Animal Expansion:</strong>
+            <ul>
+                <li>Added sheep</li>
+                <li>Animal spawn eggs (from Taliyah)</li>
+                <li>Animal breeding + baby animals</li>
+                <li>Unique animal personalities and traits</li>
+                <li>Sell animals for coins and XP</li>
+                <li>Upgrade animal cap via Animal Husbandry skill</li>
+                <li>New animal happiness system</li>
+                <li>New cow model + animal blinking behavior</li>
+                <li>Redesigned inspection menu</li>
+                <li>✂️ Shears, 👚 Cloth, 🥛 Automilker, 🥢 Sheep Scratcher, 🏭 Wool Vacuum</li>
+            </ul>
+        </li>
+        <li><strong>🔧 Additional Changes:</strong>
+            <ul>
+                <li>🐑 Wool blocks + colored wool</li>
+                <li>🪴 New spinach crop (animal-friendly)</li>
+                <li>🌲 Tree health increased for deeper woodcutting interaction</li>
+                <li>🌳 Sapling growth adjusted to counter AFK macroing</li>
+                <li>🪂 Improved block break particles</li>
+                <li>🔑 Removed island keys — portal access now uses combat skill level</li>
+                <li>💰 Removed coin bags and the banker</li>
+                <li>🌾 Fixed crops instantly growing after rejoining</li>
+                <li>📰 New sidebar UI</li>
+                <li>📷 Disabled "M" camera mode</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>January 22, 2021</h3>
+    <h4>Legacy Tool Access Update</h4>
+    <ul>
+        <li>You can now use your old tools and weapons even if you haven't unlocked them yet through XP! (Fresh servers only)</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>January 24, 2021</h3>
+    <h4>Bug Fixes</h4>
+    <ul>
+        <li>Restarting servers to fix a few bugs</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>January 24, 2021</h3>
+    <h4>Balancing and Bug Fix Patch</h4>
+    <ul>
+        <li>🐮 Farm animals now wait longer to produce after being fed</li>
+        <li>🐑 Added more ambient animations to cows and sheep</li>
+        <li>🛌 Animals now fall asleep later in the day</li>
+        <li>💤 Animals can no longer be fed while asleep</li>
+        <li>🏭 Fixed a bug causing some items to despawn after exiting industrial chests</li>
+        <li>💸 Nerfed economy XP gains</li>
+        <li>🐝 Capturing bees with a net no longer gives XP</li>
+        <li>✨ Fixed a bug causing too much economy XP to be rewarded</li>
+        <li>🌽 Fixed crops instantly regrowing after rejoining (they still grow offline)</li>
+        <li>🔒 Fixed /reset not always resetting inventory and XP</li>
+        <li>🪨 Fixed mining base stats not working on aquamarine blocks</li>
+        <li>🛠️ Fixed tools being instantly dropped when double-tapping "Q"</li>
+        <li>🧙‍♂️ Fixed wizard lizards not dealing damage</li>
+        <li>🟢 Fixed a bug causing entities to fall over before dying</li>
+        <li>✨ Fixed spellbook particles not being destroyed</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>January 25, 2021</h3>
+    <h4>Electricity Source Limit Removed</h4>
+    <ul>
+        <li>⚡ Removed the limit on the number of electricity power sources you can place</li>
+        <li>⚡ You can now place unlimited solar panels and coal generators for your electrical creations</li>
+        <li>⚡ This change is live on fresh servers only</li>
+        <li>⚠️ The limit may return in the future when more power sources are added</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>January 26, 2021</h3>
+    <h4>XP Balancing & Performance Improvements</h4>
+    <ul>
+        <li>🐮 Reduced lag caused by animal AI</li>
+        <li>💰 Nerfed economy XP gains</li>
+        <li>💰 Selling items individually no longer gives more XP than bulk selling</li>
+        <li>🌾 Increased wheat sell price from 5 coins to 7 coins</li>
+        <li>🌲 Decreased all wood sell prices (except for hickory)</li>
+        <li>⛏️ Mining base stat now gives a percentage-based damage increase</li>
+        <li>🪨 Nerfed mining XP and increased health of upper-tier rocks</li>
+        <li>🪓 Tree base stat now gives a percentage-based damage increase</li>
+        <li>🪓 Iron axes are now unlocked at woodcutting level 7</li>
+        <li>🏭 Nerfed XP gains from a few factory items</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>January 26, 2021</h3>
+    <h4>Upcoming Content Teaser</h4>
+    <ul>
+        <li>🐷 Unlock pigs in the next Islands update!</li>
+    </ul>
+    <p><a href="https://twitter.com/RobloxIslands/status/1354215671970762756?s=20">View on Twitter</a></p>
+</div>
+
+
+<div class="update-entry">
+    <h3>January 29, 2021</h3>
+    <h4>Furniture & Crafting Quality of Life</h4>
+    <ul>
+        <li>🛁 Added 30+ new furniture items</li>
+        <li>💰 Introduced rare golden furniture purchasable with coins from the Block Merchant</li>
+        <li>🧰 Redesigned and improved sections of the crafting menu</li>
+        <li>🛠️ Grouped certain blocks together in the crafting menu (e.g. stair variants)</li>
+        <li>📈 Increased maximum bulk craft amount from 10 to 100</li>
+        <li>🏭 Steel rods can now be bulk crafted</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>February 5, 2021</h3>
+    <h4>Pigs & Craftable Portals Update</h4>
+    <ul>
+        <li>🐷 Added pigs! Purchase spawn eggs from Taliyah's animal shop</li>
+        <li>🥕 Pigs eat carrots and can dig up truffles from nearby trees</li>
+        <li>🐽 Mud piles can be crafted to increase pig happiness</li>
+        <li>🗺️ Craftable mob island portals now available — collect portal shards from mobs to craft them</li>
+        <li>📰 Added animal nametags</li>
+        <li>🏰 Increased block limit from 70k to 80k</li>
+        <li>☁️ Added clouds and a new skybox</li>
+        <li>🪓 Reworked block hitting mechanics for quicker responsiveness</li>
+        <li>🪓 Added new block hitting and breaking sounds</li>
+        <li>🔊 Added footstep sounds</li>
+        <li>📱 Raised visible interact prompts limit from 5 to 10</li>
+        <li>📊 Improved block health bar visuals</li>
+        <li>🧑‍🍳 Processors now grant direct XP instead of XP orbs</li>
+        <li>🌵 Nerfed cactus spike damage</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>February 7, 2021</h3>
+    <h4>Teaser: New Hostile Mob</h4>
+    <ul>
+        <li>🗿 A new hostile mob will protect the mines in the next update!</li>
+    </ul>
+    <p><a href="https://twitter.com/RobloxIslands/status/1358536877079363584?s=20">View on Twitter</a></p>
+</div>
+<div class="update-entry">
+    <h3>February 11, 2021</h3>
+    <h4>New Update Coming Tomorrow!</h4>
+    <ul>
+        <li>💎⚔️🐮🧧 New update dropping tomorrow — See you then!</li>
+    </ul>
+    <p><a href="https://twitter.com/robloxislands/status/1359961162129973249?s=21">View on Twitter</a></p>
+</div>
+<div class="update-entry">
+    <h3>February 12, 2021</h3>
+    <h4>Diamond Mines Update!</h4>
+    <ul>
+        <li>💠 **Diamond Mines**: Access the Diamond Mines through Buffalkor Island's caves. Battle the Kor mob to uncover diamonds for new tools, weapons, and blocks.</li>
+        <li>🐮 **Lunar New Year Cow**: A limited edition animal skin available for the Lunar New Year. Don't miss out!</li>
+    </ul>
+    <h5>Full Changelog</h5>
+    <ul>
+        <li>💠 Added the "Diamond Mines" wilderness island</li>
+        <li>🗿 Kor mob</li>
+        <li>💠 Diamonds, Enchanted Diamonds, and Diamond Block</li>
+        <li>🪓 Diamond Axe, Diamond Pickaxe, Diamond Sword, Diamond Hammer</li>
+        <li>💠 Diamond Mines Craftable Portal</li>
+        <li>🐮 No longer need an animal well-being kit to inspect</li>
+        <li>🏪 Revamped the in-game shop</li>
+        <li>📰 New sidebar</li>
+        <li>🐮 Added an animal skin system</li>
+        <li>🐮 Lunar New Year Cow skin</li>
+        <li>🪴 Increased crop harvest speed while holding F</li>
+        <li>⏲️ /reset no longer resets your inventory and xp (just your island)</li>
+        <li>🔊 Atmospheric hub sounds</li>
+        <li>⚔️ Nerfed light/heavy melee & magic damage base stat bonuses</li>
+        <li>🏹 Nerfed bow damage</li>
+        <li>📖 Nerfed spellbook damage</li>
+        <li>⚔️ Nerfed rageblade damage</li>
+        <li>⚒️ Fixed an issue that caused blocks to sometimes not break</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>February 13, 2021</h3>
+    <h4>We're Hiring a Part-Time Concept Artist!</h4>
+    <p>Roblox Islands is looking for a part-time Concept Artist to work with the team and create proof-of-concept artwork for in-development features. The position is paid, and all skill levels are welcome to apply!</p>
+    <p>To apply, email your portfolio and information to <a href="mailto:jobs@easy.gg">jobs@easy.gg</a>.</p>
+</div>
+<div class="update-entry">
+    <h3>February 18, 2021</h3>
+    <h4>Improved Block Breaking on Touch Screens</h4>
+    <p>We’ve rolled out some improvements to block breaking on touch screens. You now have to tap and hold to break blocks. The changes are only live on new servers.</p>
+</div>
+
+<div class="update-entry">
+    <h3>February 18, 2021</h3>
+    <h4>New Update Dropping Tomorrow!</h4>
+    <p><a href="https://twitter.com/RobloxIslands/status/1362555042243301378?s=20" target="_blank">Roblox Islands</a> announced that a new update is coming tomorrow morning!</p>
+</div>
+
+<div class="update-entry">
+    <h3>February 19, 2021</h3>
+    <h4>Animal Mounts</h4>
+    <p>Starting at Animal Care level 8, you can now ride your animals! Open the inspect menu on any animal and click the mount button in the top right. Animal mounting currently gives no advantage, but future updates will include:</p>
+    <ul>
+        <li>Special abilities for each animal while mounted</li>
+        <li>Leveling up animals to increase effectiveness</li>
+        <li>Non-farm animals specializing in combat and movement</li>
+        <li>Animals assisting in various game activities: farming, mining, combat, etc.</li>
+    </ul>
+    <p>We decided to release animal mounting early to test with the community and keep everyone in the loop on the development process.</p>
+
+    <h4>Birthday Sheep 🐑</h4>
+    <p>A new animal skin, the "Birthday Sheep," is available in the shop. It has a sprinkles-covered birthday cake design!</p>
+
+    <h4>Full Changelog</h4>
+    <ul>
+        <li>Added animal mounting</li>
+        <li>Added the "Birthday" sheep skin</li>
+        <li>Added a confirmation prompt when selling animals</li>
+        <li>Cutlass and cactus spike can now be placed in armor stands</li>
+        <li>Fixed a bug causing cactus to grow too fast</li>
+        <li>Increased server performance with many animals</li>
+        <li>Improved FPS on low-end devices with large islands</li>
+        <li>Removed the Lunar New Year cow from the shop</li>
+        <li>Improved block hitting on mobile</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>February 19, 2021</h3>
+    <p><strong>Islands are working again!</strong> The islands are back online, and you can now enjoy shopping in the malls 🛍️🛒</p>
+    <a href="https://twitter.com/RobloxIslands/status/1362963062580383750?s=20" target="_blank">View on Twitter</a>
+</div>
+<div class="update-entry">
+    <h3>February 20, 2021</h3>
+    <p><strong>Small improvements rolled out:</strong></p>
+    <ul>
+        <li>🟦 Colored clay is craftable</li>
+        <li>❤️ Breeding animals works more consistently</li>
+        <li>🏃‍♂️ Fixed bug causing players to show normal animations while riding animals</li>
+        <li>🐮 No riding other players' animals</li>
+        <li>🥚 Fixed bug with using spawn eggs while riding animals</li>
+        <li>🥾 Animals now spawn at island spawn point when dismounting in hub / other players' islands</li>
+        <li>⚠️ Slight server lag reduction on animals (more to come soon)</li>
+        <li>🌲 Added low detail trees on far away islands in hub</li>
+        <li>☁️ Fixed dark skies of Kor's island sometimes displaying on player islands</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>February 26, 2021</h3>
+    <p><strong>Content update live!</strong> Sorry for the delay 😅</p>
+    <p><strong>New Features:</strong></p>
+    <ul>
+        <li>🐔 Chickens: Taliyah now sells chickens! Purchase a spawn egg once you reach Animal Care level 12. Also, a new "Tuxedo Chicken" skin in the shop!</li>
+        <li>🎣 Fishing Festival: Islands will be hosting a Fishing Festival on Saturday @ 11:00am PST. Exclusive rewards will be given out during the festival! Check the new live countdown on the billboard in the Hub!</li>
+    </ul>
+    <p><strong>Full Changelog:</strong></p>
+    <ul>
+        <li>🗺️ Renovated the Hub</li>
+        <li>🛠️ Removed the "Gameplay Paused" popup</li>
+        <li>🐔 Added chickens</li>
+        <li>🐤 Added chicken nest</li>
+        <li>🥚 Added mayonnaise maker</li>
+        <li>🥤 Added mayonnaise</li>
+        <li>🎣 Added iron fishing rod</li>
+        <li>🐟 Increased fish sell prices</li>
+        <li>🐟 You now need an iron fishing rod to catch high tier fish</li>
+        <li>🐣 Added Tuxedo Chicken skin</li>
+        <li>🥚 Added deviled eggs (cooking)</li>
+        <li>🏭 Added metal trough</li>
+        <li>🛒 You can now click-and-view locked merchant offers (helps out new players)</li>
+        <li>🗨️ Upgraded bubble chat</li>
+        <li>📜 Removed old quest system from all villagers</li>
+        <li>📎 Island Portal text will no longer render through blocks</li>
+        <li>👩‍🌾 Fixed a bug that prevented animals from producing products when eating from troughs</li>
+        <li>⭐ Buffed starfruit cake sell price</li>
+        <li>:pig: Pigs now count as small animals instead of large animals</li>
+        <li>🛢️ Removed the oily crops villager</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>February 26, 2021</h3>
+    <p><strong>Islands Fishing Festival</strong></p>
+    <p>The Islands Fishing Festival takes place tomorrow at 11:00AM PST! That's in under 17 hours from this tweet! A countdown can be found in the Hub.</p>
+    <a href="https://twitter.com/RobloxIslands/status/1365486673480581123?s=20" target="_blank">View tweet</a>
+</div>
+
+<div class="update-entry">
+    <h3>February 27, 2021</h3>
+    <p><strong>10 minutes until the Fishing Festival begins! 🎣</strong></p>
+    <p>@everyone</p>
+    <img src="https://cdn.discordapp.com/attachments/699870693675892746/815294726538133564/fishing-festival-thumbnail.png?ex=68239462&is=682242e2&hm=9eb539480e6043d6ca9ae68f38b038aca01f3deffa5b791e6b1d15222df0d474&" alt="Fishing Festival Thumbnail">
+    <a href="https://twitter.com/RobloxIslands/status/1365486673480581123?s=20" target="_blank">View tweet</a>
+</div>
+<div class="update-entry">
+    <h3>March 5, 2021</h3>
+    <p><strong>Servers are restarting for a new update!</strong></p>
+    <ul>
+        <li>🗺️ New starter island</li>
+        <li>🗒️ Revamped + expanded the tutorial for new players</li>
+        <li>🏝️ Added a "Home" teleport button to right sidebar while away from island</li>
+        <li>🛠️ Increased pickaxe damage</li>
+        <li>📉 Reduced grass health</li>
+        <li>📱 Right sidebar is positioned higher on mobile devices</li>
+        <li>⚡ Fixed a bug that sometimes caused your hotbar to appear empty on join</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>March 13, 2021</h3>
+    <p><strong>Game is private while we work on rolling out this week's update 🙂</strong></p>
+</div>
+<div class="update-entry">
+    <h3>March 13, 2021</h3>
+    <p><strong>New update is live! @everyone</strong></p>
+    <ul>
+        <li>👑 Slime King boss added to Slime Island</li>
+        <li>🌦️ Seasons! Each IRL day marks the start of a new season</li>
+        <li>🌞 The appearance of trees and grass change during each season</li>
+        <li>🧑‍🌾 Farmer merchants now visit your island during certain seasons to sell special items</li>
+        <li>🧅 Radish crop (only growable during spring)</li>
+        <li>🎃 Pumpkin crop (only growable during fall)</li>
+        <li>🧑‍🍳 The baker has all sell offers</li>
+        <li>🗒️ Settings menu</li>
+        <li>🌪️ Island wind effects during certain seasons</li>
+        <li>🌞 Added shadows to all blocks (can be disabled in settings)</li>
+        <li>🔊 You can now disable friend-join and invite notifications in settings</li>
+        <li>🔊 Music volume can be adjusted in settings</li>
+        <li>ℹ️ Item tooltips are now visible in the animal inspect menu</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>March 18, 2021</h3>
+    <p><strong>Godzilla vs Kong is coming to Islands! Join us tomorrow at 12pm PST for a special event!</strong></p>
+    <p>A countdown for the event can be found in the newly destroyed Hub!</p>
+</div>
+<div class="update-entry">
+    <h3>March 19, 2021</h3>
+    <p><strong>The Godzilla vs Kong event is live in 5 minutes!</strong></p>
+    <p>Complete quests to unlock limited edition rewards:</p>
+    <ul>
+        <li>Kong's Axe</li>
+        <li>Kong Trophy</li>
+        <li>Staff of Godzilla</li>
+        <li>Godzilla Trophy</li>
+        <li>Coconut tree saplings</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>April 4, 2021</h3>
+    <p><strong>A new content update is live!</strong></p>
+    <ul>
+        <li>🧙‍♂️ Wizard Boss</li>
+        <li>🧙‍♂️ Wizard Island revamp</li>
+        <li>⚡ New rare staff found from Wizard Boss will be added tonight</li>
+        <li>🏔️ Buffalkor Island revamp</li>
+        <li>⛰️ Added Slate and Marble rocks to Buffalkor Island</li>
+        <li>🪨 Added Slate and Marble blocks, slabs, and stairs (with slate brick and marble pillar too!)</li>
+        <li>🗺️ Spawn Location Block can be purchased from the Mechanic</li>
+        <li>🌲 Auto Tree Cutter (workbench lvl 3)</li>
+        <li>🏭 Steam Generator (turns coal into electricity through conveyors for constant power source)</li>
+        <li>🌧️ Rain! (& even more rain in spring!)</li>
+        <li>🐸 Frogs now spawn on your island during rainy days</li>
+        <li>🐸 You can catch frogs using your net</li>
+        <li>🐸 Three frog tiers: green, brown, yellow (yellow is the rarest!)</li>
+        <li>🌽 New Sickle tools to harvest crops faster</li>
+        <li>🍉 Watermelon crop</li>
+        <li>🧑‍🌾 Small chance that Cletus will visit your island during the Summer to sell Watermelon seeds</li>
+        <li>🌹 Added rose flowers!</li>
+        <li>💪 Fulco will visit your island in the summer to sell red and blue fertile roses</li>
+        <li>❄️ Small chance of a winter appearance from Fulco selling white fertile roses</li>
+        <li>🍁 Breed pink & purple roses</li>
+        <li>🎵 Brand new background music! The new tracks are exclusive to Islands, so feel free to use in videos!</li>
+        <li>🧱 Red Sandstone slabs & stairs</li>
+        <li>🧱 Aquamarine slabs & stairs</li>
+        <li>🛡️ Enabled a new anti-cheat system to start disabling cheaters</li>
+        <li>☁️ Improved the ambient wind effect</li>
+        <li>⚡ Fixed the XOR electrical logic block</li>
+        <li>🐮 You can now place wheat in metal troughs</li>
+        <li>🚶‍♂️ You now are prompted before asking a villager to leave your Island (no more mis-clicks)</li>
+        <li>☁️ Added bedrock to starter island & aligned portal with starting spawn point</li>
+        <li>🍞 Fixed bug with pricing of hot items sold to the baker</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>April 5, 2021</h3>
+    <p><strong>The Static Scepter weapon can now be found as a rare drop by defeating the Wizard Boss. @everyone</strong></p>
+    <ul>
+        <li>🏪 Vending Machines will only render UI when nearby (this should help with lag on malls)</li>
+        <li>📱 Mobile Interact UI range has been reduced</li>
+        <li>✨ Magic XP skill perk now gives scaling bonus damage</li>
+        <li>👨‍🌾 Added descriptions to the sickle tools</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>April 8, 2021</h3>
+    <p><strong>Working on something... 🌊</strong></p>
+    <p><a href="https://twitter.com/RobloxIslands/status/1380209335771389955?s=20" target="_blank">Source</a></p>
+</div>
+<div class="update-entry">
+    <h3>April 10, 2021</h3>
+    <p><strong>Islands was created one year ago! Thank you for all the support along the way 🥰❤</strong></p>
+    <p>Visit your island to receive a special anniversary gift from Taliyah!</p>
+    <p><a href="https://twitter.com/RobloxIslands/status/1380923386516234248?s=20" target="_blank">Source</a></p>
+</div>
+<div class="update-entry">
+    <h3>April 16, 2021</h3>
+    <p><strong>We just shipped a new content update! @everyone</strong></p>
+    <p><strong>Totem Upgrades</strong></p>
+    <ul>
+        <li>You can now use coins and resources to upgrade your totems! Upgrading will improve your stats and unlock special perks. Each totem has over 150 possible upgrades.</li>
+        <li><strong>Totem Upgrade Types:</strong></li>
+        <ul>
+            <li>🪙 Quality</li>
+            <li>🚂 Efficiency</li>
+            <li>🛠️ Utility</li>
+        </ul>
+        <li>Your totems will visually update as they level up.</li>
+    </ul>
+    <p><strong>Other Changes:</strong></p>
+    <ul>
+        <li>🪙 Increased coin limit to $1.5B</li>
+        <li>☁️ Improved clouds</li>
+        <li>🌳 Hickory wood is now sellable</li>
+        <li>⚡ Bug fixes and performance boosts</li>
+    </ul>
+    <p>btw, water is coming soon 😌</p>
+</div>
+<div class="update-entry">
+    <h3>April 17, 2021</h3>
+    <p><strong>⚙️ Totem collisions & animals not sleeping have been fixed on new servers.</strong></p>
+</div>
+<div class="update-entry">
+    <h3>April 24, 2021</h3>
+    <p><strong>New content update is live! @everyone</strong></p>
+    <ul>
+        <li>🦌 Added Bhaa, the Desert Boss</li>
+        <li>🏜️ The Desert Nomads have furthered progress on Azarath, the Desert City</li>
+        <li>🐷 Added the "Piggy Bank" animal skin to the shop</li>
+        <li>🟥 Added Rubies (found from defeating Bhaa)</li>
+        <li>🟥 Added Ruby Blocks</li>
+        <li>🪨 Added Sandstone (rocks + blocks + bricks)</li>
+        <li>🪨 Improved the red sandstone rock model</li>
+        <li>⚔️ Added Ruby Staff (damaging enemies will heal a nearby ally)</li>
+        <li>⬇️ Reduced the damage on Kong's Axe and Godzilla's Staff</li>
+        <li>🎵 Added new Desert Island background music</li>
+        <li>🔨 Fixed a bug that caused tools to "double drop"</li>
+        <li>🔨 Fixed an issue that prevented island visitors from using the portal to hub</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>May 8, 2021</h3>
+    <p><strong>New update is live! @everyone</strong></p>
+    <ul>
+        <li>💧 Water<br>Water is finally here! Craft empty buckets, fill them up in the Hub lake and place the water on your island. This was a complex system to add into Roblox -- please report any bugs and we'll try to get them fixed ASAP. We will be improving water over time with features like fishing, item floating physics and more!</li>
+        <li>🎌 Banner Gamepass<br>With the new Banner Gamepass you can craft over a dozen beautiful banners for your island. Each banner can either be placed on the floor or hung on a wall. There are also 4 free banners that everyone can purchase with coins from John, the Blocks Villager.</li>
+        <li>🎨 Texture Improvements<br>We improved a ton of the block textures to be more consistent with the rest of the game. Here's the full list of changed textures:
+            <ul>
+                <li>Wood planks (all variants)</li>
+                <li>Colored + regular glass (now with proper see-through support)</li>
+                <li>Slate bricks</li>
+                <li>Diamond block</li>
+                <li>Gold block</li>
+                <li>Iron block</li>
+                <li>Stone brick</li>
+                <li>Mossy stone brick</li>
+                <li>Bricks</li>
+                <li>Sandstone</li>
+                <li>Sandstone brick</li>
+                <li>Red sandstone brick</li>
+                <li>Aquamarine</li>
+                <li>Aquamarine brick</li>
+            </ul>
+        </li>
+        <li>📔 Other Changes
+            <ul>
+                <li>Added sideways logs</li>
+                <li>Added sideways pillars</li>
+                <li>Blocks no longer rotate by default. This lets the blocks tile much better. You can force a rotation while placing with the "R" keybind.</li>
+                <li>Fixed texture tiling on stairs & slabs</li>
+                <li>Added marble brick (plus stairs & slabs)</li>
+                <li>The desert city of Azarath has continued to expand</li>
+                <li>Fixed the in-hand totem model</li>
+                <li>Added the paintings from our community event</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>May 21, 2021</h3>
+    <p><strong>New update is live! @everyone</strong></p>
+    <p><strong>New Game Announcement!</strong><br>We've been secretly working on a huge new game over the past two months. The game is powered by the same code behind Islands, which means we can work on both games at the same time! Players should expect no slowdown in the Islands update schedule either. We are committed to regular, long-term updates on any game we produce. The game will release on Friday (5/28) @ 11:00am PST. A countdown has appeared in the Islands hub to celebrate the release.</p>
+    <h4>Changelog</h4>
+    <ul>
+        <li>📬 Added mailboxes!<br>Use mailboxes to send letters to friends.</li>
+        <li>🫒 Added totems for seasonal crops (pumpkin, watermelon, radish).</li>
+        <li>🪨 Added totems for special rocks (slate, marble).</li>
+        <li>📖 Added info booklets (left sidebar) to learn about the game.</li>
+        <li>🌴 Allow placing palm trees on sand.</li>
+        <li>🌾 Fixed bug causing sickle to not work on mobile.</li>
+        <li>🏡 Fixed "Go Home" button disappearing when killed.</li>
+        <li>✨ Fixed bug causing colored fireflies to stop spawning.</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>May 21, 2021</h3>
+    <p><strong>Restarting servers to fix a few issues. Rejoin the game if you run into bugs!</strong></p>
+</div>
+<div class="update-entry">
+    <h3>May 22, 2021</h3>
+    <p><strong>Deployed some mailbox fixes for mobile. Rejoin the game to get the update.</strong></p>
+</div>
+<div class="update-entry">
+    <h3>May 24, 2021</h3>
+    <p><strong>Pushed out a patch allowing mobile users to swim up in water (& allow people with large inboxes to view all their mail).</strong></p>
+</div>
+<div class="update-entry">
+    <h3>May 28, 2021</h3>
+    <p><strong>New game is releasing in 1 hour and 30 minutes! 🏹</strong></p>
+</div>
+<div class="update-entry">
+    <h3>May 28, 2021</h3>
+    <p><strong>The BedWars public beta is live! Come check it out! @everyone</strong></p>
+    <p>Game link: <a href="https://www.roblox.com/games/6872265039">https://www.roblox.com/games/6872265039</a></p>
+</div>
+<div class="update-entry">
+    <h3>June 2, 2021</h3>
+    <p><strong>Restarted to fix trophy-giving exploit!</strong></p>
+</div>
+<div class="update-entry">
+    <h3>June 4, 2021</h3>
+    <p><strong>A new update is live! @everyone</strong></p>
+    <ul>
+        <li>🐇 Added Rabbits!</li>
+        <li>🐰 Rabbits will naturally spawn on your island during rainy days in the Winter (we'll make those snowy days soon)</li>
+        <li>🐰 Added Rabbit Cages</li>
+        <li>🧑‍🌾 Added Dom, the farming wholesaler. Talk to him to sell crops in bulk.</li>
+        <li>📦 Added Crop Crates (1 crate = 100 crops)</li>
+        <li>🏭 Added Crate Packer industrial item</li>
+        <li>✨ Added Polishing Station. This item lets you turn some blocks into "smooth" variants</li>
+        <li>🏭 Added Industrial Polishing Station</li>
+        <li>🏜️ Smooth Sandstone (with stairs & slab variants)</li>
+        <li>🏜️ Smooth Sandstone Brick (with stairs & slab variants)</li>
+        <li>🧱 Smooth Red Sandstone (with stairs & slab variants)</li>
+        <li>🧱 Smooth Red Sandstone Brick (with stairs & slab variants)</li>
+        <li>🌊 Smooth Aquamarine (with stairs & slab variants)</li>
+        <li>🌊 Smooth Aquamarine Brick (with stairs & slab variants)</li>
+        <li>🛠️ Fixed the "cast" fishing rod button placement on mobile</li>
+    </ul>
+</div>
+<div class="update-entry">
+    <h3>June 30, 2021</h3>
+    <p><strong>A new update is live! @everyone</strong></p>
+    <ul>
+        <li>✨ Added Spirit Island (Accessed from Slime Island)</li>
+        <li>🧙‍♀️ Added Catherine, the Spirit Merchant</li>
+        <li>🪑 Added Spirit Furniture</li>
+        <li>🎄 Added Spirit Tree</li>
+        <li>🐟 Added Spirit Fish</li>
+        <li>🪵 Added Spirit Wood & Planks</li>
+        <li>👻 Added Wild Spirits</li>
+        <li>🌬️ Shifted wind trails up above your head</li>
+    </ul>
+    <p>Stock up on your spirits -- Catherine will be selling a new crop tomorrow!</p>
+</div>
+
+<div class="update-entry">
+    <h3>July 1, 2021</h3>
+    <p><strong>🛠️ Rolling out bug fixes for issues with bees, quest UIs, and also capturing spirits & other mobs on private servers. New crop coming later today! 🧑‍🌾</strong></p>
+</div>
+<div class="update-entry">
+    <h3>July 1, 2021</h3>
+    <p><strong>Rolling out the Spirit Crop!</strong></p>
+    <ul>
+        <li>Buy spirit crop seeds from the Spirit Merchant</li>
+        <li>Craft coloured neon blocks with spirit crystals</li>
+        <li>Experience is now shared on all mobs (not just bosses)</li>
+        <li>Boss health slightly scales with the number of nearby players</li>
+        <li>New death animation to fix previous issues</li>
+    </ul>
+</div>
+
+<div class="update-entry">
+    <h3>July 2, 2021</h3>
+    <p><strong>New event!</strong></p>
+    <ul>
+        <li>Patrick Star and his family have appeared in Islands</li>
+        <li>Visit Patrick in the Hub to complete quests and unlock limited edition items</li>
+        <li>Link to the game: <a href="https://www.roblox.com/games/4872321990">Islands</a></li>
+    </ul>
+</div>
+
+<div class="update-entry">
+    <h3>July 9, 2021</h3>
+    <p><strong>A new update is live!</strong></p>
+    <ul>
+        <li>Added Instrument Workbench</li>
+        <li>Added Melody the Musician with free instruments</li>
+        <li>Slime visual rework & XP buffs</li>
+        <li>Added stone & iron swords, and updated wooden sword</li>
+        <li>Health bars added to all enemies</li>
+        <li>Updated health bar UI</li>
+        <li>Various other bug fixes</li>
+    </ul>
+</div>
+
+<div class="update-entry">
+    <h3>July 10, 2021</h3>
+    <p><strong>Bug fixes!</strong></p>
+    <ul>
+        <li>Slimes jumping too high fixed</li>
+        <li>Bosses despawning randomly fixed</li>
+        <li>Boss summon UI fix</li>
+    </ul>
+</div>
+
+<div class="update-entry">
+    <h3>July 17, 2021</h3>
+    <p><strong>Pirate Island has arrived!</strong></p>
+    <ul>
+        <li>Added Treasure Maps</li>
+        <li>Added 6 new pirate villagers</li>
+        <li>Added new enemies, including Angry Crabs and Sharks</li>
+        <li>Added Obsidian Blocks, Greatsword, and more</li>
+        <li>Introduced new crops like Kiwi Trees</li>
+        <li>New pirate-themed furniture</li>
+        <li>Improved combat mechanics for magic weapons</li>
+        <li>Various bug fixes</li>
+    </ul>
+    <p>Play now: <a href="https://www.roblox.com/games/4872321990">Islands</a></p>
+</div>
+
+<div class="update-entry">
+    <h3>July 20, 2021</h3>
+    <p><strong>Server maintenance updates</strong></p>
+    <ul>
+        <li>Shut down for backend updates</li>
+        <li>Returned after resolving bugs</li>
+        <li>Shut down again for additional fixes</li>
+    </ul>
+</div>
+
+<div class="update-entry">
+    <h3>July 23, 2021</h3>
+    <p><strong>A new update is live!</strong></p>
+    <ul>
+        <li>Save Slots introduced for replaying the game</li>
+        <li>New slime blocks and passive health regeneration</li>
+        <li>Knockback reduced on slimes</li>
+        <li>Automatic tree sapling replanting</li>
+        <li>Various crafting and level adjustments</li>
+        <li>Performance improvements for hub servers</li>
+        <li>XP drop increase from oak trees</li>
+    </ul>
+    <p>We've got a big update coming next week for factory folk and farming fanatics!</p>
+    <p>Play now: <a href="https://www.roblox.com/games/4872321990">Islands</a></p>
+</div>
+
+<div class="update-entry">
+    <h3>July 30, 2021</h3>
+    <p><strong>Farmer Cletus' Farming Festival is now live!</strong></p>
+    <ul>
+        <li>Help Farmer Cletus harvest this year's crops</li>
+        <li>Earn rewards for participating</li>
+        <li>Big factory update coming next week!</li>
+    </ul>
+    <p>Play now: <a href="https://www.roblox.com/games/4872321990">Islands</a></p>
+</div>
+
+<div class="update-entry">
+    <h3>August 4, 2021</h3>
+    <p><strong>Work on the next update is underway</strong></p>
+    <ul>
+        <li>Factory update coming soon</li>
+    </ul>
+    <p>Stay tuned!</p>
+</div>
+
+<div class="update-entry">
+    <h3>August 8, 2021</h3>
+    <p><strong>Co-Op Islands are here!</strong></p>
+    <ul>
+        <li>Create a co-op island and invite up to 7 friends</li>
+        <li>Re-release of the farming festival soon for those who missed out on some items</li>
+    </ul>
+    <p>Play now: <a href="https://www.roblox.com/games/4872321990">Islands</a></p>
+</div>
+
+<div class="update-entry">
+    <h3>August 15, 2021</h3>
+    <p><strong>The factory update is live!</strong></p>
+    <ul>
+        <li>Added Workbench Tier 4</li>
+        <li>New machines and tools like Pumpjack, Oil Refinery, and more</li>
+        <li>Introducing Doug the Oil Baron</li>
+        <li>Fruit Tree Shaker and new crate packer</li>
+        <li>Various bug fixes</li>
+    </ul>
+    <p>Play now: <a href="https://www.roblox.com/games/4872321990">Islands</a></p>
+</div>
+
+<div class="update-entry">
+    <h3>August 16, 2021</h3>
+    <p><strong>Bug fixes are rolling out!</strong></p>
+    <ul>
+        <li>Liquid machines won't overfill anymore</li>
+        <li>Sapling planter issue fixed</li>
+        <li>Petroleum petrifier output fix</li>
+    </ul>
+    <p>More bug fixes coming soon!</p>
+</div>
+
+<div class="update-entry">
+    <h3>August 16, 2021</h3>
+    <p><strong>Game back online after Roblox issues</strong></p>
+    <ul>
+        <li>Private game downtime resolved due to Roblox's internal issue</li>
+    </ul>
+</div>
+
+<div class="update-entry">
+    <h3>August 16, 2021</h3>
+    <p><strong>Doug's shop is now open!</strong></p>
+    <ul>
+        <li>Purchase an oil deposit deed or sell barrels of fuel</li>
+        <li>Fixed issue with placing signs on walls</li>
+        <li>Various bug fixes</li>
+    </ul>
+</div>
+
+      
+        <div class="update-entry">
+            <h3>August 21, 2021</h3>
+            <h4>Vending Machine Tier 2 Update</h4>
+            <p>Details not provided in source text, likely introduced Tier 2 vending machines.</p>
+        </div>
+        <div class="update-entry">
+            <h3>August 28, 2021</h3>
+            <h4>Trading Update</h4>
+            <p>Details not provided in source text, likely updates or enhancements to the player trading system.</p>
+        </div>
+        <div class="update-entry">
+            <h3>September 5, 2021</h3>
+            <h4>Mysterious Portal Update</h4>
+            <p>Details not provided in source text, likely introduced a mysterious portal leading to new content.</p>
+        </div>
+        <div class="update-entry">
+            <h3>September 11, 2021</h3>
+            <h4>Underworld Update</h4>
+            <p>Details not provided in source text, likely introduced the Underworld island/dimension.</p>
+        </div>
+        <div class="update-entry">
+            <h3>September 18, 2021</h3>
+            <h4>Lava & Boss Pets Update</h4>
+            <p>Details not provided in source text, likely introduced lava mechanics and pets obtainable from bosses.</p>
+        </div>
+        <div class="update-entry">
+            <h3>September 25, 2021</h3>
+            <h4>Farming Festival Update</h4>
+            <p>Details not provided in source text, likely a continuation or second part of the Farming Festival.</p>
+        </div>
+        <div class="update-entry">
+            <h3>October 9, 2021</h3>
+            <h4>Teleseller Update</h4>
+            <p>Details not provided in source text, likely introduced the Teleseller NPC/feature.</p>
+        </div>
+        <div class="update-entry">
+            <h3>October 18, 2021</h3>
+            <h4>Halloween 2021 Update</h4>
+            <p>Details not provided in source text, likely the second Halloween event.</p>
+        </div>
+        <div class="update-entry">
+            <h3>November 13, 2021</h3>
+            <h4>Sushi Update</h4>
+            <p>Details not provided in source text, likely introduced sushi crafting/items.</p>
+        </div>
+        <div class="update-entry">
+            <h3>November 27, 2021</h3>
+            <h4>Maple Isles Update</h4>
+            <p>Details not provided in source text, likely introduced the Maple Isles area.</p>
+        </div>
+        <div class="update-entry">
+            <h3>December 10, 2021</h3>
+            <h4>Trapdoor Update</h4>
+            <p>Details not provided in source text, likely introduced trapdoors.</p>
+        </div>
+        <div class="update-entry">
+            <h3>December 18, 2021</h3>
+            <h4>Christmas 2021 Update</h4>
+            <p>Details not provided in source text, likely the second Christmas event.</p>
+        </div>
+        <div class="update-entry">
+            <h3>December 29, 2021</h3>
+            <h4>Christmas Furniture Update</h4>
+            <p>Details not provided in source text, likely added more Christmas-themed furniture.</p>
+        </div>
+
+        <h2>2022</h2>
+        <div class="update-entry">
+            <h3>January 8, 2022</h3>
+            <h4>Pineapple Update</h4>
+            <p>Details not provided in source text, likely introduced pineapples.</p>
+        </div>
+        <div class="update-entry">
+            <h3>January 15, 2022</h3>
+            <h4>Art Museum Update</h4>
+            <p>Details not provided in source text, likely added an art museum feature or location.</p>
+        </div>
+        <div class="update-entry">
+            <h3>January 30, 2022</h3>
+            <h4>Lunar New Year 2022 Update</h4>
+            <p>Details not provided in source text, likely the first Lunar New Year event.</p>
+        </div>
+        <div class="update-entry">
+            <h3>February 7, 2022</h3>
+            <h4>Lunar Food Update</h4>
+            <p>Details not provided in source text, likely added more food items related to the Lunar New Year event.</p>
+        </div>
+        <div class="update-entry">
+            <h3>February 19, 2022</h3>
+            <h4>Duck Update</h4>
+            <p>Details not provided in source text, likely introduced ducks.</p>
+        </div>
+        <div class="update-entry">
+            <h3>February 27, 2022</h3>
+            <h4>Dragon Fruit Update</h4>
+            <p>Details not provided in source text, likely introduced dragon fruit.</p>
+        </div>
+         <div class="update-entry">
+            <h3>March 6, 2022</h3>
+            <h4>(No Title Provided)</h4>
+            <p>Details not provided in source text.</p>
+        </div>
+        <div class="update-entry">
+            <h3>March 12, 2022</h3>
+            <h4>Medieval Furniture Update</h4>
+            <p>Details not provided in source text, likely added medieval-themed furniture.</p>
+        </div>
+        <div class="update-entry">
+            <h3>March 25, 2022</h3>
+            <h4>Yak Update</h4>
+            <p>Details not provided in source text, likely introduced yaks.</p>
+        </div>
+         <div class="update-entry">
+            <h3>April 1, 2022</h3>
+            <h4>(No Title Provided)</h4>
+            <p>Details not provided in source text.</p>
+        </div>
+        <div class="update-entry">
+            <h3>April 9, 2022</h3>
+            <h4>Second Anniversary Update</h4>
+            <p>Details not provided in source text, likely celebrated the game's second anniversary.</p>
+        </div>
+        <div class="update-entry">
+            <h3>April 16, 2022</h3>
+            <h4>Personal Orbs Update</h4>
+            <p>Details not provided in source text, likely introduced personal teleport orbs.</p>
+        </div>
+        <div class="update-entry">
+            <h3>April 22, 2022</h3>
+            <h4>Infernal Hammer Update</h4>
+            <p>Details not provided in source text, likely introduced the Infernal Hammer weapon.</p>
+        </div>
+        <div class="update-entry">
+            <h3>April 29, 2022</h3>
+            <h4>Baby Buffalkor Pet Update</h4>
+            <p>Details not provided in source text, likely added a baby Buffalkor pet.</p>
+        </div>
+        <div class="update-entry">
+            <h3>May 13, 2022</h3>
+            <h4>Fishing Update</h4>
+            <p>Details not provided in source text, likely updates or enhancements to the fishing system.</p>
+        </div>
+        <div class="update-entry">
+            <h3>May 20, 2022</h3>
+            <h4>(No Title Provided)</h4>
+            <p>Details not provided in source text.</p>
+        </div>
+         <div class="update-entry">
+            <h3>May 27, 2022</h3>
+            <h4>(No Title Provided)</h4>
+            <p>Details not provided in source text.</p>
+        </div>
+        <div class="update-entry">
+            <h3>June 3, 2022</h3>
+            <h4>Horse Update</h4>
+            <p>Details not provided in source text, likely introduced horses.</p>
+        </div>
+        <div class="update-entry">
+            <h3>June 10, 2022</h3>
+            <h4>Spirit Spellbook Update</h4>
+            <p>Details not provided in source text, likely introduced the Spirit Spellbook weapon.</p>
+        </div>
+        <div class="update-entry">
+            <h3>June 18, 2022</h3>
+            <h4>Rock Mimic Update</h4>
+            <p>Details not provided in source text, likely introduced Rock Mimic mobs.</p>
+        </div>
+        <div class="update-entry">
+            <h3>June 25, 2022</h3>
+            <h4>Ruby Sword Update</h4>
+            <p>Details not provided in source text, likely introduced the Ruby Sword weapon.</p>
+        </div>
+        <div class="update-entry">
+            <h3>July 2, 2022</h3>
+            <h4>Slime Queen Update</h4>
+            <p>Details not provided in source text, likely introduced the Slime Queen boss.</p>
+        </div>
+        <div class="update-entry">
+            <h3>July 9, 2022</h3>
+            <h4>Chrysanthemum Update</h4>
+            <p>Details not provided in source text, likely introduced Chrysanthemum flowers.</p>
+        </div>
+        <div class="update-entry">
+            <h3>July 16, 2022</h3>
+            <h4>Spirit Furniture Update</h4>
+            <p>Details not provided in source text, likely added spirit-themed furniture.</p>
+        </div>
+        <div class="update-entry">
+            <h3>July 23, 2022</h3>
+            <h4>Fishing Festival Update</h4>
+            <p>Details not provided in source text, likely the second Fishing Festival event.</p>
+        </div>
+        <div class="update-entry">
+            <h3>July 30, 2022</h3>
+            <h4>New Crates Update</h4>
+            <p>Details not provided in source text, likely introduced new types of loot crates.</p>
+        </div>
+        <div class="update-entry">
+            <h3>August 6, 2022</h3>
+            <h4>New Totems Update</h4>
+            <p>Details not provided in source text, likely introduced new types of totems.</p>
+        </div>
+        <div class="update-entry">
+            <h3>August 13, 2022</h3>
+            <h4>Void Isles Update</h4>
+            <p>Details not provided in source text, likely introduced the Void Isles area.</p>
+        </div>
+        <div class="update-entry">
+            <h3>August 20, 2022</h3>
+            <h4>Void Isles Update II</h4>
+            <p>Details not provided in source text, likely further additions to the Void Isles.</p>
+        </div>
+         <div class="update-entry">
+            <h3>August 27, 2022</h3>
+             <h4>(No Title Provided)</h4>
+            <p>Details not provided in source text.</p>
+        </div>
+        <div class="update-entry">
+            <h3>September 3, 2022</h3>
+            <h4>Butterfly Festival Update</h4>
+            <p>Details not provided in source text, likely introduced the Butterfly Festival event.</p>
+        </div>
+        <div class="update-entry">
+            <h3>September 10, 2022</h3>
+            <h4>Butterfly Furniture Update</h4>
+            <p>Details not provided in source text, likely added butterfly-themed furniture.</p>
+        </div>
+        <div class="update-entry">
+            <h3>September 17, 2022</h3>
+            <h4>Combat Update Part I</h4>
+            <p>Details not provided in source text, likely the first part of a major combat system rework.</p>
+        </div>
+        <div class="update-entry">
+            <h3>September 24, 2022</h3>
+            <h4>Combat Update Part II</h4>
+            <p>Details not provided in source text, likely the second part of the combat system rework.</p>
+        </div>
+        <div class="update-entry">
+            <h3>October 1, 2022</h3>
+            <h4>Weapon Remodel Update</h4>
+            <p>Details not provided in source text, likely involved remodeling existing weapons.</p>
+        </div>
+        <div class="update-entry hotfix">
+            <h3>October 2, 2022</h3>
+            <h4>Hotfix</h4>
+            <p>Removed collision on weapons causing them to disappear from inventory.</p>
+        </div>
+        <div class="update-entry">
+            <h3>October 8, 2022</h3>
+            <h4>Magic Status Effects Update</h4>
+            <p>Continuing combat rework, introduced magic status effects:</p>
+            <ul>
+                <li><strong>Inferno Effect:</strong> Burn Damage (DoT, Stackable). Enemy surrounded with flames.</li>
+                <li><strong>Hydro Effect:</strong> AoE Damage. Upward water torrent damages nearby enemies.</li>
+                <li><strong>Storm Effect:</strong> Shock Damage (AoE DoT, Stackable). Enemy surrounded with lightning.</li>
+                <li><strong>Quake Effect:</strong> Slowness (50% speed reduction). Dust particles surround enemy.</li>
+                <li><strong>Ethereal Effect:</strong> Healing (HoT buff for nearby players). Green essence surrounds healer.</li>
+                <li><strong>Void Effect:</strong> Weakened (Enemy damage reduction, Stackable). Purple gas surrounds enemy.</li>
+            </ul>
+            <div class="misc-changes">
+                <strong>Misc Changes:</strong>
+                <ul>
+                    <li>Fixed bee hives not spawning new increased bee cap.</li>
+                    <li>Increased bee cap size from 10 → 12.</li>
+                    <li>Increased beehive cap size from 2 → 4.</li>
+                    <li>Vending machines display "$" instead of "coins" for readability.</li>
+                    <li>Fixed Captain’s Rapier displaying in inventory and on weapon stands.</li>
+                    <li>Auctions now properly return correct lost bids.</li>
+                    <li>Removed healing from non-ethereal weapons: Ruby Staff and Spirit Spellbook.</li>
+                </ul>
+            </div>
+            <p class="crop-news">Crop Market News: Starfruit prices have risen! (60 → 67). Onion prices have dropped! (30 → 25). Farmer Cletus was recently heard whispering about lemon prices…</p>
+        </div>
+         <div class="update-entry hotfix">
+            <h3>October 10, 2022</h3>
+            <h4>Tradable Items Update</h4>
+            <p>The following items were made tradable:</p>
+            <ul>
+                <li>Butterfly Festival 2022 Trophy</li>
+                <li>Butterfly Couch</li>
+                <li>Butterfly Lamp</li>
+                <li>Small Bush Pot</li>
+                <li>Medium Bush Pot</li>
+                <li>Tall Bush Pot</li>
+                <li>Frog Topiary Pot</li>
+                <li>Rabbit Topiary Pot</li>
+                <li>Frog Fountain</li>
+                <li>Gazebos</li>
+                <li>Pink/Purple Plush Butterfly Couch</li>
+                <li>Red/White/Cyan Flower Chair</li>
+                <li>Ladybug/Bee Ottoman</li>
+                <li>Golden Net</li>
+                <li>Red/Green/Silver Butterfly Lanterns</li>
+            </ul>
+        </div>
+        <div class="update-entry">
+            <h3>October 15, 2022</h3>
+            <h4>Halloween Event Update</h4>
+            <p>Start of the 3-week Halloween Event (October 15 - November 5).</p>
+            <ul>
+                <li><strong>New Boss:</strong> Zombie Cletus. Found in Hub graveyard, summoned with tokens obtained from Ember Skulls and quests.</li>
+                <li><strong>New Critter:</strong> Ember Skulls. Caught with nets near trees on player islands at night. Drop Halloween tokens.</li>
+                <li><strong>New Limited Weapons:</strong> The Reaper’s Scythe and Reaper’s Crossbow. Crossbow bolts craftable via anvil or bought from Halloween merchant.</li>
+                <li><strong>New Mount System (Initial Step):</strong>
+                    <ul>
+                        <li>Complete quests "The Wicked Witch" (limited) and "Sweep The Floor".</li>
+                        <li>Select mount via left sidebar, use button next to backpack to ride.</li>
+                        <li>Mount/dismount anytime. Taking damage auto-dismounts and applies a 5-second cooldown.</li>
+                    </ul>
+                 </li>
+                <li><strong>New Heavy Melee Starter Weapons:</strong> Wooden Mallet and Granite Hammer (craftable).</li>
+                <li><strong>New Blocks:</strong> Checker, Caution, Haybale blocks purchasable from block merchant. Checker/Caution stairs/slabs craftable on workbench.</li>
+                <li><strong>Limited Drop:</strong> Red Cauldron. Obtained as drop, contains items like Halloween 2022 Trophy, Reaper’s Scythe, Reaper’s Crossbow, etc.</li>
+                <li><strong>New Merchant:</strong> Halloween Merchant Kontos. Sells cauldrons, coffins, chalices, etc.</li>
+                <li><strong>Trade-locking:</strong> Halloween 2022 Trophy, Reaper’s Scythe and Crossbow are trade-locked during the event (tradable after Nov 5).</li>
+            </ul>
+             <p class="note">To clear confusion: Break placed cauldrons containing trade-locked items (Scythe, Crossbow, Trophy) to receive them, as they cannot be picked up normally during the event.</p>
+            <p class="crop-news">Crop Market News: Lemon prices have risen! (20 → 26). Kiwi prices have dropped! (24 → 20). Farmer Cletus was recently heard whispering about cactus prices…</p>
+        </div>
+        <div class="update-entry hotfix">
+            <h3>October 16, 2022</h3>
+            <h4>Hotfix</h4>
+            <ul>
+                <li>Removed cooldown on mounts when taking damage (can remount instantly after being dismounted).</li>
+                <li>Lowered drop rate for new weapons and trophy from Red Cauldrons.</li>
+                <li>Buffed Zombie Cletus damage and health.</li>
+                <li>Nerfed Slime Queen health and damage.</li>
+                <li>Increased drop chance for Slime Queen Pet.</li>
+                <li>Reduced size of Reaper's Scythe (possible ragdoll collision issue).</li>
+                <li>Removed assets off the side of the hub.</li>
+            </ul>
+        </div>
+         <div class="update-entry hotfix">
+            <h3>October 18, 2022</h3>
+            <h4>Hotfix</h4>
+            <ul>
+                <li>Item drops + quest completion from killing bosses/mobs should now always happen as long as the player is in range.</li>
+                <li>Projectiles (arrows, spells) should now be able to shoot through smoke effects like Cletus' poison fog or void fog.</li>
+            </ul>
+        </div>
+        <div class="update-entry">
+            <h3>October 22, 2022</h3>
+            <h4>Halloween Event Update II</h4>
+            <p>Second week of the Halloween event.</p>
+            <ul>
+                <li><strong>New Pet:</strong> Spider Egg. Obtainable from Red Cauldrons or as a rare drop from Zombie Cletus during the event.</li>
+                <li><strong>New Mob:</strong> Spider Candle. Roams the graveyard, defeat for additional tokens. Needed for quests. Zombie Cletus can summon them.</li>
+                <li><strong>QoL Arrow Changes:</strong> Aiming to make archery more viable.
+                    <ul>
+                        <li>Arrows and bolts can now be bought from the Adventurer NPC for coins.</li>
+                        <li>Arrows/bolts have a chance to not break on hit, refunding the ammo.</li>
+                        <li>Any arrows or bolts that don’t damage enemies will not break & will be refunded.</li>
+                    </ul>
+                </li>
+                <li><strong>Additional QoL Changes:</strong>
+                    <ul>
+                        <li>Added a hotkey for the new mount system for PC players (C key).</li>
+                        <li>Updated all UI sounds.</li>
+                        <li>Added indicators for opened and unopened cauldrons.</li>
+                        <li>Added seats to lying coffin decorations.</li>
+                        <li>Added 2 scarecrow variants to the Halloween Merchant.</li>
+                        <li>Breaking blocks below ghosts now allows them to float.</li>
+                        <li>Reduced tokens received from Ember Skulls.</li>
+                    </ul>
+                </li>
+                 <div class="bug-fixes">
+                     <strong>Bug Fixes:</strong>
+                     <ul>
+                        <li>Fixed rare fishes not showing up in fishing spots.</li>
+                        <li>Fixed bug where players could get trade locked blocks while not being an island owner.</li>
+                        <li>Fixed teleporting to Fhanhorn by jumping into the void bug.</li>
+                        <li>Fixed infinite damage exploit from earlier in the week.</li>
+                        <li>Fixed new starter heavy weapons not swinging properly.</li>
+                        <li>Fixed an issue where mobs wouldn’t drop items on death.</li>
+                        <li>Fixed questline not completing for defeating mobs.</li>
+                        <li>Fixed broken animations when using new mount with weapons.</li>
+                        <li>Fixed collisions on butterfly arches, skull gates, and fire chalices.</li>
+                     </ul>
+                 </div>
+            </ul>
+             <p class="note">Breaking cauldrons containing trade-locked items will no longer give items to players with build permissions (only island owners). This prevents scamming.</p>
+            <p class="crop-news">Crop Market News: Cactus prices have risen! (30 → 35). Plum prices have dropped! (50 → 46). Farmer Cletus was recently heard whispering about avocado prices…</p>
+        </div>
+        <div class="update-entry hotfix">
+            <h3>October 24, 2022</h3>
+            <h4>Trade-Locked Item Changes</h4>
+             <ul>
+                <li>Trade locked items from cauldrons can now be looted by the island owner (no need to break the cauldron).</li>
+                <li>Trade locked items can now be stored in chests. (Note: Chests with trade locked items cannot be broken by players who aren't island owners, items marked with a red padlock for non-owners).</li>
+                <li>Fixed bug where certain trade-locked items could be obtained through the trash can exploit.</li>
+            </ul>
+        </div>
+         <div class="update-entry">
+            <h3>October 28, 2022</h3>
+            <h4>Disco Update</h4>
+            <ul>
+                <li><strong>New Disco Prop Decor</strong> (Craftable at Furniture & Electrical Workbench):
+                    <ul>
+                        <li>Disco Ball (Ruby, Gold, and Diamond variants)</li>
+                        <li>Disco Dance Floor Tiles (Multi-colored)</li>
+                        <li>Lounge Chairs (White, Red, Blue, Pink)</li>
+                        <li>Table Top & Table Top Chair (White, Red, Blue, Pink)</li>
+                        <li>Short Table Top</li>
+                        <li>Guitar Wall Decor (Green, Red, Blue, Pink)</li>
+                        <li>Speaker System</li>
+                    </ul>
+                </li>
+                <li><strong>Owner and Builder Icons:</strong>
+                    <ul>
+                        <li>Island owners now have a crown icon above their head.</li>
+                        <li>Players with build permissions display a green build icon above their head. (Toggleable)</li>
+                    </ul>
+                </li>
+                 <div class="qol-changes">
+                     <strong>QoL Changes:</strong>
+                     <ul>
+                         <li>Boss summoning popup improvements: Now shows if summon is free or requires an item cost.</li>
+                     </ul>
+                 </div>
+                 <div class="misc-changes">
+                     <strong>Misc Changes:</strong>
+                     <ul>
+                        <li>Fixed not being able to place blocks around Small Fire Chalice.</li>
+                        <li>Fixed chest/trash trading glitch.</li>
+                        <li>Fixed owners not able to loot tradelocked items from cauldrons (now intended per Oct 24 fix).</li>
+                        <li>Added gold net to weapon stands.</li>
+                    </ul>
+                 </div>
+            </ul>
+             <p class="note">Reminder: 1 week left of the Halloween Event! Tradlocked items become tradable after. Future updates will be smaller temporarily.</p>
+            <p class="crop-news">Crop Market News: Avocado prices have risen! (32 → 36). Carrot prices have dropped! (21 → 16). Farmer Cletus was recently heard whispering about pumpkin prices…</p>
+        </div>
+        <div class="update-entry">
+            <h3>November 4, 2022</h3>
+            <h4>Pet Egg Stand Update & Halloween End</h4>
+            <ul>
+                <li><strong>New Craftable:</strong> Pet Egg Stands (5 royal themed variants craftable on workbench).</li>
+                <li><strong>New Craftable:</strong> Diamond Chests
+                    <ul>
+                        <li>Large Diamond Chest (10K item capacity)</li>
+                        <li>Expanded Diamond Chest (20K item capacity)</li>
+                    </ul>
+                 </li>
+                <li><strong>Halloween Event Ends:</strong> Event is over. All Halloween-related items are now tradable. Cletus returns to normal.</li>
+                 <div class="misc-changes">
+                     <strong>Misc Changes:</strong>
+                     <ul>
+                        <li>Players will now be teleported when the last island owner leaves their island, instead of waiting for island unload.</li>
+                        <li>Island owners can now toggle off builder/owner icon rendering in the permissions menu.</li>
+                        <li>Vending machines now retain purchase amount without resetting back to one.</li>
+                        <li>Increased load time for owner icons when loading in.</li>
+                     </ul>
+                 </div>
+            </ul>
+            <p class="crop-news">Crop Market News: Pumpkin prices have risen! (52 → 58). Cactus prices have dropped! (30 → 25). Farmer Cletus was recently heard whispering about wheat prices…</p>
+        </div>
+        <div class="update-entry hotfix">
+            <h3>November 6, 2022</h3>
+            <h4>Item Loss Fix</h4>
+            <p>Addressed issues with visitors losing items when island owners disconnected (via teleport or closing Roblox). Players should now be teleported back to their island ASAP without item loss.</p>
+            <p class="note">Also acknowledged an item delete bug related to falling into the void while holding an item or riding a mount, advising caution until fixed.</p>
+        </div>
+         <div class="update-entry">
+            <h3>November 11, 2022</h3>
+            <h4>Plushie Update</h4>
+            <ul>
+                <li><strong>New Workbench:</strong> Sewing Station (Craftable at your workbench). Used to craft different colored yarn.</li>
+                <li><strong>New Items:</strong> Plushies (Over 10+ craftable at the Sewing Station using yarn and sewing buttons). More plushies and skin variants planned.</li>
+                <li><strong>Upcoming News:</strong> New merchant 'The Tailor' coming next week selling yarn and buttons. For now, buttons purchasable from Block Merchant.</li>
+                <li><strong>New Blocks:</strong> Solid colored blocks craftable at the Coloring Station.</li>
+                <li><strong>Static Scepter Rework:</strong>
+                    <ul>
+                        <li>Renamed to Lightning Scepter.</li>
+                        <li>Functions more like other magic weapons with an improved lightning effect (no longer glitches out).</li>
+                        <li>Deals multiple ticks of damage per target hit (similar to previous hold function).</li>
+                    </ul>
+                </li>
+                 <div class="qol-changes">
+                     <strong>QoL Changes:</strong>
+                     <ul>
+                         <li>Added an option to show/hide your join code in the Explore page.</li>
+                         <li>Changed pet egg stand names for clarity.</li>
+                         <li>Plushies now have variant squeak sounds when interacted with.</li>
+                     </ul>
+                 </div>
+                 <div class="misc-changes">
+                     <strong>Misc Changes/Fixes:</strong>
+                     <ul>
+                        <li>Fixed items being deleted when falling into the void (related to Nov 6 note).</li>
+                        <li>Fixed permissions menu locking in place when clicking multiple times.</li>
+                        <li>Fixed floating trees in the Hub.</li>
+                        <li>Fixed damage differences between Iron and Stone swords.</li>
+                        <li>Fixed issue with pet eggs removing when spawning an existing pet.</li>
+                     </ul>
+                 </div>
+            </ul>
+            <p class="crop-news">Crop Market News: Wheat prices have risen! (7 → 11). Radish prices have dropped! (64 → 59). Farmer Cletus was recently heard whispering about pineapple prices…</p>
+        </div>
+         <div class="update-entry">
+            <h3>November 18, 2022</h3>
+            <h4>PvP Update</h4>
+            <ul>
+                <li><strong>New NPC Merchant:</strong> Tailor. Located in the Hub to the left of Fulco, selling sewing buttons and yarn (still craftable).</li>
+                <li><strong>New Setting:</strong> PVP Toggle.
+                    <ul>
+                        <li>Toggle PVP on or off from the Settings menu.</li>
+                        <li>Allows combat against other players ONLY if they also have PVP enabled.</li>
+                        <li>An icon displays over your head (and others') when toggled on.</li>
+                        <li>Cannot attack or take damage if your PVP mode is off.</li>
+                        <li>All damage converted to lower values for fairer PVP.</li>
+                        <li>Can toggle PVP anywhere.</li>
+                    </ul>
+                </li>
+                <li><strong>New Blocks:</strong> Pastel colored blocks craftable at the Coloring Station.</li>
+                <li><strong>Wizard Boss Changes:</strong>
+                    <ul>
+                        <li>Now uses new arc effects with charged attacks.</li>
+                        <li>Alternates between different spells when attacking.</li>
+                        <li>Attacks slightly faster.</li>
+                    </ul>
+                </li>
+                 <div class="qol-changes">
+                     <strong>QoL/Misc Changes:</strong>
+                     <ul>
+                         <li>Damage numbers when fighting mobs are now client side only.</li>
+                         <li>Moved “Hide Icons” setting from Permissions Menu to Settings Menu.</li>
+                         <li>Fixed Gazebo display names for clarity.</li>
+                     </ul>
+                 </div>
+            </ul>
+             <p class="crop-news">Crop Market News: Pineapple prices have risen! (92 → 96). Spinach prices have dropped! (18 → 15). Farmer Cletus was recently heard whispering about tomato prices…</p>
+        </div>
+         <div class="update-entry hotfix">
+            <h3>November 18, 2022 (Later)</h3>
+            <h4>Hotfixes</h4>
+            <ul>
+               <li>Fixed an issue where players could attack others even if their PVP was not toggled on.</li>
+               <li>Fixed an issue where mobs were not taking/dealing damage to players.</li>
+             </ul>
+        </div>
+        <div class="update-entry">
+            <h3>November 25, 2022</h3>
+            <h4>Banking Update</h4>
+            <ul>
+                <li><strong>New Merchant:</strong> Banker (Rob the Banker). Located in the Hub in front of the Auction House. Access shop and personal bank account.</li>
+                <li><strong>Bank Accounts:</strong>
+                    <ul>
+                        <li>Deposit and withdraw coins.</li>
+                        <li>Purchase tiers to upgrade account storage capacity.</li>
+                        <li>Tier 0: 1.00 Billion (Free)</li>
+                        <li>Tier 1: 1.25 Billion (100k Coins)</li>
+                        <li>Tier 2: 1.50 Billion (200k Coins)</li>
+                        <li>Tier 3: 2.00 Billion (400k Coins)</li>
+                        <li>Tier 4: 5.00 Billion (800k Coins)</li>
+                        <li>Tier 5: 7.50 Billion (16M Coins)</li>
+                        <li>Tier 6: 10.00 Billion (32M Coins)</li>
+                        <li>Tier 7: 25.00 Billion (64M Coins)</li>
+                        <li>Tier 8: 50.00 Billion (128M Coins)</li>
+                        <li>Tier 9: 75.00 Billion (256M Coins)</li>
+                        <li>Tier 10: 100.00 Billion (512M Coins)</li>
+                        <li>Every profile has its own personal bank account. Shared account pass planned.</li>
+                    </ul>
+                 </li>
+                <li><strong>New Bank Themed Items</strong> (Purchase from Banker's shop):
+                    <ul>
+                        <li>Piles of coins and cash blocks</li>
+                        <li>A safe (acts as a chest)</li>
+                        <li>Security rope and windows</li>
+                    </ul>
+                </li>
+                <li><strong>New Stairs and Slabs:</strong> Pastel and Solid block variants. Craftable at workbench.</li>
+                 <div class="qol-changes">
+                     <strong>QoL/Misc Changes:</strong>
+                     <ul>
+                         <li>Removed animation from Settings menu to prevent cutoff render.</li>
+                         <li>Banker and Tailor now have hovering icons in the Hub.</li>
+                     </ul>
+                 </div>
+            </ul>
+            <p class="crop-news">Crop Market News: Tomato prices have risen! (9 → 14). Kiwi prices have dropped! (24 → 21). Farmer Cletus was recently heard whispering about potato prices…</p>
+        </div>
+         <div class="update-entry announcement">
+             <h3>December 1, 2022</h3>
+             <h4>Auctions Temporarily Disabled</h4>
+             <p>Auctions disabled due to a severe bug requiring parts of the system to be rewritten.</p>
+         </div>
+        <div class="update-entry">
+            <h3>December 2, 2022</h3>
+            <h4>School Furniture Update</h4>
+            <ul>
+                <li><strong>New School Prop Decor</strong> (Craftable at workbench):
+                    <ul>
+                        <li>Lockers (5 colors, can store items)</li>
+                        <li>Round lunch tables (5 colors)</li>
+                        <li>Lunch benches (5 colors)</li>
+                        <li>School chairs (5 colors)</li>
+                        <li>School desks (5 colors, can store items)</li>
+                        <li>Desk with chair (5 colors)</li>
+                        <li>School bells (2 colors, place on walls, ringable)</li>
+                        <li>Blackboard</li>
+                        <li>Whiteboard</li>
+                        <li>Water fountain (place on walls)</li>
+                        <li>Wet floor sign</li>
+                    </ul>
+                </li>
+                <li><strong>Banking Features:</strong>
+                    <ul>
+                        <li>The “Shared Account” can now be purchased in the shop menu.</li>
+                        <li>Shared Account balance is accessible between all player profiles.</li>
+                        <li>Personal Account & Shared Account do NOT share coins or tier levels; they are independent.</li>
+                    </ul>
+                </li>
+                 <div class="qol-changes">
+                     <strong>QoL/Misc Changes:</strong>
+                     <ul>
+                         <li>Fixed issues with colored slabs rendering incorrectly.</li>
+                     </ul>
+                 </div>
+            </ul>
+             <p class="note">Follow up announcement: Huge update planned for December 16th. ("Gonna be quite a chilly one").</p>
+            <p class="crop-news">Crop Market News: Potato prices have risen! (11 → 17). Cactus prices have dropped! (30 → 25). Farmer Cletus was recently heard whispering about carrot prices…</p>
+        </div>
+        <div class="update-entry">
+            <h3>December 16, 2022</h3>
+            <h4>Christmas Event Update</h4>
+            <p>Start of the 3-week Christmas event. Trade-locked items unlock after event.</p>
+            <ul>
+                <li><strong>New Feature: Party Up System</strong> (Permanent Feature)
+                    <ul>
+                        <li>Access party menu via right sidebar in Hub to invite/join friends.</li>
+                        <li>Party size 1-5 accepted for new game mode queue.</li>
+                        <li>Planned for future game modes.</li>
+                    </ul>
+                </li>
+                <li><strong>New Limited Time Game Mode: Snowball Fight</strong>
+                    <ul>
+                        <li>Earn Snowflake tickets to purchase goods from Snowman NPC.</li>
+                        <li>Teams: 2 teams (Elves vs Reindeer), 5 players each (10 total).</li>
+                        <li>Inventory unavailable during match. Passive health regen disabled, snowball damage increased.</li>
+                        <li>Eliminate opposing players to score points (30 points to win).</li>
+                        <li>Collect floating presents for random ability perks.</li>
+                        <li>Get tickets for participating and winning.</li>
+                    </ul>
+                </li>
+                <li><strong>Christmas Present Drops:</strong>
+                    <ul>
+                        <li>Return of presents dropping randomly on islands.</li>
+                        <li>Also purchasable from Snowman NPC with Snowflake tickets.</li>
+                        <li>Contents: Santa/Gnome/Elf/Penguin/Reindeer Plushies, Candy Cane Scepter Weapon, Christmas Event 2022 Trophy, Penguin Pet Egg.</li>
+                    </ul>
+                </li>
+                <li><strong>New Merchant: Snowman</strong> (in Hub)
+                    <ul>
+                        <li>Shop includes: Christmas Present Drop, Gnomes (9 variations), Wall stockings (5 variations, can store items), Candy Cane Fences (2 variations).</li>
+                        <li>Queue for Snowball Fight here.</li>
+                    </ul>
+                </li>
+                <li><strong>New Mob: Evil Gingerbread</strong>
+                    <ul>
+                        <li>Found near gingerbread village in Hub.</li>
+                        <li>Defeat for Snowflake tickets.</li>
+                    </ul>
+                </li>
+                <li><strong>Introducing ATMs:</strong>
+                    <ul>
+                        <li>Craftable from workbench, placeable on island.</li>
+                        <li>Use to access bank accounts.</li>
+                    </ul>
+                </li>
+                 <div class="qol-changes">
+                     <strong>QoL/Misc Changes:</strong>
+                     <ul>
+                         <li>Fixed collision issues with whiteboard and blackboard.</li>
+                         <li>Projectiles can now be shot in any direction from the character (less realistic, easier use).</li>
+                     </ul>
+                 </div>
+            </ul>
+            <p class="crop-news">Crop Market News: Carrot prices have risen! (21 → 27). Onion prices have dropped! (30 → 25). Farmer Cletus was recently heard whispering about watermelon prices…</p>
+        </div>
+         <div class="update-entry hotfix">
+            <h3>December 16, 2022 (Later)</h3>
+            <h4>Hotfixes</h4>
+             <ul>
+                <li><strong>Snowball Fight:</strong> Perks should no longer spam chat. Increased snowball collection from piles (30 → 40).</li>
+                <li><strong>General:</strong> Items should no longer randomly disappear from inventory when server hopping. Tickets should be awarded again in games where matches successfully end.</li>
+            </ul>
+        </div>
+        <div class="update-entry hotfix">
+            <h3>December 17-19, 2022</h3>
+            <h4>Hotfixes & Balancing</h4>
+            <ul>
+                 <li>Fixed bug where PF-500 error (matchmaking error) would show up on user islands or other non-matchmaking places. Resolved source of issue.</li>
+                 <li><strong>Snowball Fight (LTGM Updates):</strong>
+                    <ul>
+                        <li>Added a free present drop for the winning team.</li>
+                        <li>Added an "Assists" stat to the game.</li>
+                        <li>Made changes to reward tickets to account for eliminations + assists.</li>
+                        <li>Reduced required eliminations to win from 30 → 25.</li>
+                    </ul>
+                 </li>
+                 <li><strong>General Changes:</strong>
+                    <ul>
+                        <li>Buffed gingerbread mob damage from 12 → 16.</li>
+                        <li>Buffed gingerbread mob movement speed.</li>
+                        <li>Reduced gingerbread mob jump height.</li>
+                    </ul>
+                 </li>
+             </ul>
+        </div>
+         <div class="update-entry hotfix">
+            <h3>December 20, 2022</h3>
+            <h4>Hotfixes</h4>
+             <ul>
+                 <li>Tickets should now be rewarded correctly to players at the end of a Snowball Fight match.</li>
+                 <li><strong>Snowball Fight (LTGM Updates):</strong>
+                    <ul>
+                        <li>Added death markers for enemy and team-mates.</li>
+                        <li>Fixed bug where you could still move if you died/got eliminated.</li>
+                    </ul>
+                 </li>
+             </ul>
+        </div>
+        <div class="update-entry">
+            <h3>December 23, 2022</h3>
+            <h4>Christmas Event Update II & Reworks</h4>
+            <ul>
+                <li><strong>Snowball Fight Changes:</strong> Addressing spawn killing issues.
+                    <ul>
+                        <li>Teams now spawn in caves with 2 exits.</li>
+                        <li>Opposing teams cannot enter enemy spawn or throw snowballs into it.</li>
+                        <li>Added a 5 minute timer to end the match.</li>
+                        <li>NOTE: To prevent AFK farming, players with 0 kills and 0 assists receive no rewards. Staying in spawn too long results in a kick.</li>
+                    </ul>
+                </li>
+                <li><strong>New Christmas Questlines</strong> (Under "A Very Merry Day" section, highlighted Red):
+                    <ul>
+                        <li>"Breezy Battles" (Repeatable): Win 25 snowball fights to obtain the new Jolly Dagger item.</li>
+                        <li>"Snow For The Gold" (One Time): Track quest and play event to earn a Christmas 2022 Trophy.</li>
+                        <li>IMPORTANT: Accept one quest in the section to reveal others.</li>
+                    </ul>
+                </li>
+                <li><strong>New Weapon: Jolly Dagger</strong>
+                    <ul>
+                        <li>Limited time weapon obtained through "Breezy Battles" quest (repeatable).</li>
+                        <li>Light melee weapon that self heals.</li>
+                    </ul>
+                </li>
+                <li><strong>More Merchant Items</strong> (Snowman NPC):
+                    <ul>
+                        <li>Christmas Lanterns (3 variations)</li>
+                        <li>Christmas Clusters (3 variations)</li>
+                        <li>Christmas Street Lamps (3 variations)</li>
+                        <li>Christmas Fence Lights</li>
+                    </ul>
+                </li>
+                <li><strong>Quake Effect Rework:</strong> Quake slow effect replaced with a vulnerable debuff (inflicted targets take more damage).</li>
+                <li><strong>New Status Effect: Frost</strong>
+                    <ul>
+                        <li>Frost Weapons inflict a chill effect (slowness) on mobs.</li>
+                        <li>Affected weapons: Frost Sword, Frost Hammer, & Candy Cane Scepter.</li>
+                    </ul>
+                </li>
+                <li><strong>Recap of Fixes/Changes from Earlier This Week:</strong>
+                    <ul>
+                        <li>Added free present drop for winning team (Snowball Fight).</li>
+                        <li>Added "Assists" stat (Snowball Fight).</li>
+                        <li>Ticket balancing rewards for elims/assists (Snowball Fight).</li>
+                        <li>Reduced win condition from 30 → 20 (Snowball Fight).</li>
+                        <li>Buffed Evil Gingerbread damage (12 → 16) & movement speed, reduced jump height.</li>
+                        <li>Added Candy Cane Scepter to weapon stand display.</li>
+                        <li>Added death markers (Snowball Fight).</li>
+                        <li>Fixed movement bug after elimination (Snowball Fight).</li>
+                        <li>Fixed bug where rewards would double in notifications.</li>
+                    </ul>
+                </li>
+            </ul>
+             <p class="hotfix">Hotfix (Dec 23, 7:22 PM): Fixed a bug where completing the new task counted for 5 instead of 1.</p>
+            <p class="crop-news">Crop Market News: Watermelon prices have risen! (80 → 85). Lemon prices have dropped! (20 → 16). Farmer Cletus was recently heard whispering about apple prices…</p>
+        </div>
+
+        <h2>2023</h2>
+        <div class="update-entry">
+            <h3>January 6, 2023</h3>
+            <h4>Diner Furniture Update</h4>
+            <ul>
+                <li><strong>New Diner Furniture</strong> (Craftable in Furniture Workbench):
+                    <ul>
+                        <li>Diner Booths (3 variations)</li>
+                        <li>Diner Tables (3 variations)</li>
+                        <li>Counter top corners (3 variations)</li>
+                        <li>Counter top center (3 variations)</li>
+                    </ul>
+                </li>
+                <li><strong>New Neon Wall Lights</strong> (Craftable in Furniture Workbench):
+                    <ul>
+                        <li>Wall mounted neon light French Fries (3 variations)</li>
+                        <li>Wall mounted neon light Ice Cream (3 variations)</li>
+                        <li>Wall mounted neon light Drinks (3 variations)</li>
+                        <li>Wall mounted neon light Shakes (3 variations)</li>
+                        <li>Wall mounted neon light Burger</li>
+                        <li>Wall mounted neon light Diner Sign (3 variations)</li>
+                        <li>Wall mounted neon light Welcome Sign (3 variations)</li>
+                    </ul>
+                </li>
+                <li><strong>Tradelocked Christmas Items Now Tradable:</strong>
+                    <ul>
+                        <li>Jolly Dagger</li>
+                        <li>Candy Cane Scepter</li>
+                        <li>Christmas 2022 Trophy</li>
+                        <li>Penguin Pet Egg</li>
+                    </ul>
+                </li>
+            </ul>
+             <p class="note">Small update, preparing for another big update on Jan 20th.</p>
+             <p class="hotfix">Hotfix (Jan 6, 7:24 PM): Moved neon signs to furniture workbench to allow multi-crafting other items.</p>
+            <p class="crop-news">Crop Market News: Apples prices have risen! (20 → 27). Starfruit prices have dropped! (60 → 55). Farmer Cletus was recently heard whispering about cactus prices…</p>
+        </div>
+        <div class="update-entry">
+            <h3>January 20, 2023</h3>
+            <h4>Lunar New Year 2023 Update & Achievements</h4>
+            <p>Start of the 2-week Lunar New Year event.</p>
+            <ul>
+                <li><strong>New Boss: Lunar Rabbit</strong> (Year of the Rabbit)
+                    <ul>
+                        <li>Accessed via "Info board" in Hub (Lunar Rabbit Dungeon Boss).</li>
+                        <li>Party up with up to 5 players to queue.</li>
+                        <li>Everyone receives the same weapon loadout.</li>
+                    </ul>
+                </li>
+                <li><strong>New Limited Time Items:</strong>
+                    <ul>
+                        <li><strong>Cherry Blossom Sapling:</strong> Grows into trees yielding Cherry Blossom Wood. New block types craftable: stairs, slabs, signs, fences, trap doors, pallets.</li>
+                        <li><strong>Mooncake:</strong> Consumable, grants jump boost.</li>
+                        <li><strong>Lunar Rabbit Statue 2023:</strong> Placeable statue, grants jump boost to players in range. Effect toggleable by interaction.</li>
+                        <li><strong>Red/Gold Envelopes:</strong> Loot drops obtained from defeating Lunar Rabbit or completing Achievements.</li>
+                    </ul>
+                </li>
+                <li><strong>Introducing: Achievements System</strong>
+                    <ul>
+                        <li>Tracks progression stats (mobs killed, items crafted, etc.).</li>
+                        <li>Complete challenges for Achievement Points (AP) and sometimes rewards (e.g., item series collecting). More difficult = more rewarding.</li>
+                        <li>Leaderboards now focus more on AP instead of Coins. Coin balance still visible at top but private unless on a published island.</li>
+                    </ul>
+                </li>
+                <li><strong>Red Envelope 2023 Drops:</strong> Lunar Mooncakes, Cherry Blossom Saplings, Dumpling Chair/Couch, Red Envelopes, Gold Envelope, Lunar Rabbit Statue.</li>
+                <li><strong>Gold Envelope 2023 Drops:</strong> Lunar Mooncakes, Red Envelopes, Lunar Rabbit Banners, Lunar Rabbit Plushie, Gold Envelope, Lunar Rabbit Statue.</li>
+                <li><strong>Sidebar & UI Rework Pt. 1:</strong>
+                    <ul>
+                        <li>Sidebar buttons converted to categories: Explore (Online Islands, Quests, World Map, Combat Guide), Profile (Skills, Achievements, Pets, Mounts, Save Slots).</li>
+                        <li>Future category planned for island management features.</li>
+                    </ul>
+                </li>
+                <li><strong>Trade Locked Items:</strong> Majority of new items (envelopes, statues, other drops) trade locked until event ends.</li>
+            </ul>
+            <p class="crop-news">Crop Market News: Cactus prices have risen! (30 → 36). Tomato prices have dropped! (9 → 5). Farmer Cletus was recently heard whispering about wheat prices…</p>
+        </div>
+         <div class="update-entry hotfix">
+            <h3>January 20-22, 2023</h3>
+            <h4>Hotfixes</h4>
+            <ul>
+                <li>Fixed "Year of the Rabbit" achievement not working & item tracking issues.</li>
+                <li>Fixed issue where cherry blossom trees were not saving to islands.</li>
+                <li>Fixed coin display issues.</li>
+                <li>Fixed issue where notifications showed double items after completing rabbit arena.</li>
+                <li>Fixed players being unable to sell items to Cletus in the hub.</li>
+                <li>Fixed issue where new cherry blossom blocks would replace tomato sauces when switching servers.</li>
+                <li>Fixed bug where NPCs would not respawn.</li>
+                <li>Fixed bug where signposts etc. had weird font issues.</li>
+                <li>Fixed bug where quests would not complete (required restarting broken quests).</li>
+                <li>Restored animals lost around Jan 22, 2023, 5:52 AM for affected players.</li>
+             </ul>
+        </div>
+         <div class="update-entry hotfix">
+            <h3>January 24-26, 2023</h3>
+            <h4>Hotfixes</h4>
+            <ul>
+                 <li>Fixed an issue where some users would be kicked when trying to join other islands randomly.</li>
+                 <li>Fixed an issue where the Coloring Station wouldn't allow crafting more than 1 at a time.</li>
+                 <li>Fixed an issue allowing crafting only 1 less than the max possible amount.</li>
+                 <li>Removed collision from Cherry Blossom Saplings.</li>
+                 <li>Fixed issue where join codes would not work on user islands.</li>
+                 <li>Fixed issue where other people could interact with player's Lunar Statue (now requires Owner or Build perms).</li>
+                 <li>Fixed issue where AP points wouldn't count correctly towards progress on completion.</li>
+                 <li>Fixed issue where water blocks couldn't be picked up with empty buckets.</li>
+                 <li>Fixed issue where some merchants could not be traded with.</li>
+                 <li>Fixed issue where Davey could not be interacted with on user islands.</li>
+             </ul>
+        </div>
+         <div class="update-entry hotfix">
+            <h3>January 27, 2023</h3>
+            <h4>QoL Changes & Fixes</h4>
+             <ul>
+                 <li><strong>QoL Changes:</strong>
+                    <ul>
+                        <li>Added an “Event” button on the sidebar to queue into the Lunar Event while in the Hub.</li>
+                        <li>Added ability to view update notes from mailbox under “Profile”.</li>
+                        <li>Added confirmation prompt when returning home using the sidebar button.</li>
+                        <li>Added correct profile name to title when deleting/leaving profile slot.</li>
+                        <li>Added an “X” button when trading with other players.</li>
+                        <li>Increased coal capacity for industrial machines from 1 → 10 per slot.</li>
+                    </ul>
+                 </li>
+                 <li><strong>Fixes:</strong>
+                    <ul>
+                        <li>Fixed issue where lava and void smoke didn’t deal damage.</li>
+                        <li>Fixed issue where falling into the Kor void wouldn’t kill the player.</li>
+                        <li>Fixed issue where shift clicking coal would visually add multiple slots incorrectly on screen.</li>
+                    </ul>
+                 </li>
+             </ul>
+             <p class="note">Small release this week with fixes, more content planned for next week.</p>
+        </div>
+         <div class="update-entry hotfix">
+            <h3>January 31, 2023</h3>
+            <h4>Hotfixes</h4>
+            <ul>
+                 <li>Fixed travel merchants (Maple Captain, Pirate Captain) not functioning correctly for travel back to the hub.</li>
+                 <li>Fixed players being unable to get pirate maps from Pirate Davey again.</li>
+             </ul>
+        </div>
+        <div class="update-entry">
+            <h3>February 3, 2023</h3>
+            <h4>Mastery Achievements & Medal Displays</h4>
+            <ul>
+                <li><strong>Mastery Level Achievements:</strong> Added achievements for completing milestones in various skills. Each achievement grants a one-time reward and a displayable medal.
+                    <ul>
+                        <li>Mastery of: Fishing, Farming, Forging, Combat, Light Melee, Heavy Melee, Magic, Archery, Mining, Woodcutting, Economy, Cooking, Animal Husbandry.</li>
+                        <li>All skill caps increased from 99 → 100.</li>
+                    </ul>
+                </li>
+                <li><strong>Achievement Medal Displays:</strong> Completing the first mastery achievement gifts a free display case (wall-mountable). Additional cases craftable on workbench.</li>
+                <li><strong>Open Trade Locked Items:</strong> All items from the Lunar 2023 Event are now tradable.</li>
+                 <div class="misc-changes">
+                     <strong>Misc Changes:</strong>
+                     <ul>
+                         <li>Updated block sounds for grass, wood, stone, and glass.</li>
+                         <li>Pirate and Maple travel merchants now correctly teleport players back to the Hub.</li>
+                         <li>Davey offers his treasure maps again.</li>
+                     </ul>
+                 </div>
+            </ul>
+             <p class="hotfix">Hotfix (Feb 3, 8:58 PM): Fixed retroactive achievement rewards not functioning correctly. Reset level achievements (potential for extra medals).</p>
+            <p class="crop-news">Crop Market News: Wheat prices have risen! (7 → 12). Radish prices have dropped! (64 → 60). Farmer Cletus was recently heard whispering about potato prices…</p>
+        </div>
+        <div class="update-entry hotfix">
+            <h3>February 5-6, 2023</h3>
+            <h4>Hotfixes</h4>
+             <ul>
+                 <li>Fixed an issue where some players would get stuck on "Downloading Profile..." when trying to load into islands.</li>
+                 <li>Fixed an issue with a bug where some player's profiles would error on load, kicking them with an IslandLoadError.</li>
+             </ul>
+        </div>
+        <div class="update-entry">
+            <h3>February 17, 2023</h3>
+            <h4>Building Tools Update</h4>
+            <ul>
+                <li><strong>New Tools:</strong> Unlock crafting recipes via achievements "Master Breaker" and "Master Builder". Crafted in Tier 4 workbench, NOT tradable.
+                    <ul>
+                        <li><strong>Greg’s Hammer:</strong> Multi-block tool, breaks blocks in a 3x3 grid.</li>
+                        <li><strong>Forge Hammer:</strong> Multi-block tool, builds blocks in up to a 7x1 grid (requires blocks in inventory).</li>
+                    </ul>
+                </li>
+                <li><strong>Rate Up Period (Feb 17 - Mar 3):</strong> Increased drop rates for enchanted diamonds for two weeks.</li>
+                <li><strong>New Feature: Hot-swap Block</strong>
+                    <ul>
+                        <li>Allows switching to the block type being looked at instantly.</li>
+                        <li>Activation: PC: Middle Mouse Button, MOBILE: Block Icon on hotbar, CONTROLLER: L2 / LT.</li>
+                    </ul>
+                </li>
+                <li><strong>New Blocks</strong> (Purchasable from General merchant, no collision):
+                    <ul>
+                        <li><strong>Thorn Blocks:</strong> Walking inside damages over time.</li>
+                        <li><strong>Mud Blocks:</strong> Walking inside slows movement speed.</li>
+                    </ul>
+                </li>
+                <li><strong>New Industrial Item: Industrial Truffle Bucket</strong>
+                    <ul>
+                        <li>Craftable at the Animal workbench.</li>
+                        <li>Pigs bring truffles to this machine, auto-outputs onto conveyors.</li>
+                    </ul>
+                </li>
+                 <div class="misc-changes">
+                     <strong>Misc Changes:</strong>
+                     <ul>
+                         <li>Increased slot size for Industrial Milker from 1 → 2.</li>
+                         <li>Fixed privacy setting not displaying correctly for players.</li>
+                     </ul>
+                 </div>
+            </ul>
+            <p class="crop-news">Crop Market News: Potato prices have risen! (11 → 17). Carrot prices have dropped! (21 → 17). Farmer Cletus was recently heard whispering about onion prices…</p>
+        </div>
+         <div class="update-entry">
+            <h3>March 3, 2023</h3>
+            <h4>Farming Tools & Desert Island Rework Pt. 1</h4>
+            <ul>
+                <li><strong>New Farming Tool: Crystalline Plow</strong>
+                    <ul>
+                        <li>Multi-plow tool, converts grass to soil in a max row of 5 blocks.</li>
+                        <li>Obtained by completing Master level achievement, craftable at Tier 4 workbench.</li>
+                    </ul>
+                </li>
+                <li><strong>First Glimpse of Desert Island Rework:</strong> Process started to rework Desert Island into a secondary Hub.
+                    <ul>
+                        <li>Currently added 2 new merchants: Crop Seller and Animal Seller.</li>
+                        <li>New Seeds: Crystalline Ivy seeds purchasable from Crop Seller.</li>
+                        <li>New farm animal planned (Animal Merchant shop currently empty).</li>
+                        <li>Planned additions: new mobs, merchants, animals, crops, etc.</li>
+                    </ul>
+                </li>
+                <li><strong>New Industrial Block: Industrial Nests</strong>
+                    <ul>
+                        <li>Craftable at Animal Workbench.</li>
+                        <li>Ducks and Chickens will drop their eggs here for collection/conveyors.</li>
+                    </ul>
+                </li>
+                 <div class="qol-changes">
+                     <strong>QoL Changes:</strong>
+                     <ul>
+                         <li>New toggle in Settings for highlighting entities on player island.</li>
+                         <li>"Hide Icons" setting is now ON by default.</li>
+                         <li>Added "Host" tag for island owners when using chat on Published islands.</li>
+                     </ul>
+                 </div>
+                 <div class="bug-fixes">
+                     <strong>Bug Fixes:</strong>
+                     <ul>
+                        <li>Fixed the Rageblade not damaging mobs.</li>
+                        <li>Fixed animals jittering when nearby players.</li>
+                        <li>Fixed hold seed placement issue for PC.</li>
+                        <li>Fixed block placement not registering when looking into the void or building underneath.</li>
+                        <li>Fixed inconsistent trellis seed planting placement.</li>
+                     </ul>
+                 </div>
+            </ul>
+             <p class="hotfix">Hotfix (Mar 3, 8:06 PM): Fixed issue where blocks couldn't be placed underneath and some blocks placed on the opposite side.</p>
+            <p class="crop-news">Crop Market News: Onion prices have risen! (30 → 37). Watermelon prices have dropped! (80 → 74). Farmer Cletus was recently heard whispering about spinach prices…</p>
+        </div>
+        <div class="update-entry">
+            <h3>March 17, 2023</h3>
+            <h4>Desert Update</h4>
+            <p>Continued additions to the Desert Hub rework.</p>
+            <ul>
+                <li><strong>New Mob: Skorp Serpent</strong>
+                    <ul>
+                        <li>Spawns only on Desert Island during random sandstorms.</li>
+                        <li>Acts as a mini-boss with more health.</li>
+                        <li>Has a 10-minute cooldown after dying/despawning, then a 20% chance per minute to spawn again.</li>
+                    </ul>
+                </li>
+                <li><strong>New Weapon: Noxious Stinger</strong> (Spear)
+                    <ul>
+                        <li>Has a toxin effect. Can be thrown from distance.</li>
+                        <li>Craftable at anvil using drops from Skorp Serpent.</li>
+                        <li>Hold attack to charge ability; fully charged spear is thrown, enters 2-second cooldown.</li>
+                    </ul>
+                </li>
+                <li><strong>New Farm Animal: Vulture</strong>
+                    <ul>
+                        <li>Purchase Vulture Egg from Desert Animal Merchant.</li>
+                        <li>Vultures drop feathers by flying to a nest on player island.</li>
+                        <li>NOTE (at release): Only drop feathers at standard nests, NOT industrial nests. More feather crafts planned.</li>
+                    </ul>
+                </li>
+                <li><strong>New Crops: Vine Stems and Opuntia</strong>
+                    <ul>
+                        <li>Purchase seeds from Desert Crop Merchant.</li>
+                        <li>More uses planned for these crops.</li>
+                    </ul>
+                </li>
+                <li><strong>New Tool: Quill</strong>
+                    <ul>
+                        <li>Craftable on workbench.</li>
+                        <li>Equip and click on any placed sign to open a menu and change the text font.</li>
+                    </ul>
+                </li>
+                <li><strong>New Block: Vine Stem Ladder</strong> (Craftable on Tier 2 workbench from harvested vine stems).</li>
+                 <div class="misc-changes">
+                     <strong>Misc Changes:</strong>
+                     <ul>
+                         <li>The Desert Island will now be its own server instance.</li>
+                     </ul>
+                 </div>
+            </ul>
+             <p class="hotfix">Hotfix (Mar 17, 7:54 PM): Removed unused oil component from Quill crafting recipe.</p>
+            <p class="crop-news">Crop Market News: Avocado prices have risen! (32 → 38). Spinach prices have dropped! (18 → 14). Farmer Cletus was recently heard whispering about kiwi prices…</p>
+        </div>
+        <div class="update-entry">
+            <h3>March 31, 2023</h3>
+            <h4>Small Update & Fixes</h4>
+            <p>Small update focusing on an upcoming event and Islands' 3rd anniversary.</p>
+            <ul>
+                <li><strong>New Craftables:</strong>
+                    <ul>
+                        <li>Toxin Potion (craft at Brewing Station, reduces poison damage from Skorp Serpent acid attacks).</li>
+                        <li>New Pine Door Variant and Glass Door.</li>
+                        <li>Vine Arches, Vine Fences, and Vine Benches.</li>
+                    </ul>
+                </li>
+                <li><strong>Changes/Fixes:</strong>
+                    <ul>
+                        <li>Added mount feature to Vulture (cannot fly).</li>
+                        <li>Vultures now drop feathers into nests/industrial nests properly.</li>
+                        <li>Ducks/Chickens no longer lay eggs randomly; now only target nests/industrial nests.</li>
+                        <li>Reduced jump heights on all farm animals to prevent escaping fences/blocks (suggested 2 blocks high).</li>
+                    </ul>
+                </li>
+            </ul>
+            <p class="note">Acknowledged issue with travelling merchants' shops not being viewable. Excited for event in a few weeks.</p>
+        </div>
+        <div class="update-entry hotfix">
+            <h3>April 1, 2023</h3>
+            <h4>Hotfix</h4>
+            <p>Fixed an issue where bees/butterflies/fireflies would stop moving upon spawning.</p>
+        </div>
+        <div class="update-entry">
+            <h3>April 14, 2023</h3>
+            <h4>Third Anniversary Update</h4>
+            <p>Celebrating Islands' 3 Year Anniversary (Official date: April 10th).</p>
+            <ul>
+                <li><strong>Claim Special Reward:</strong> Talk to Taliyah visiting player island upon first launch to claim limited items (all tradable):
+                    <ul>
+                        <li>3 Year Anniversary Cake</li>
+                        <li>Pet Dog Spawn Egg</li>
+                        <li>Cletus Plushie</li>
+                        <li>Note: Last year's 2nd Anniversary Cake is also tradable.</li>
+                    </ul>
+                </li>
+                <li><strong>New Limited Party Items:</strong> Obtainable via limited time quests.
+                    <ul>
+                        <li>Sparklers (hold click for lights)</li>
+                        <li>Glow Sticks (hold click to change colors)</li>
+                        <li>Party Horn (hold click for buzzer sound)</li>
+                        <li>Confetti Popper (hold click to pop confetti)</li>
+                        <li>Glitterball (throw for exploding glitter)</li>
+                    </ul>
+                </li>
+                <li><strong>New Limited Quests</strong> (Under "Explore" -> "Quests", series "3 Years of Islands!", highlighted pink):
+                    <ul>
+                        <li>Repeatable everyday (24hr cooldown) to claim multiple party items.</li>
+                        <li>Quest Names: Let The Sparks Fly!, Glitter Gala Extravaganza!, Glow With The Flow!, Toot Your Own Horn!, Ready For Confetti!</li>
+                    </ul>
+                </li>
+                <li><strong>Upcoming Event Plans:</strong> New event focused on excavating activities planned for 2 weeks from now.</li>
+                <li><strong>Earlier Fixes This Week:</strong> Fixed level issue with eggs and nests. Fixed Vulture getting stuck while flying to nest.</li>
+            </ul>
+            <p class="crop-news">Crop Market News: Kiwi prices have risen! (24 → 30). Onion prices have dropped! (30 → 25). Farmer Cletus was recently heard whispering about pineapple prices…</p>
+        </div>
+        <div class="update-entry hotfix">
+            <h3>April 17, 2023</h3>
+            <h4>Hotfixes</h4>
+            <ul>
+                 <li>Fixed bug where treasure chests that were broken would drop the wrong pirate treasure chest item.</li>
+                 <li>Fixed bug where the 3 year anniversary cake was aligned incorrectly when placed.</li>
+             </ul>
+        </div>
+         <div class="update-entry hotfix">
+            <h3>April 25, 2023</h3>
+            <h4>NPC Behavior Fix</h4>
+             <p>Located and fixed issue with NPC behavior related to a Roblox platform change affecting multiple games.</p>
+        </div>
+        <div class="update-entry">
+            <h3>April 28, 2023</h3>
+            <h4>Mining Event 2023</h4>
+            <p>Start of the Mining Event (lasts roughly 2 weeks).</p>
+            <ul>
+                <li><strong>How to Play:</strong>
+                    <ul>
+                        <li>Queue via Info Board in HUB (up to 5 players total).</li>
+                        <li>Everyone starts with Iron Pickaxe and Wooden Sword.</li>
+                        <li>4 upgrade stations throughout the mines (cost resources found).</li>
+                        <li>Find and collect new Emerald nodes.</li>
+                        <li>New Mob: Crab Golems (found in mines, drop Iron and Emeralds).</li>
+                        <li>10 minute time limit per run.</li>
+                        <li>IMPORTANT: Everything mined is kept by the player when the game ends.</li>
+                    </ul>
+                </li>
+                <li><strong>Hidden Rewards: Draven the Bat Boss</strong>
+                    <ul>
+                        <li>Find area in upper floor with a BLUE lantern (entrance to summon).</li>
+                        <li>Collect Bat Boss Tokens by killing Crab Golems or participating in event. Tokens carry over between runs.</li>
+                        <li>Use tokens to summon Draven.</li>
+                        <li>Defeating Draven drops rewards: Emeralds, Bat Tokens, Pink Sticky Gears, Slime Queen Crystals, and a very rare chance for either Mining Event 2023 Trophy OR Draven the Bat Boss Statue.</li>
+                    </ul>
+                </li>
+                <li><strong>Mining Event Merchant Rewards</strong> (Miner NPC in HUB, next to Info Board): Redeem Emeralds for rewards:
+                    <ul>
+                        <li>Mining Event 2023 Trophy</li>
+                        <li>Jade NPC Plushie</li>
+                        <li>Mining Lanterns (3 Variants)</li>
+                        <li>Mining Entrance Decor</li>
+                        <li>Mining Cart Couch (2 Variants)</li>
+                        <li>Defective Dynamite Box (2 Variants)</li>
+                        <li>Dynamite Stick Wall Decor</li>
+                        <li>Mining Bags w/ Tools and Gems</li>
+                        <li>Sandbags (3 Variants)</li>
+                    </ul>
+                </li>
+                <li><strong>New Achievements:</strong> Check ACHIEVEMENTS -> PROFILE for Mining Event 2023 challenges. One achievement (defeating Draven multiple times) grants a new limited Medal.</li>
+            </ul>
+            <p class="crop-news">Crop Market News: Pineapple prices have risen! (92 → 96). Carrot prices have dropped! (21 → 17). Farmer Cletus was recently heard whispering about wheat prices…</p>
+        </div>
+        <div class="update-entry hotfix">
+            <h3>April 28, 2023 (Later)</h3>
+            <h4>Hotfix</h4>
+            <p>VIP servers should now have terrain again.</p>
+        </div>
+        <div class="update-entry hotfix">
+            <h3>May 1, 2023</h3>
+            <h4>Hotfixes & Balancing</h4>
+            <ul>
+                 <li>Raised Draven the Bat Boss's spawn point to prevent falling into the void.</li>
+                 <li>Vultures can now be bred using fertility potions to obtain higher tier eggs.</li>
+                 <li>Fixed an issue where players would get rewarded double the items at the end of the mining event.</li>
+                 <li>Fixed a bug where players had duplicate pickaxes/sword in the mining event.</li>
+                 <li>Non-participation or minimal participation in the mining event will now result in zero bat boss tokens being awarded.</li>
+             </ul>
+        </div>
+         <div class="update-entry hotfix">
+            <h3>May 4, 2023</h3>
+            <h4>Hotfix</h4>
+            <p>Fixed an issue with shops not working correctly with merchants placed on player's islands.</p>
+        </div>
+        <div class="update-entry announcement">
+            <h3>May 6-9, 2023</h3>
+            <h4>Trading Temporarily Disabled</h4>
+             <p>Trading disabled on May 6th due to confirmed duplication exploits. Re-enabled intermittently on May 9th with close monitoring. Users assured NOTHING WILL BE WIPED.</p>
+        </div>
+        <div class="update-entry">
+            <h3>May 12, 2023</h3>
+            <h4>Hardcore Mode Update Part I</h4>
+            <ul>
+                <li><strong>Introducing Hardcore Mode!</strong>
+                    <ul>
+                        <li>New profile option (third choice) when creating a profile. Available for solo players initially.</li>
+                        <li>Profile marked with hardcore icon. Visual differences: Sidebar icons colored red, "Rules" button under Profiles, chat text is purple, hidden icons restrict access.</li>
+                        <li>Future plans: More rewards, possible hardcore coop mode.</li>
+                    </ul>
+                </li>
+                <li><strong>Rules of Hardcore</strong> (Viewable via "Rules" button in PROFILE tab on HC profile):
+                    <ul>
+                        <li>Cannot trade/accept trades.</li>
+                        <li>Cannot use/craft vending machines.</li>
+                        <li>Mobs deal extra damage.</li>
+                        <li>Lose coins on death.</li>
+                        <li>Cannot give/receive build perms.</li>
+                        <li>Many more restrictions...</li>
+                    </ul>
+                </li>
+                <li><strong>New Hardcore Mob: Void Crop Eater</strong>
+                    <ul>
+                        <li>Spawns on Hardcore player islands after Combat Level 30, ONLY at night.</li>
+                        <li>Summons with a screeching roar. Targets harvestable crops to eat.</li>
+                        <li>Despawns if no crops are around. Currently non-hostile to players.</li>
+                        <li>Pesticide Spray tools planned for plant protection.</li>
+                    </ul>
+                </li>
+                <li><strong>2 New Hardcore Achievements</strong> (Under "Hardcore" section in achievements): Grant Hardcore-only rewards:
+                    <ul>
+                        <li>Master of Hardcore Medal</li>
+                        <li>Moth Glider Pet Egg</li>
+                        <li>More rewards/achievements planned.</li>
+                    </ul>
+                </li>
+                <li><strong>Improvements to Following Users:</strong>
+                    <ul>
+                        <li>Notifies why following failed (if applicable).</li>
+                        <li>Uses loading screens like rest of game teleporting.</li>
+                        <li>Notifies before teleport if trying to join private/banned islands (instead of kicking upon arrival).</li>
+                    </ul>
+                </li>
+                <li><strong>Earlier Fixes This Week:</strong> Fixed bug preventing viewing travel merchant shops. Fixed bug preventing Vulture breeding.</li>
+            </ul>
+            <p class="crop-news">Crop Market News: Wheat prices have risen! (7 → 12). Watermelon prices have dropped! (80 → 75). Farmer Cletus was recently heard whispering about potato prices…</p>
+        </div>
+        <div class="update-entry hotfix">
+            <h3>May 15, 2023</h3>
+            <h4>Patch & Balancing</h4>
+             <ul>
+                <li><strong>General Fixes:</strong> Removed seaweed seeds from experience tree. Removed anniversary quests.</li>
+                <li><strong>Boss Changes:</strong>
+                    <ul>
+                        <li>Void Serpent: Nerfed knockbacks, reduced void dog count, increased underground movement speed.</li>
+                        <li>Fhanhorn: Reduced healing tree health (83 → 55), increased time per heal tick (5s → 7s).</li>
+                        <li>Magma Dragon: Lowered overall health (17k → 13k).</li>
+                    </ul>
+                 </li>
+                <li><strong>Core Profiles Fix:</strong> Fixed bug allowing core profiles to get hardcore achievements/items (these items wiped from core players).</li>
+                <li><strong>Hardcore Profile Changes:</strong>
+                    <ul>
+                        <li>Added fruit tree saplings to travel merchant (Hardcore access only).</li>
+                        <li>Losing coins on death is now 5%-8% of total coins.</li>
+                        <li>Fixed damage conversion number display in HC.</li>
+                        <li>Prevented crop eaters from targeting totems.</li>
+                    </ul>
+                 </li>
+            </ul>
+        </div>
+         <div class="update-entry announcement">
+            <h3>May 23, 2023</h3>
+            <h4>Player Count Change</h4>
+             <p>Maximum player count for private servers and user islands changed from 30 → 20. Online islands, hub, wild islands remain at 30 max. Attributed to necessary changes due to Roblox platform updates.</p>
+        </div>
+        <div class="update-entry">
+            <h3>May 26, 2023</h3>
+            <h4>Hardcore Update Part II</h4>
+            <p>Small early update, focusing on future wild islands content.</p>
+            <ul>
+                <li><strong>New Hardcore Trophy:</strong> Earnable in Hardcore Mode by completing a series of boss defeat Achievements (under Hardcore tab).</li>
+                <li><strong>Hardcore Merchant Trades:</strong> Added additional items available for trade (with daily stock limits) in Hardcore Mode:
+                    <ul>
+                        <li>Adventurer: Gears for gears.</li>
+                        <li>Fulco: Flowers for flowers.</li>
+                    </ul>
+                </li>
+                <li><strong>Changes This Week:</strong>
+                    <ul>
+                        <li>Added Private Server restriction note to Hardcore Rules menu.</li>
+                        <li>Players can now trade Cletus their Plum Sapling for Orange Saplings during Fall season on their island.</li>
+                    </ul>
+                </li>
+            </ul>
+            <p class="crop-news">Crop Market News: Potato prices have risen! (11 → 17). Kiwi prices have dropped! (24 → 19). Farmer Cletus was recently heard whispering about apple prices…</p>
+        </div>
+         <div class="update-entry hotfix">
+            <h3>May 27, 2023</h3>
+            <h4>Hotfix</h4>
+            <p>Fixed summoning the magma dragon (requires 750 tokens).</p>
+        </div>
+         <div class="update-entry announcement">
+            <h3>June 14, 2023</h3>
+            <h4>Trading Restrictions & Fixes</h4>
+             <ul>
+                 <li><strong>Player-to-player trading requirements changed:</strong> Now requires level 40 Economy AND at least 10 AP (may change in future, possibly to level 20 average stat).</li>
+                 <li><strong>Vending machine requirements changed:</strong> Selling items now requires level 35 Economy, buying requires level 25 Economy.</li>
+                 <li>Certain items now have trading limits (per trade session or per day).</li>
+                 <li>Chests can no longer be placed within range of the portal to the hub.</li>
+                 <li>Fixed totem behavior (totems should behave themselves now).</li>
+                 <li>Clarification on duped items: Only Fishing Festival Trophy 2022 and Captain's Rapier confirmed duped. Advised caution against scams.</li>
+             </ul>
+        </div>
+        <div class="update-entry">
+            <h3>June 23, 2023</h3>
+            <h4>Slime Dungeon Update</h4>
+            <p>Introducing the first new permanent game mode: Slime Dungeons.</p>
+            <ul>
+                <li><strong>How to Play:</strong>
+                    <ul>
+                        <li>Head to Slime Island, queue from the door next to the brazier.</li>
+                        <li>Requires party size up to 5, and Combat Level 30 for all members.</li>
+                        <li>Spawn in, start with an Iron Sword. Door opens to begin.</li>
+                        <li>Follow on-screen objectives, work as a team through rooms.</li>
+                        <li>Some hidden puzzles require multiple people.</li>
+                        <li>Find green chests to roll for random weapons (one time use per chest).</li>
+                        <li>Defeat the final boss, Primordial Slime, for rewards: Dungeon Chest + Dungeon Coins.</li>
+                    </ul>
+                </li>
+                <li><strong>New Achievement Type: Dungeons</strong>
+                    <ul>
+                        <li>Found at bottom of achievements tab.</li>
+                        <li>Complete AP challenges for additional chest rewards. More planned.</li>
+                    </ul>
+                </li>
+                <li><strong>New Slime Dungeon Shop</strong> (Ivon the Adventurer outside entrance)
+                    <ul>
+                        <li>Talk to Ivon for lore (Slimes, King, Queen, Primordial).</li>
+                        <li>Redeem Dungeon Coins (earned playing mode) for rewards: King’s Crown Statue, Queen’s Crown Statue, Primordial Skull Statue, Warrior Statue, Dungeon Cages (2 variants), Slime Murals (5 variants), Braziers (2 variants).</li>
+                    </ul>
+                </li>
+                <li><strong>Dungeon Chest Rewards</strong> (Earned from achievements & completing dungeons)
+                    <ul>
+                        <li>Place chest on island, open for one random reward:</li>
+                        <li>Common: Green Slime Balls, Green Sticky Gears, Slime King Tokens, Slime Queen Tokens.</li>
+                        <li>Uncommon: Dungeon Coins, Statue variants from shop.</li>
+                        <li>Rare: Golden Braziers, Golden Slime Murals.</li>
+                        <li>Mythic: Primordial Plushie Beanbag.</li>
+                        <li>Legendary: Primordial Statue.</li>
+                    </ul>
+                </li>
+            </ul>
+            <p class="crop-news">Crop Market News: Apple prices have risen! (20 → 26). Tomato prices have dropped! (9 → 4). Farmer Cletus was recently heard whispering about cactus prices…</p>
+        </div>
+        <div class="update-entry">
+            <h3>July 7, 2023</h3>
+            <h4>Fossil Hunting Update</h4>
+            <ul>
+                <li><strong>New Mini Game: Fossil Hunting</strong>
+                    <ul>
+                        <li>Collect unidentified fossils and rocks from dig sites across Wild Islands.</li>
+                        <li>Aim to collect missing fossils to build fossil statues.</li>
+                    </ul>
+                </li>
+                <li><strong>Fossil Statue:</strong>
+                    <ul>
+                        <li>Purchase T-Rex Fossil Statue from Nomad NPC (Desert Isles, costs Ruby Skorp Scales).</li>
+                        <li>Place on island to show outline. Inspect to see required fossils.</li>
+                        <li>Add collected fossils by interacting (requires owner permissions).</li>
+                    </ul>
+                </li>
+                <li><strong>Fossil Carving Mini Game:</strong>
+                    <ul>
+                        <li>Located at dig sites (rock pile with pickaxes, bones, helmet) on Slime, Buffalkor, Wizard, Desert Isles, Underworld.</li>
+                        <li>Requires pickaxe equipped.</li>
+                        <li>Timing game: Click when moving blue bar aligns with green bar. Miss too many times = rock breaks, lose reward. Enough successful hits = claim item inside.</li>
+                    </ul>
+                </li>
+                <li><strong>Updated Merchant Dialogue/Models:</strong>
+                    <ul>
+                        <li>Petur the Baker, Jade the Miner, John the General received model updates.</li>
+                        <li>Added various lore dialogue to most existing merchants. Plan to expand lore and quests.</li>
+                    </ul>
+                </li>
+            </ul>
+            <p class="crop-news">Crop Market News: Cactus prices have risen! (30 → 35). Starfruit prices have dropped! (60 → 54). Farmer Cletus was recently heard whispering about lemon prices…</p>
+        </div>
+        <div class="update-entry hotfix">
+            <h3>July 12, 2023</h3>
+            <h4>Hotfix</h4>
+            <p>Fixed an exploit where users could arbitrarily set the coin value of a vending machine via a bug.</p>
+        </div>
+         <div class="update-entry hotfix">
+            <h3>July 19, 2023</h3>
+            <h4>Exploit Fix & Item Stack Wipes</h4>
+            <p>Fixed issue where select items could be arbitrarily spawned via an exploit.</p>
+            <p>As a side effect, one-time stack limit wipes applied on first login per profile for specific items:</p>
+             <ul>
+                <li>T-rex fossils: Reduced to Max 100</li>
+                <li>Rubies and Ruby Blocks: Max 20k</li>
+                <li>Ancient slime string: Max 50k</li>
+                <li>Clay, Granite, Gold Ingots, Copper Ingots: Max 100k</li>
+                <li>Stone: Max 500k</li>
+             </ul>
+             <p>(Player can obtain more items legitimately after the one-time wipe).</p>
+        </div>
+        <div class="update-entry">
+            <h3>July 21, 2023</h3>
+            <h4>Lavender & More Fossils Update</h4>
+            <ul>
+                <li><strong>New Flower Type: Lavender</strong>
+                    <ul>
+                         <li>Grow and breed new rare flowers.</li>
+                         <li>Colors: Purple, White, Red, Blue, Light Green, Yellow, Cyan, Dark Green, Pink, Orange, Black, Chrome.</li>
+                    </ul>
+                 </li>
+                <li><strong>Additional Fossil Statues!</strong> Added 2 more statues to purchase from Nomad merchant:
+                    <ul>
+                        <li>Mammoth Statue</li>
+                        <li>Dodo Bird Statue</li>
+                    </ul>
+                 </li>
+                <li><strong>Earlier Fixes This Week Recap:</strong> Fixed coin exploits via Vending Machines. Fixed Fossil Minigame item spawn exploit.</li>
+            </ul>
+            <p class="crop-news">Crop Market News: Lemon prices have risen! (20 → 27). Plum prices have dropped! (50 → 45). Farmer Cletus was recently heard whispering about potato prices…</p>
+        </div>
+        <div class="update-entry hotfix">
+            <h3>July 24, 2023</h3>
+            <h4>Hotfix</h4>
+            <p>Fixed a bug where harvesting crops would cause lag issues.</p>
+        </div>
+        <div class="update-entry hotfix">
+            <h3>August 1, 2023</h3>
+            <h4>Hotfix</h4>
+            <p>The camera when using mounts is fixed now.</p>
+        </div>
+        <div class="update-entry">
+            <h3>August 18, 2023</h3>
+            <h4>Mushroom Obby Event</h4>
+            <p>Start of limited time Obby event (duration 2 weeks or a month based on community response).</p>
+            <ul>
+                <li><strong>Requirements:</strong> Combat Level 30 AND Fishing Level 20. Queue from contract board next to new Obby Host NPC in Hub (parties up to 5).</li>
+                <li><strong>How To Play:</strong> 5-player free-for-all race.
+                    <ul>
+                        <li>Given starting items (use throughout game).</li>
+                        <li>Parkour across bouncy mushrooms to next Island.</li>
+                        <li>Each Island has a task; complete it to change RED portal to GREEN to proceed.</li>
+                        <li>Tasks involve defeating Mushroom Golems, capturing Snail Critters, fishing for Koi.</li>
+                        <li>Reach end of level and hit big red button for victory placement.</li>
+                        <li>NOTE: Higher placement (1st, 2nd, 3rd) earns more tickets.</li>
+                    </ul>
+                </li>
+                <li><strong>Obby Host Merchant Shop</strong> (Hub): Redeem tickets for limited time items (majority tradelocked until event end):
+                    <ul>
+                        <li>Mushroom Obby Event Trophy</li>
+                        <li>The Divine Dao Sword</li>
+                        <li>Nature’s Divine Longbow</li>
+                        <li>Poison Arrows (also craftable on anvil)</li>
+                        <li>Nature themed fridge (5 variants)</li>
+                        <li>Nature themed outhouse (4 variants)</li>
+                        <li>Tree Trunk chair (4 variants)</li>
+                        <li>Mushroom table furniture (4 variants)</li>
+                        <li>Glowing mushroom blocks (4 variants)</li>
+                    </ul>
+                </li>
+                <li><strong>New Mobs</strong> (Only in Mushroom Obby Event): Snail Critter and Mushroom Golems.</li>
+                <li><strong>New Fish: Koi</strong> (Legendary). Obtainable in Hub (any water body) or during event.</li>
+            </ul>
+            <p class="crop-news">Crop Market News: Potato prices have risen! (11 → 16). Onion prices have dropped! (30 → 25). Farmer Cletus was recently heard whispering about orange prices…</p>
+        </div>
+        <div class="update-entry hotfix">
+            <h3>August 18, 2023 (Later)</h3>
+            <h4>Hotfixes</h4>
+             <ul>
+                 <li>Fixed issue where some teams could not complete the race when pressing the button.</li>
+                 <li>Fixed issue where event tasks would not show for some teams.</li>
+                 <li>Reduced game time from 20 minutes to 10 minutes.</li>
+                 <li>Reduced team size from 10 players to 5 players.</li>
+                 <li>Added 50/50 chances to catch carp now in the event.</li>
+             </ul>
+        </div>
+         <div class="update-entry hotfix">
+            <h3>August 19, 2023</h3>
+            <h4>Hotfixes & Scoring Changes</h4>
+            <ul>
+                 <li>Fixed issue where players loading in after the game starts weren't counted on game complete.</li>
+                 <li>Added Iron Sickle to player inventory to help with harvesting task in Obby game.</li>
+                 <li>Reworked scoring for players based on placement and points earned.</li>
+                 <li>Changed placement chat announcement to include the name of the player who finished the race.</li>
+                 <li>Removed collision on lavender flowers.</li>
+                 <li><strong>New Score Tracking:</strong>
+                    <ul>
+                         <li>1st place gets 75 tickets.</li>
+                         <li>2nd place gets 65 tickets.</li>
+                         <li>3rd place gets 55 tickets.</li>
+                         <li>Each task completed in the Obby counts as 25 points.</li>
+                         <li>Game ends automatically when the first 3 people hit the button.</li>
+                         <li>Rewards for 4th/5th place based on score:
+                            <ul>
+                                <li>45 tickets with 100 - 125 points</li>
+                                <li>35 tickets with 50 - 75 points</li>
+                                <li>25 tickets with 25 points</li>
+                                <li>0 tickets for 0 points</li>
+                            </ul>
+                         </li>
+                    </ul>
+                 </li>
+             </ul>
+        </div>
+         <div class="update-entry hotfix">
+            <h3>August 21, 2023</h3>
+            <h4>Hotfix</h4>
+            <p>Fixed a bug where statues and other puzzle components in the slime dungeon would no longer work.</p>
+        </div>
+        <div class="update-entry announcement">
+            <h3>August 29-30, 2023</h3>
+            <h4>Trading/Perms Disabled & Re-enabled, Economic Changes</h4>
+             <p>Trading and Island permissions temporarily disabled (Aug 29) due to serious economy exploits. Vulnerabilities discovered and patched.</p>
+             <p>Trading back online (Aug 30, morning). Build permissions re-enabled later (Aug 30, evening) while monitoring economy.</p>
+             <p><strong>Economic Changes (Aug 30, night):</strong></p>
+             <ul>
+                 <li>Certain rare items now have trade restrictions per day (limit on selling to vending machines or trading to others - outbound). Affected items have tooltip indicator.</li>
+                 <li>These restricted items follow same chest break constraints as trade locked items (non-breakable by anyone but island owners).</li>
+                 <li>Adjusted requirements of trading to require all islands levels average to 40 (temporary measure, may adjust again).</li>
+             </ul>
+             <p>(Users asked to report suspicious large dumps/cheap sales of items).</p>
+        </div>
+        <div class="update-entry announcement">
+             <h3>September 1, 2023</h3>
+             <h4>Event Extension</h4>
+             <p>The Mushroom Obby event extended for another 2 weeks, ending on September 15, 2023. No update today, working on Halloween content.</p>
+         </div>
+         <div class="update-entry hotfix">
+            <h3>September 3, 2023</h3>
+            <h4>Hotfix</h4>
+            <p>Profiles should be able to be created again.</p>
+        </div>
+         <div class="update-entry">
+            <h3>September 15, 2023</h3>
+            <h4>UI Update & In-Game Clock</h4>
+            <ul>
+                <li><strong>Updated UI!</strong>
+                    <ul>
+                        <li>Improved UI for profile selection (added search, filter tags: tag:coop, tag:hardcore, tag:solo).</li>
+                        <li>Minor changes to achievements and quests UIs.</li>
+                    </ul>
+                 </li>
+                <li><strong>In-Game Clock:</strong>
+                    <ul>
+                        <li>Added clock on player island (top right corner).</li>
+                        <li>Day transitions at 4:00 AM, officially starts 6:00 AM.</li>
+                        <li>Night transitions at 5:00 PM, officially starts 6:00 PM.</li>
+                        <li>Night lasts quicker (clock speeds up).</li>
+                    </ul>
+                </li>
+                <li><strong>Open Tradelocked Items:</strong> All items from the Mushroom Obby Event are now open for trade. Mushroom Obby related achievements locked.</li>
+            </ul>
+             <p class="note">Still working on Halloween event.</p>
+            <p class="crop-news">Crop Market News: Orange prices have risen! (20 → 26). Radish prices have dropped! (64 → 59). Farmer Cletus was recently heard whispering about lemon prices…</p>
+        </div>
+         <div class="update-entry hotfix">
+            <h3>September 25, 2023</h3>
+            <h4>Hotfixes</h4>
+            <ul>
+                 <li>Fixed bug where placing local teleport orbs would not work.</li>
+                 <li>Added back the co-op invite menu to the profiles screen.</li>
+                 <li>Re-enabled ATMs, now with a cooldown on transactions.</li>
+             </ul>
+        </div>
+        <div class="update-entry">
+            <h3>October 13, 2023</h3>
+            <h4>Halloween Event 2023</h4>
+            <p>Welcome to the Halloween Event of 2023!</p>
+            <ul>
+                <li><strong>New Event: Haunted Mansion</strong>
+                    <ul>
+                        <li>Queue at the Info Board in the Hub.</li>
+                        <li>Max party size of 4, requires Combat Level 30.</li>
+                        <li>Gameplay: Start behind cemetery, complete tasks to reach mansion, solve puzzles inside, use tools to lift curse, locate and defeat the Wraith boss.</li>
+                    </ul>
+                </li>
+                <li><strong>New Event Merchant: Hooded Figure</strong> (in Hub)
+                    <ul>
+                        <li>Earn tickets by playing event (points based on boss damage, highest damage gets more tickets).</li>
+                        <li>Purchase limited items: Mansion Cabinet, Mansion Bench, Mansion Desk, Mansion Bust Statues (3 variants), Mansion Bed, Rocking Horse, Mansion Couch, Victorian Grandfather Clock, Wraith Boss Plushie, Black Cat Pet Egg.</li>
+                    </ul>
+                </li>
+                <li><strong>New Pet: Black Cat</strong> (Limited time only)
+                    <ul>
+                        <li>Purchase from Hooded Figure with tickets.</li>
+                        <li>Transparent glowing skeletal appearance.</li>
+                    </ul>
+                </li>
+                <li><strong>New Event Achievements:</strong> Check under Events tab for new AP challenges.</li>
+            </ul>
+             <p class="note">Part 2 coming next week with more rewards (weapons, cauldrons, etc.). Save up tickets!</p>
+            <p class="crop-news">Crop Market News: Lemon prices have risen! (20 → 26). Spinach prices have dropped! (18 → 14). Farmer Cletus was recently heard whispering about wheat prices…</p>
+        </div>
+         <div class="update-entry hotfix">
+            <h3>October 17, 2023</h3>
+            <h4>Hotfixes</h4>
+            <ul>
+                 <li>Fixed delay when a match would give items due to waiting for the spawn door to open (Game Mode Generic).</li>
+                 <li>Fixed glitch where items could be obtained before their respective puzzles were solved (Halloween Event).</li>
+             </ul>
+        </div>
+        <div class="update-entry">
+            <h3>October 20, 2023</h3>
+            <h4>Halloween Event 2023 Part 2</h4>
+            <ul>
+                <li><strong>Cauldrons are back!</strong>
+                    <ul>
+                        <li>Obtain by beating the event boss or purchase from Hooded Figure NPC with tickets.</li>
+                        <li>Open placed cauldron on island for rewards.</li>
+                    </ul>
+                </li>
+                <li><strong>Cauldron Drops:</strong>
+                     <ul>
+                         <li>Additional event tickets</li>
+                         <li>Mansion Busts (3 variants)</li>
+                         <li>New Mansion Fireplace</li>
+                         <li>New Iridescent Flower in Vase</li>
+                         <li>Cat Pet Egg</li>
+                         <li>New Spellbook: The Grimoire</li>
+                         <li>New Melee: The Cursed Hammer</li>
+                         <li>2023 Halloween Event Trophy</li>
+                     </ul>
+                 </li>
+                 <li><strong>Misc Fun:</strong> Added a seat interaction to the rocking horse toy decoration.</li>
+            </ul>
+             <p class="trade-lock-info">Reminder: All non-tradable items from the event will be unlocked for trade at the end of this event (November 3, 2023).</p>
+        </div>
+         <div class="update-entry announcement">
+             <h3>November 3, 2023</h3>
+             <h4>Halloween Event End</h4>
+             <p>The Halloween 2023 Event officially ended. All items from the event may now be traded.</p>
+         </div>
+        <div class="update-entry final-announcement">
+            <h3>November 7, 2023</h3>
+            <h4>Final Update & Future Plans</h4>
+            <p>The development team announced the decision to stop updating Islands.</p>
+            <ul>
+                <li>Islands will not be shutting down and will remain playable on Roblox.</li>
+                <li>The team expressed thanks to the community for their support and participation over the years.</li>
+                <li>They stated hope to build a new Islands game in the future but are currently working on other projects.</li>
+            </ul>
+            <p>Thank you for making Islands awesome.</p>
+        </div>
+
+        <h2>2024</h2>
+         <div class="update-entry hotfix">
+            <h3>September 24, 2024</h3>
+            <h4>Minor Changes</h4>
+            <ul>
+                <li>Disabled placing water / lava blocks.</li>
+                <li>Reduced length of some tutorial steps.</li>
+             </ul>
+        </div>
+
+    </div>
+</body>
+</html>
