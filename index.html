@@ -4,108 +4,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roblox Islands Update</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        #updates-container {
-            max-width: 900px;
-            margin: auto;
-            background: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            text-align: center;
-            color: #2c3e50;
-            margin-bottom: 30px;
-        }
-        h2 {
-            color: #16a085;
-            border-bottom: 2px solid #1abc9c;
-            padding-bottom: 5px;
-            margin-top: 40px;
-        }
-        .update-entry {
-            background: #ecf0f1;
-            margin-bottom: 20px;
-            padding: 15px 20px;
-            border-left: 5px solid #1abc9c;
-            border-radius: 4px;
-        }
-         .update-entry.final-announcement {
-            border-left-color: #e74c3c;
-            background-color: #fbeae5;
-        }
-         .update-entry.announcement {
-            border-left-color: #8e44ad;
-            background-color: #f4ecf7;
-         }
-        .update-entry.hotfix {
-            border-left-color: #f39c12;
-            background-color: #fef9e7;
-            padding: 10px 15px;
-            margin-top: -10px;
-            margin-bottom: 15px;
-            font-size: 0.9em;
-        }
-        h3 {
-            color: #2980b9;
-            margin-bottom: 5px;
-        }
-        h4 {
-            color: #34495e;
-            margin-top: 0;
-            margin-bottom: 10px;
-        }
-        ul {
-            margin-top: 10px;
-            padding-left: 20px;
-            list-style: disc;
-        }
-         ul ul {
-             list-style: circle;
-             margin-top: 5px;
-         }
-        li {
-            margin-bottom: 5px;
-        }
-        code {
-            background-color: #e8e8e8;
-            padding: 2px 4px;
-            border-radius: 3px;
-            font-family: monospace;
-        }
-        .crop-news {
-            font-style: italic;
-            color: #7f8c8d;
-            margin-top: 10px;
-            border-top: 1px dashed #bdc3c7;
-            padding-top: 10px;
-        }
-         .trade-lock-info {
-            font-weight: bold;
-            color: #c0392b;
-            margin-top: 5px;
-        }
-         .misc-changes, .qol-changes, .bug-fixes {
-             margin-top: 10px;
-         }
-         .misc-changes strong, .qol-changes strong, .bug-fixes strong {
-             color: #2c3e50;
-         }
-         .note {
-            font-style: italic;
-            color: #8e44ad;
-            margin-top: 10px;
-            font-size: 0.95em;
-         }
-    </style>
+  <meta property="og:title" content="Roblox Islands Update" />
+  <meta property="og:description" content="in here is just every islands update that has happened" />
+  <meta property="og:image" content="https://media.discordapp.net/attachments/1364472801267810344/1371727736682582027/raw.png?ex=68243081&is=6822df01&hm=e07e2d2fc2fd70281eaeb58e31dbd1b4b093c80bdd42b86da018e5d6b899a871&=&format=webp&quality=lossless" />
+  <meta property="og:url" content="https://robloxislandsupdates.vercel.app/" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="https://media.discordapp.net/attachments/1364472801267810344/1371727736682582027/raw.png?ex=68243081&is=6822df01&hm=e07e2d2fc2fd70281eaeb58e31dbd1b4b093c80bdd42b86da018e5d6b899a871&=&format=webp&quality=lossless" type="image/png" />
+<style>
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        line-height: 1.7;
+        margin: 0;
+        padding: 20px;
+        background-color: #0d0d0d;
+        color: #dcdcdc;
+    }
+
+    #updates-container {
+        max-width: 900px;
+        margin: auto;
+        background: #1a1a1a;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    }
+
+    h1 {
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 30px;
+        font-size: 2.2em;
+    }
+
+    h2 {
+        color: #aaaaaa;
+        border-bottom: 2px solid #2e2e2e;
+        padding-bottom: 6px;
+        margin-top: 40px;
+        font-size: 1.4em;
+    }
+
+    .update-entry {
+        background: #222;
+        margin-bottom: 20px;
+        padding: 20px;
+        border-left: 4px solid #444;
+        border-radius: 8px;
+    }
+
+    .update-entry.final-announcement {
+        border-left-color: #555;
+        background-color: #1e1e1e;
+    }
+
+    .update-entry.announcement {
+        border-left-color: #3c3c3c;
+        background-color: #1c1c1c;
+    }
+
+    .update-entry.hotfix {
+        border-left-color: #333;
+        background-color: #181818;
+        font-size: 0.95em;
+        margin-top: -10px;
+        margin-bottom: 15px;
+        padding: 15px;
+    }
+
+    h3 {
+        color: #dddddd;
+        margin-bottom: 8px;
+    }
+
+    h4 {
+        color: #999;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        margin-top: 10px;
+        padding-left: 20px;
+        list-style: disc;
+    }
+
+    ul ul {
+        list-style: circle;
+        margin-top: 5px;
+    }
+
+    li {
+        margin-bottom: 8px;
+    }
+
+    code {
+        background-color: #2a2a2a;
+        padding: 3px 6px;
+        border-radius: 4px;
+        font-family: monospace;
+        color: #ccc;
+    }
+
+    .crop-news {
+        font-style: italic;
+        color: #888;
+        margin-top: 10px;
+        border-top: 1px dashed #333;
+        padding-top: 10px;
+    }
+
+    .trade-lock-info {
+        font-weight: bold;
+        color: #999;
+        margin-top: 5px;
+    }
+
+    .misc-changes, .qol-changes, .bug-fixes {
+        margin-top: 10px;
+    }
+
+    .misc-changes strong, .qol-changes strong, .bug-fixes strong {
+        color: #dcdcdc;
+    }
+
+    .note {
+        font-style: italic;
+        color: #aaa;
+        margin-top: 10px;
+        font-size: 0.95em;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        border-radius: 6px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        object-fit: cover;
+    }
+</style>
 </head>
 <body>
     <div id="updates-container">
@@ -692,7 +730,7 @@
 </div>
 <div class="update-entry">
     <h3>September 18, 2020</h3>
-    <h4>The Factory Update (1/2) is live! @everyone</h4>
+    <h4>The Factory Update (1/2) is live!</h4>
     <p>Resource Deposit Islands</p>
     <p>Small resource islands now spawn near your island. Each resource island has a deposit block that can be mined using a drill. Resource islands only spawn every 24 IRL hours.</p>
     <p>The current resource islands are for copper (and you can have a max of two copper islands). We'll be adding more resource island types over time!</p>
@@ -743,13 +781,13 @@
 <div class="update-entry">
     <h3>September 24, 2020</h3>
     <h4>Update Delay Announcement</h4>
-    <p><a href="https://twitter.com/RobloxIslands/status/1309342369469267968?s=20">Roblox Islands (@RobloxIslands)</a></p>
+    <p><a href="https://twitter.com/RobloxIslands/status/1309342369469267968?s=20">https://twitter.com/RobloxIslands/status/1309342369469267968?s=20</a></p>
     <p>Moving the update to next Friday (10/2). Taking our time to fit in a lot of content for everyone 😊🐮</p>
 </div>
 <div class="update-entry">
     <h3>October 3, 2020</h3>
     <h4>Cows Have Arrived!</h4>
-    <p>🐮 Cows have arrived! @everyone</p>
+    <p>🐮 Cows have arrived!</p>
     <p>Cows have migrated to everyone's island. Taliyah finished building her barn in the Town. Talk to her to learn more about animals!</p>
 
     <p>Full Changelog</p>
@@ -789,7 +827,7 @@
 <div class="update-entry">
     <h3>October 16, 2020</h3>
     <h4>The Witches Event</h4>
-    <p>New update is going live! @everyone</p>
+    <p>New update is going live!</p>
     <p>🧙‍♀️ The Witches</p>
     <p>Witches Are Real! And they are taking over Islands on Roblox from 10/16-11/1! Defeat the Grand High Witch this Halloween season, and check out <a href="https://www.hbomax.com/">#TheWitchesMovie</a> coming exclusively to HBOMax in the US on October 22! Internationally, <a href="https://www.hbomax.com/">#TheWitchesMovie</a> will be in cinemas soon.</p>
 
@@ -814,7 +852,7 @@
 <div class="update-entry">
     <h3>October 30, 2020</h3>
     <h4>Update Announcement</h4>
-    <p><a href="https://twitter.com/RobloxIslands/status/1322330712452689920?s=20">Roblox Islands (@RobloxIslands)</a></p>
+    <p><a href="https://twitter.com/RobloxIslands/status/1322330712452689920?s=20">https://twitter.com/RobloxIslands/status/1322330712452689920?s=20</a></p>
     <p>New update releasing this Sunday! 🏰🔨🌹🌼</p>
 </div>
 <div class="update-entry">
@@ -832,7 +870,7 @@
 <div class="update-entry">
     <h3>November 1, 2020</h3>
     <h4>New Content Update</h4>
-    <p>A new content update has been released! @everyone</p>
+    <p>A new content update has been released!</p>
 
     <p>🌈 Colors</p>
     <p>New clay block colors have been added! Color your clay blocks using the new flowers! There are now 11 colors in total.</p>
@@ -879,7 +917,7 @@
 <div class="update-entry">
     <h3>November 6, 2020</h3>
     <h4>New Content Update</h4>
-    <p>Rolling out a new content update! @everyone</p>
+    <p>Rolling out a new content update!</p>
 
     <p>🏗️ Increased build limit to 70k (was 50k)</p>
     <p>🏭 Randomizer Conveyor Block</p>
@@ -904,7 +942,7 @@
 <div class="update-entry">
     <h3>November 20, 2020</h3>
     <h4>New Update is Live!</h4>
-    <p>New update is live! @everyone <a href="https://www.roblox.com/games/4872321990/Islands-PVP">Islands PvP</a></p>
+    <p>New update is live! <a href="https://www.roblox.com/games/4872321990/Islands-PVP">Islands PvP</a></p>
 
     <p>Full Changelog</p>
     <ul>
@@ -997,7 +1035,7 @@
     <ul>
         <li>⚡ We paused the majority of development this week to focus on patching exploits related to item and coin duping. We managed to patch the biggest duping methods and are still working on patching a few smaller exploits. We'll get back to working on new content next week!</li>
     </ul>
-    <p><a href="https://twitter.com/RobloxIslands/status/1334985611187404800?s=20">View on Twitter</a></p>
+    <p><a href="https://twitter.com/RobloxIslands/status/1334985611187404800?s=20">https://twitter.com/RobloxIslands/status/1334985611187404800?s=20</a></p>
 </div>
 
 <div class="update-entry">
@@ -1028,7 +1066,7 @@
         <li>Clay rocks spawn underwater in the hub</li>
         <li>Conveyor Randomizer Recipe: Buffalkor Crystal => Crystallized Iron</li>
     </ul>
-    <p><a href="https://twitter.com/RobloxIslands/status/1337476034514042881?s=20">View on Twitter</a></p>
+    <p><a href="https://twitter.com/RobloxIslands/status/1337476034514042881?s=20">https://twitter.com/RobloxIslands/status/1337476034514042881?s=20</a></p>
 </div>
 <div class="update-entry">
     <h3>December 14, 2020</h3>
@@ -1040,7 +1078,7 @@
         <li>Temporarily removed the "go home" button on touch screens (a better version will be added soon)</li>
         <li>Patched several dupe exploits</li>
     </ul>
-    <p><a href="https://twitter.com/RobloxIslands/status/1338382151420518400?s=20">View on Twitter</a></p>
+    <p><a href="https://twitter.com/RobloxIslands/status/1338382151420518400?s=20">https://twitter.com/RobloxIslands/status/1338382151420518400?s=20</a></p>
 </div>
 <div class="update-entry">
     <h3>December 18, 2020</h3>
@@ -1066,7 +1104,7 @@
         <li>📷 New camera mode is forced when holding weapons</li>
         <li>📷 Sidebar is now clickable in First Person when the Inventory is open</li>
     </ul>
-    <p><a href="https://twitter.com/RobloxIslands/status/1339988826923913216?s=20">View on Twitter</a></p>
+    <p><a href="https://twitter.com/RobloxIslands/status/1339988826923913216?s=20">https://twitter.com/RobloxIslands/status/1339988826923913216?s=20</a></p>
 </div>
 <div class="update-entry">
     <h3>December 22, 2020</h3>
@@ -1074,7 +1112,7 @@
     <ul>
         <li>🛡️ You now have to hold <strong>Q</strong> to drop tools and weapons. No more accidentally dropping them into the void 😌</li>
     </ul>
-    <p><a href="https://twitter.com/robloxislands/status/1341431009204572160?s=21">View on Twitter</a></p>
+    <p><a href="https://twitter.com/robloxislands/status/1341431009204572160?s=21">https://twitter.com/robloxislands/status/1341431009204572160?s=21</a></p>
 </div>
 <div class="update-entry">
     <h3>December 30, 2020</h3>
@@ -1246,7 +1284,7 @@
     <ul>
         <li>🐷 Unlock pigs in the next Islands update!</li>
     </ul>
-    <p><a href="https://twitter.com/RobloxIslands/status/1354215671970762756?s=20">View on Twitter</a></p>
+    <p><a href="https://twitter.com/RobloxIslands/status/1354215671970762756?s=20">https://twitter.com/RobloxIslands/status/1354215671970762756?s=20</a></p>
 </div>
 
 
@@ -1288,7 +1326,7 @@
     <ul>
         <li>🗿 A new hostile mob will protect the mines in the next update!</li>
     </ul>
-    <p><a href="https://twitter.com/RobloxIslands/status/1358536877079363584?s=20">View on Twitter</a></p>
+    <p><a href="https://twitter.com/RobloxIslands/status/1358536877079363584?s=20">https://twitter.com/RobloxIslands/status/1358536877079363584?s=20</a></p>
 </div>
 <div class="update-entry">
     <h3>February 11, 2021</h3>
@@ -1296,7 +1334,7 @@
     <ul>
         <li>💎⚔️🐮🧧 New update dropping tomorrow — See you then!</li>
     </ul>
-    <p><a href="https://twitter.com/robloxislands/status/1359961162129973249?s=21">View on Twitter</a></p>
+    <p><a href="https://twitter.com/robloxislands/status/1359961162129973249?s=21">https://twitter.com/robloxislands/status/1359961162129973249?s=21</a></p>
 </div>
 <div class="update-entry">
     <h3>February 12, 2021</h3>
@@ -1342,7 +1380,7 @@
 <div class="update-entry">
     <h3>February 18, 2021</h3>
     <h4>New Update Dropping Tomorrow!</h4>
-    <p><a href="https://twitter.com/RobloxIslands/status/1362555042243301378?s=20" target="_blank">Roblox Islands</a> announced that a new update is coming tomorrow morning!</p>
+    <p><a href="https://twitter.com/RobloxIslands/status/1362555042243301378?s=20">https://twitter.com/RobloxIslands/status/1362555042243301378?s=20</a></p>
 </div>
 
 <div class="update-entry">
@@ -1376,7 +1414,7 @@
 <div class="update-entry">
     <h3>February 19, 2021</h3>
     <p><strong>Islands are working again!</strong> The islands are back online, and you can now enjoy shopping in the malls 🛍️🛒</p>
-    <a href="https://twitter.com/RobloxIslands/status/1362963062580383750?s=20" target="_blank">View on Twitter</a>
+    <a href="https://twitter.com/RobloxIslands/status/1362963062580383750?s=20">https://twitter.com/RobloxIslands/status/1362963062580383750?s=20</a>
 </div>
 <div class="update-entry">
     <h3>February 20, 2021</h3>
@@ -1429,15 +1467,14 @@
     <h3>February 26, 2021</h3>
     <p><strong>Islands Fishing Festival</strong></p>
     <p>The Islands Fishing Festival takes place tomorrow at 11:00AM PST! That's in under 17 hours from this tweet! A countdown can be found in the Hub.</p>
-    <a href="https://twitter.com/RobloxIslands/status/1365486673480581123?s=20" target="_blank">View tweet</a>
+    <a href="https://twitter.com/RobloxIslands/status/1365486673480581123?s=20" target="_blank">https://twitter.com/RobloxIslands/status/1365486673480581123?s=20</a>
 </div>
 
 <div class="update-entry">
     <h3>February 27, 2021</h3>
     <p><strong>10 minutes until the Fishing Festival begins! 🎣</strong></p>
-    <p>@everyone</p>
     <img src="https://cdn.discordapp.com/attachments/699870693675892746/815294726538133564/fishing-festival-thumbnail.png?ex=68239462&is=682242e2&hm=9eb539480e6043d6ca9ae68f38b038aca01f3deffa5b791e6b1d15222df0d474&" alt="Fishing Festival Thumbnail">
-    <a href="https://twitter.com/RobloxIslands/status/1365486673480581123?s=20" target="_blank">View tweet</a>
+    <a href="https://twitter.com/RobloxIslands/status/1365486673480581123?s=20" target="_blank">https://twitter.com/RobloxIslands/status/1365486673480581123?s=20</a>
 </div>
 <div class="update-entry">
     <h3>March 5, 2021</h3>
@@ -1458,7 +1495,7 @@
 </div>
 <div class="update-entry">
     <h3>March 13, 2021</h3>
-    <p><strong>New update is live! @everyone</strong></p>
+    <p><strong>New update is live!</strong></p>
     <ul>
         <li>👑 Slime King boss added to Slime Island</li>
         <li>🌦️ Seasons! Each IRL day marks the start of a new season</li>
@@ -1530,7 +1567,7 @@
 </div>
 <div class="update-entry">
     <h3>April 5, 2021</h3>
-    <p><strong>The Static Scepter weapon can now be found as a rare drop by defeating the Wizard Boss. @everyone</strong></p>
+    <p><strong>The Static Scepter weapon can now be found as a rare drop by defeating the Wizard Boss.</strong></p>
     <ul>
         <li>🏪 Vending Machines will only render UI when nearby (this should help with lag on malls)</li>
         <li>📱 Mobile Interact UI range has been reduced</li>
@@ -1541,17 +1578,17 @@
 <div class="update-entry">
     <h3>April 8, 2021</h3>
     <p><strong>Working on something... 🌊</strong></p>
-    <p><a href="https://twitter.com/RobloxIslands/status/1380209335771389955?s=20" target="_blank">Source</a></p>
+    <p><a href="https://twitter.com/RobloxIslands/status/1380209335771389955?s=20">https://twitter.com/RobloxIslands/status/1380209335771389955?s=20</a></p>
 </div>
 <div class="update-entry">
     <h3>April 10, 2021</h3>
     <p><strong>Islands was created one year ago! Thank you for all the support along the way 🥰❤</strong></p>
     <p>Visit your island to receive a special anniversary gift from Taliyah!</p>
-    <p><a href="https://twitter.com/RobloxIslands/status/1380923386516234248?s=20" target="_blank">Source</a></p>
+    <p><a href="https://twitter.com/RobloxIslands/status/1380923386516234248?s=20">https://twitter.com/RobloxIslands/status/1380923386516234248?s=20</a></p>
 </div>
 <div class="update-entry">
     <h3>April 16, 2021</h3>
-    <p><strong>We just shipped a new content update! @everyone</strong></p>
+    <p><strong>We just shipped a new content update!</strong></p>
     <p><strong>Totem Upgrades</strong></p>
     <ul>
         <li>You can now use coins and resources to upgrade your totems! Upgrading will improve your stats and unlock special perks. Each totem has over 150 possible upgrades.</li>
@@ -1578,7 +1615,7 @@
 </div>
 <div class="update-entry">
     <h3>April 24, 2021</h3>
-    <p><strong>New content update is live! @everyone</strong></p>
+    <p><strong>New content update is live!</strong></p>
     <ul>
         <li>🦌 Added Bhaa, the Desert Boss</li>
         <li>🏜️ The Desert Nomads have furthered progress on Azarath, the Desert City</li>
@@ -1596,7 +1633,7 @@
 </div>
 <div class="update-entry">
     <h3>May 8, 2021</h3>
-    <p><strong>New update is live! @everyone</strong></p>
+    <p><strong>New update is live!</strong></p>
     <ul>
         <li>💧 Water<br>Water is finally here! Craft empty buckets, fill them up in the Hub lake and place the water on your island. This was a complex system to add into Roblox -- please report any bugs and we'll try to get them fixed ASAP. We will be improving water over time with features like fishing, item floating physics and more!</li>
         <li>🎌 Banner Gamepass<br>With the new Banner Gamepass you can craft over a dozen beautiful banners for your island. Each banner can either be placed on the floor or hung on a wall. There are also 4 free banners that everyone can purchase with coins from John, the Blocks Villager.</li>
@@ -1634,7 +1671,7 @@
 </div>
 <div class="update-entry">
     <h3>May 21, 2021</h3>
-    <p><strong>New update is live! @everyone</strong></p>
+    <p><strong>New update is live!</strong></p>
     <p><strong>New Game Announcement!</strong><br>We've been secretly working on a huge new game over the past two months. The game is powered by the same code behind Islands, which means we can work on both games at the same time! Players should expect no slowdown in the Islands update schedule either. We are committed to regular, long-term updates on any game we produce. The game will release on Friday (5/28) @ 11:00am PST. A countdown has appeared in the Islands hub to celebrate the release.</p>
     <h4>Changelog</h4>
     <ul>
@@ -1666,7 +1703,7 @@
 </div>
 <div class="update-entry">
     <h3>May 28, 2021</h3>
-    <p><strong>The BedWars public beta is live! Come check it out! @everyone</strong></p>
+    <p><strong>The BedWars public beta is live! Come check it out!</strong></p>
     <p>Game link: <a href="https://www.roblox.com/games/6872265039">https://www.roblox.com/games/6872265039</a></p>
 </div>
 <div class="update-entry">
@@ -1675,7 +1712,7 @@
 </div>
 <div class="update-entry">
     <h3>June 4, 2021</h3>
-    <p><strong>A new update is live! @everyone</strong></p>
+    <p><strong>A new update is live!</strong></p>
     <ul>
         <li>🐇 Added Rabbits!</li>
         <li>🐰 Rabbits will naturally spawn on your island during rainy days in the Winter (we'll make those snowy days soon)</li>
@@ -1696,7 +1733,7 @@
 </div>
 <div class="update-entry">
     <h3>June 30, 2021</h3>
-    <p><strong>A new update is live! @everyone</strong></p>
+    <p><strong>A new update is live!</strong></p>
     <ul>
         <li>✨ Added Spirit Island (Accessed from Slime Island)</li>
         <li>🧙‍♀️ Added Catherine, the Spirit Merchant</li>
